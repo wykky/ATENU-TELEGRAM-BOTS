@@ -1,0 +1,17 @@
+configs/tokens.json
+database/atenu_quiz.db
+database/*.db
+logs/
+*.log
+data/
+user_stats.json
+help_tickets.json
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+.env
+.vscode/
+.idea/
+*.backup
+*_backup_*
