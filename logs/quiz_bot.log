@@ -2769,3 +2769,101 @@ KeyError: 'points'
 2025-07-12 11:06:22,570 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
 2025-07-12 11:06:32,685 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
 2025-07-12 11:06:42,804 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:15:00,390 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 13:15:00,393 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 13:15:00,393 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 13:15:00,393 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 13:15:00,394 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-12 13:15:00,394 - __main__ - INFO - 🤖 Atenu Quiz Bot started with SQLite Database!
+2025-07-12 13:15:00,394 - __main__ - INFO - 📊 Total quiz batches: 21
+2025-07-12 13:15:00,394 - __main__ - INFO - ⏰ Quiz schedule: First batch in 10 seconds, then every 30 minutes
+2025-07-12 13:15:00,394 - __main__ - INFO - 🏆 Weekly leaderboard: Every Sunday at 9:00 AM
+2025-07-12 13:15:00,394 - __main__ - INFO - 📅 Monthly leaderboard: Last day of each month at 11:00 PM (with data clearing)
+2025-07-12 13:15:00,394 - __main__ - INFO - ✅ 24-HOUR RESTRICTION: DISABLED - Users can answer questions anytime!
+2025-07-12 13:15:00,394 - __main__ - INFO - 🧹 Weekly cleanup: Old answers deleted every Sunday at 2:00 AM
+2025-07-12 13:15:00,394 - __main__ - INFO - 🎯 Target chats: [-1002478514549, -1002763968200]
+2025-07-12 13:15:00,394 - __main__ - INFO - ⚡ Database: SQLite at database/atenu_quiz.db
+2025-07-12 13:15:00,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getMe "HTTP/1.1 200 OK"
+2025-07-12 13:15:00,866 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/deleteWebhook "HTTP/1.1 200 OK"
+2025-07-12 13:15:00,867 - apscheduler.scheduler - INFO - Added job "scheduled_quiz_sender" to job store "default"
+2025-07-12 13:15:00,867 - apscheduler.scheduler - INFO - Added job "scheduled_quiz_sender" to job store "default"
+2025-07-12 13:15:00,867 - apscheduler.scheduler - INFO - Added job "weekly_leaderboard_announcement" to job store "default"
+2025-07-12 13:15:00,867 - apscheduler.scheduler - INFO - Added job "weekly_cleanup" to job store "default"
+2025-07-12 13:15:00,867 - apscheduler.scheduler - INFO - Added job "monthly_leaderboard_announcement" to job store "default"
+2025-07-12 13:15:00,867 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-12 13:15:00,867 - telegram.ext.Application - INFO - Application started
+2025-07-12 13:15:10,392 - apscheduler.scheduler - INFO - Removed job 07ce11beeebc4685874b6b38c443e520
+2025-07-12 13:15:10,394 - apscheduler.executors.default - INFO - Running job "scheduled_quiz_sender (trigger: date[2025-07-12 17:15:10 UTC], next run at: 2025-07-12 17:15:10 UTC)" (scheduled at 2025-07-12 17:15:10.390443+00:00)
+2025-07-12 13:15:10,949 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:11,188 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:11,201 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:15:12,000 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:12,759 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:13,573 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:17,441 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:17,945 - __main__ - INFO - Successfully sent random quiz batch (ID: 5) to chat -1002478514549
+2025-07-12 13:15:18,225 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:18,512 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:19,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:20,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:20,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:21,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:15:24,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:25,268 - __main__ - INFO - Successfully sent random quiz batch (ID: 5) to chat -1002763968200
+2025-07-12 13:15:25,269 - __main__ - INFO - Sent random quiz batch 1/21 (ID: 5, Title: 'Grammar: Prepositions')
+2025-07-12 13:15:25,269 - __main__ - INFO - Remaining batches in current cycle: 20
+2025-07-12 13:15:25,270 - apscheduler.executors.default - INFO - Job "scheduled_quiz_sender (trigger: date[2025-07-12 17:15:10 UTC], next run at: 2025-07-12 17:15:10 UTC)" executed successfully
+2025-07-12 13:15:31,475 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:15:32,035 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:15:32,053 - database - INFO - Saved answer for user Biruk (ID: 1958568897) - Points: -1
+2025-07-12 13:15:32,053 - __main__ - INFO - 💾 Database: Saved answer for Biruk (ID: 1958568897)
+2025-07-12 13:15:32,507 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-07-12 13:15:32,745 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:32,748 - apscheduler.scheduler - INFO - Added job "delete_message" to job store "default"
+2025-07-12 13:15:35,412 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:15:35,423 - database - INFO - Saved answer for user Biruk (ID: 1958568897) - Points: -1
+2025-07-12 13:15:35,423 - __main__ - INFO - 💾 Database: Saved answer for Biruk (ID: 1958568897)
+2025-07-12 13:15:35,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-07-12 13:15:35,961 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:35,964 - apscheduler.scheduler - INFO - Added job "delete_message" to job store "default"
+2025-07-12 13:15:38,179 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:15:38,190 - database - INFO - Saved answer for user Biruk (ID: 1958568897) - Points: -1
+2025-07-12 13:15:38,191 - __main__ - INFO - 💾 Database: Saved answer for Biruk (ID: 1958568897)
+2025-07-12 13:15:38,411 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-07-12 13:15:38,651 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:15:38,655 - apscheduler.scheduler - INFO - Added job "delete_message" to job store "default"
+2025-07-12 13:15:48,418 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:15:55,895 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:15:56,369 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/sendMessage "HTTP/1.1 200 OK"
+2025-07-12 13:16:02,750 - apscheduler.scheduler - INFO - Removed job 668ca489824a43f495ff9e1de821d2ab
+2025-07-12 13:16:02,752 - apscheduler.executors.default - INFO - Running job "delete_message (trigger: date[2025-07-12 17:16:02 UTC], next run at: 2025-07-12 17:16:02 UTC)" (scheduled at 2025-07-12 17:16:02.748239+00:00)
+2025-07-12 13:16:03,346 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/deleteMessage "HTTP/1.1 200 OK"
+2025-07-12 13:16:03,349 - apscheduler.executors.default - INFO - Job "delete_message (trigger: date[2025-07-12 17:16:02 UTC], next run at: 2025-07-12 17:16:02 UTC)" executed successfully
+2025-07-12 13:16:05,966 - apscheduler.scheduler - INFO - Removed job bc90f82a4e2743ebbfebe3f3fa99c640
+2025-07-12 13:16:05,968 - apscheduler.executors.default - INFO - Running job "delete_message (trigger: date[2025-07-12 17:16:05 UTC], next run at: 2025-07-12 17:16:05 UTC)" (scheduled at 2025-07-12 17:16:05.964682+00:00)
+2025-07-12 13:16:06,011 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:16:06,211 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/deleteMessage "HTTP/1.1 200 OK"
+2025-07-12 13:16:06,214 - apscheduler.executors.default - INFO - Job "delete_message (trigger: date[2025-07-12 17:16:05 UTC], next run at: 2025-07-12 17:16:05 UTC)" executed successfully
+2025-07-12 13:16:08,657 - apscheduler.scheduler - INFO - Removed job 94dc0e75878c4e2fb02d0bec03873359
+2025-07-12 13:16:08,658 - apscheduler.executors.default - INFO - Running job "delete_message (trigger: date[2025-07-12 17:16:08 UTC], next run at: 2025-07-12 17:16:08 UTC)" (scheduled at 2025-07-12 17:16:08.654952+00:00)
+2025-07-12 13:16:08,907 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/deleteMessage "HTTP/1.1 200 OK"
+2025-07-12 13:16:08,909 - apscheduler.executors.default - INFO - Job "delete_message (trigger: date[2025-07-12 17:16:08 UTC], next run at: 2025-07-12 17:16:08 UTC)" executed successfully
+2025-07-12 13:16:16,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:16:26,280 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:16:36,397 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:16:46,513 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:16:56,718 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:17:06,833 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:17:16,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:17:27,062 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:17:37,175 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:17:47,289 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:17:57,444 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:18:07,581 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:18:17,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:18:27,835 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:18:37,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:18:48,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:18:58,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:19:08,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 13:19:18,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7949884340:AAFBmk0kyjOlZmDPIInd52ZZCAzzC1asezg/getUpdates "HTTP/1.1 200 OK"

@@ -21,31 +21,6 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'database'))
 # Import database
 from database import db
 
-# Configure logging with rotation
-import logging
-from logging.handlers import RotatingFileHandler
-import json
-import asyncio
-import random
-import sys
-import os
-from datetime import datetime, timedelta, timezone
-from typing import Dict, Optional, List, Tuple
-from collections import defaultdict
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, User
-from telegram.ext import (
-    Application, 
-    CallbackQueryHandler, 
-    ContextTypes,
-    CommandHandler
-)
-
-# Add database directory to path
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'database'))
-
-# Import database
-from database import db
-
 # Configure logging with rotation and size limits
 def setup_logging():
     """Setup logging with rotation to prevent large files"""
@@ -63,6 +38,7 @@ def setup_logging():
     console_handler.setLevel(logging.INFO)
     
     # Rotating file handler for quiz bot
+    from logging.handlers import RotatingFileHandler
     file_handler = RotatingFileHandler(
         'logs/quiz_bot.log',
         maxBytes=10*1024*1024,  # 10MB per file
@@ -132,7 +108,6 @@ class AtenuQuizBot:
         self.quiz_data = load_quiz_data()
         self.available_batches = list(range(len(self.quiz_data)))  # Track available batches
         self.current_batch_index = None  # Will be set randomly
-        # Removed: self.user_answers - Database handles this now
         
         # Shuffle batches for random order
         random.shuffle(self.available_batches)
@@ -286,9 +261,8 @@ D. {question['options'][3]}
             self.current_batch_index = None
 
     async def handle_callback(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        """Handle button callbacks - Fixed: Single query.answer() per callback"""
+        """Handle button callbacks"""
         query = update.callback_query
-        # Removed: await query.answer() - Let individual handlers call it once
         
         if query.data.startswith("answer_"):
             await self.handle_answer(update, context)
@@ -299,7 +273,7 @@ D. {question['options'][3]}
             await query.answer("❌ Unknown action!", show_alert=True)
 
     async def handle_answer(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        """Handle user answer - Database Version"""
+        """Handle user answer - REMOVED 24-hour check"""
         query = update.callback_query
         user_id = query.from_user.id
         user_name = query.from_user.first_name or query.from_user.username or f"User_{user_id}"
@@ -309,12 +283,7 @@ D. {question['options'][3]}
         question_id = int(parts[1])
         selected_option = int(parts[2])
         
-        # Check if user has already answered this question in the last 24 hours (DATABASE CHECK)
-        already_answered = await db.check_user_answered_question(user_id, question_id)
-        if already_answered:
-            # Answer callback query with alert for duplicates
-            await query.answer("⏳ You can retry this question in 24 hours! Daily practice coming soon.", show_alert=True)
-            return
+        # 24-HOUR CHECK COMPLETELY REMOVED - Users can answer any question anytime!
         
         # Find the question
         question = None
@@ -336,7 +305,7 @@ D. {question['options'][3]}
         # Calculate points: +3 for correct (+2 correct + 1 participation), -1 for incorrect (-2 wrong + 1 participation)
         points = 3 if is_correct else -1
         
-        # Save to DATABASE (no more in-memory storage)
+        # Save to DATABASE
         try:
             await db.save_user_answer(
                 user_id=user_id,
@@ -445,7 +414,7 @@ D. {question['options'][3]}
         """Handle /stats command - Database Version"""
         user_id = update.effective_user.id
         
-        # Get stats from DATABASE (replaces JSON load)
+        # Get stats from DATABASE
         try:
             user_stats = await db.get_user_stats(user_id)
             
@@ -534,7 +503,7 @@ Use /leaderboard to see rankings!
         return "\n".join(formatted)
 
     async def weekly_leaderboard_announcement(self, context: ContextTypes.DEFAULT_TYPE):
-        """Send weekly leaderboard announcement every Sunday - Database Version"""
+        """Send weekly leaderboard announcement every Sunday"""
         try:
             current_time = datetime.now(timezone.utc)
             
@@ -587,10 +556,9 @@ Use /leaderboard to see current rankings anytime!
             
         except Exception as e:
             logger.error(f"Error in weekly leaderboard announcement: {e}")
-            # Fallback: Log error but continue running
 
     async def monthly_leaderboard_announcement(self, context: ContextTypes.DEFAULT_TYPE):
-        """Send monthly leaderboard announcement on last day of month and clear data - Database Version"""
+        """Send monthly leaderboard announcement on last day of month and clear data"""
         try:
             current_time = datetime.now(timezone.utc)
             # Get last month's data (proper month calculation)
@@ -640,13 +608,12 @@ Use /leaderboard to see current rankings anytime!
                 except Exception as e:
                     logger.error(f"Failed to send monthly leaderboard to {chat_id}: {e}")
             
-            # Clear monthly leaderboard data after announcement (DATABASE OPERATION)
+            # Clear monthly leaderboard data after announcement
             await db.clear_monthly_leaderboard()
             logger.info("Monthly leaderboard announcement completed and data cleared")
             
         except Exception as e:
             logger.error(f"Error in monthly leaderboard announcement: {e}")
-            # Fallback: Continue running even if announcement fails
 
     async def scheduled_quiz_sender(self, context: ContextTypes.DEFAULT_TYPE):
         """Send scheduled quiz with random selection"""
@@ -661,7 +628,6 @@ Use /leaderboard to see current rankings anytime!
                 logger.info("All quiz batches completed! Starting new random cycle.")
                 self.available_batches = list(range(len(self.quiz_data)))
                 random.shuffle(self.available_batches)
-                # No more self.user_answers.clear() - database handles persistence
             
             # Get next random batch
             self.current_batch_index = self.available_batches.pop(0)
@@ -708,7 +674,6 @@ Use /leaderboard to see current rankings anytime!
             )
             
             # Schedule weekly leaderboard announcement every Sunday at 9:00 AM
-            # Calculate next Sunday at 9:00 AM
             now = datetime.now()
             days_until_sunday = (6 - now.weekday()) % 7  # 0 = Monday, 6 = Sunday
             if days_until_sunday == 0 and now.hour >= 9:  # If it's Sunday and past 9 AM
@@ -723,7 +688,6 @@ Use /leaderboard to see current rankings anytime!
             )
             
             # Schedule monthly leaderboard announcement on last day of each month at 11:00 PM
-            # Calculate next month's last day
             if now.month == 12:
                 next_month = now.replace(year=now.year + 1, month=1, day=1)
             else:
@@ -771,7 +735,7 @@ Use /leaderboard to see current rankings anytime!
             logger.info(f"⏰ Quiz schedule: First batch in 10 seconds, then every {QUIZ_INTERVAL_MINUTES} minutes")
             logger.info(f"🏆 Weekly leaderboard: Every Sunday at 9:00 AM")
             logger.info(f"📅 Monthly leaderboard: Last day of each month at 11:00 PM (with data clearing)")
-            logger.info(f"🔄 24-hour answer reset: Users can retry questions daily")
+            logger.info(f"✅ 24-HOUR RESTRICTION: DISABLED - Users can answer questions anytime!")
             logger.info(f"🧹 Weekly cleanup: Old answers deleted every Sunday at 2:00 AM")
             logger.info(f"🎯 Target chats: {TARGET_CHATS}")
             logger.info(f"⚡ Database: SQLite at database/atenu_quiz.db")
