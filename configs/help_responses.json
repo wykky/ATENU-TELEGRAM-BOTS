@@ -1,0 +1,7 @@
+{
+    "responses": {
+      "start": "👋 Welcome to Atenu Help Bot!\nUse /help to see what I can do.",
+      "courses": "📘 Explore our full library of courses and QuickNotes at https://atenu.org/courses",
+      "quiz": "📝 Practice past exams at https://atenu.org/exams"
+    }
+  }

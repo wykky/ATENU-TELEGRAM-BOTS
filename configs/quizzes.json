@@ -1,0 +1,865 @@
+{
+    "quiz_batches": [
+      {
+        "batch_id": 1,
+        "title": "Grammar: Verb Tenses",
+        "questions": [
+          {
+            "id": 1,
+            "question": "By the time we arrived, the movie __________.",
+            "options": ["already started", "had already started", "has already started", "starts"],
+            "correct_answer": 1,
+            "explanation": "The past perfect tense 'had already started' is used to describe an action that was completed before another past action ('we arrived')."
+          },
+          {
+            "id": 2,
+            "question": "She __________ to the gym every day.",
+            "options": ["is going", "goes", "go", "has gone"],
+            "correct_answer": 1,
+            "explanation": "The present simple tense 'goes' is used for routines and habits."
+          },
+          {
+            "id": 3,
+            "question": "Look! That car __________ very fast.",
+            "options": ["is driving", "drives", "drove", "has driven"],
+            "correct_answer": 0,
+            "explanation": "The present continuous tense 'is driving' is used for actions happening at the moment of speaking."
+          },
+          {
+            "id": 4,
+            "question": "I __________ my homework. Can I go out now?",
+            "options": ["finished", "am finishing", "have finished", "had finished"],
+            "correct_answer": 2,
+            "explanation": "The present perfect tense 'have finished' is used for a past action that has a result in the present."
+          },
+          {
+            "id": 5,
+            "question": "This time next week, we __________ on a beach.",
+            "options": ["will sit", "will be sitting", "sit", "are sitting"],
+            "correct_answer": 1,
+            "explanation": "The future continuous tense 'will be sitting' is used to describe an action in progress at a specific time in the future."
+          }
+        ]
+      },
+      {
+        "batch_id": 2,
+        "title": "Vocabulary: Synonyms",
+        "questions": [
+            {
+                "id": 6,
+                "question": "Which word is a synonym for 'ubiquitous'?",
+                "options": ["Rare", "Scarce", "Everywhere", "Hidden"],
+                "correct_answer": 2,
+                "explanation": "'Ubiquitous' means present, appearing, or found everywhere."
+            },
+            {
+                "id": 7,
+                "question": "Choose a synonym for 'ambiguous'.",
+                "options": ["Clear", "Unclear", "Precise", "Certain"],
+                "correct_answer": 1,
+                "explanation": "'Ambiguous' means open to more than one interpretation; not having one obvious meaning."
+            },
+            {
+                "id": 8,
+                "question": "What is another word for 'diligent'?",
+                "options": ["Lazy", "Careless", "Hardworking", "Inactive"],
+                "correct_answer": 2,
+                "explanation": "'Diligent' means having or showing care and conscientiousness in one's work or duties."
+            },
+            {
+                "id": 9,
+                "question": "Which word means the same as 'ephemeral'?",
+                "options": ["Permanent", "Eternal", "Short-lived", "Endless"],
+                "correct_answer": 2,
+                "explanation": "'Ephemeral' means lasting for a very short time."
+            },
+            {
+                "id": 10,
+                "question": "Find a synonym for 'alleviate'.",
+                "options": ["Worsen", "Increase", "Aggravate", "Relieve"],
+                "correct_answer": 3,
+                "explanation": "'Alleviate' means to make a problem, suffering, or deficiency less severe."
+            }
+        ]
+    },
+    {
+        "batch_id": 3,
+        "title": "Grammar: Conditionals",
+        "questions": [
+            {
+                "id": 11,
+                "question": "If you heat ice, it __________.",
+                "options": ["melts", "will melt", "would melt", "melted"],
+                "correct_answer": 0,
+                "explanation": "This is a Zero Conditional sentence, used for facts that are generally true. The structure is 'If + present simple, ... present simple'."
+            },
+            {
+                "id": 12,
+                "question": "If I __________ you, I would study harder for the exam.",
+                "options": ["am", "was", "were", "be"],
+                "correct_answer": 2,
+                "explanation": "This is a Second Conditional sentence, used for hypothetical advice. 'Were' is used for all subjects in the 'if' clause."
+            },
+            {
+                "id": 13,
+                "question": "We would have gone to the park if it __________.",
+                "options": ["hadn't rained", "didn't rain", "wouldn't rain", "hasn't rained"],
+                "correct_answer": 0,
+                "explanation": "This is a Third Conditional sentence, used for unreal past situations. The structure is 'would have + past participle ... if + past perfect'."
+            },
+            {
+                "id": 14,
+                "question": "If she __________ on time, she will get a good seat.",
+                "options": ["arrived", "arrives", "will arrive", "would arrive"],
+                "correct_answer": 1,
+                "explanation": "This is a First Conditional sentence, used for real future possibilities. The structure is 'If + present simple, ... will + base verb'."
+            },
+            {
+                "id": 15,
+                "question": "What will you do if you __________ the bus?",
+                "options": ["miss", "will miss", "missed", "would miss"],
+                "correct_answer": 0,
+                "explanation": "This is the 'if' clause of a First Conditional sentence, which requires the present simple tense."
+            }
+        ]
+    },
+    {
+        "batch_id": 4,
+        "title": "Vocabulary: Antonyms",
+        "questions": [
+            {
+                "id": 16,
+                "question": "Which word is an antonym for 'benevolent'?",
+                "options": ["Kind", "Generous", "Malevolent", "Caring"],
+                "correct_answer": 2,
+                "explanation": "'Benevolent' means well-meaning and kindly. 'Malevolent' means having or showing a wish to do evil to others."
+            },
+            {
+                "id": 17,
+                "question": "Choose the opposite of 'garrulous'.",
+                "options": ["Talkative", "Chatty", "Loquacious", "Taciturn"],
+                "correct_answer": 3,
+                "explanation": "'Garrulous' means excessively talkative. 'Taciturn' means reserved or uncommunicative in speech."
+            },
+            {
+                "id": 18,
+                "question": "What is the opposite of 'pragmatic'?",
+                "options": ["Practical", "Realistic", "Idealistic", "Sensible"],
+                "correct_answer": 2,
+                "explanation": "'Pragmatic' means dealing with things sensibly and realistically. 'Idealistic' means pursuing ideals, often unrealistically."
+            },
+            {
+                "id": 19,
+                "question": "Which word is an antonym for 'esoteric'?",
+                "options": ["Obscure", "Commonly known", "Mysterious", "Abstruse"],
+                "correct_answer": 1,
+                "explanation": "'Esoteric' means intended for or likely to be understood by only a small number of people with a specialized knowledge. The opposite is something that is widely or commonly known."
+            },
+            {
+                "id": 20,
+                "question": "Find an antonym for 'mitigate'.",
+                "options": ["Lessen", "Reduce", "Alleviate", "Aggravate"],
+                "correct_answer": 3,
+                "explanation": "'Mitigate' means to make something less severe or painful. 'Aggravate' means to make a problem or situation worse."
+            }
+        ]
+    },
+    {
+        "batch_id": 5,
+        "title": "Grammar: Prepositions",
+        "questions": [
+            {
+                "id": 21,
+                "question": "The meeting is scheduled __________ Friday at 10 AM.",
+                "options": ["in", "at", "on", "by"],
+                "correct_answer": 2,
+                "explanation": "We use 'on' for specific days of the week."
+            },
+            {
+                "id": 22,
+                "question": "I have been waiting for you __________ two hours!",
+                "options": ["since", "for", "at", "from"],
+                "correct_answer": 1,
+                "explanation": "We use 'for' with a period of time (e.g., two hours, three days)."
+            },
+            {
+                "id": 23,
+                "question": "She lives __________ Addis Ababa.",
+                "options": ["at", "on", "in", "to"],
+                "correct_answer": 2,
+                "explanation": "We use 'in' for cities, countries, and large areas."
+            },
+            {
+                "id": 24,
+                "question": "He is very good __________ playing the guitar.",
+                "options": ["in", "on", "with", "at"],
+                "correct_answer": 3,
+                "explanation": "The correct collocation is 'good at' something."
+            },
+            {
+                "id": 25,
+                "question": "This book is different __________ the one I read last week.",
+                "options": ["than", "to", "from", "with"],
+                "correct_answer": 2,
+                "explanation": "The standard expression in both British and American English is 'different from'."
+            }
+        ]
+    },
+    {
+        "batch_id": 6,
+        "title": "Grammar: Active & Passive Voice",
+        "questions": [
+            {
+                "id": 26,
+                "question": "Change to passive: 'The cat chased the mouse.'",
+                "options": ["The mouse was chased by the cat.", "The mouse chased the cat.", "The cat was chased by the mouse.", "The mouse is chased by the cat."],
+                "correct_answer": 0,
+                "explanation": "The object 'the mouse' becomes the subject. The verb becomes 'was' (past tense) + 'chased' (past participle)."
+            },
+            {
+                "id": 27,
+                "question": "Change to active: 'The report was written by Ali.'",
+                "options": ["Ali is writing the report.", "Ali has written the report.", "Ali wrote the report.", "Ali writes the report."],
+                "correct_answer": 2,
+                "explanation": "The agent 'Ali' becomes the subject. The verb 'was written' (passive) becomes 'wrote' (active past simple)."
+            },
+            {
+                "id": 28,
+                "question": "Which sentence is in the passive voice?",
+                "options": ["They are building a new bridge.", "A new bridge will be built.", "Someone has built a new bridge.", "The new bridge looks great."],
+                "correct_answer": 1,
+                "explanation": "This sentence is passive because the subject 'A new bridge' receives the action. It uses the structure 'will be' + past participle ('built')."
+            },
+            {
+                "id": 29,
+                "question": "Change to passive: 'Someone is cleaning the windows.'",
+                "options": ["The windows are cleaned.", "The windows were cleaned.", "The windows are being cleaned.", "The windows have been cleaned."],
+                "correct_answer": 2,
+                "explanation": "The active is present continuous ('is cleaning'), so the passive form is 'are being' + past participle ('cleaned')."
+            },
+            {
+                "id": 30,
+                "question": "Change to active: 'Mistakes were made.'",
+                "options": ["Someone made mistakes.", "Mistakes have been made.", "They are making mistakes.", "Mistakes happened."],
+                "correct_answer": 0,
+                "explanation": "Since the agent is not mentioned in the passive sentence, we use a general subject like 'someone' or 'they' in the active form."
+            }
+        ]
+    },
+    {
+        "batch_id": 7,
+        "title": "Vocabulary: Contextual Meaning",
+        "questions": [
+            {
+                "id": 31,
+                "question": "The politician's speech was full of empty __________; it sounded good but had no real substance.",
+                "options": ["rhetoric", "facts", "data", "evidence"],
+                "correct_answer": 0,
+                "explanation": "'Rhetoric' refers to language designed to have a persuasive or impressive effect, which is often regarded as lacking in sincerity or meaningful content."
+            },
+            {
+                "id": 32,
+                "question": "After the long drought, the __________ rains were a welcome sight for the farmers.",
+                "options": ["sporadic", "copious", "meager", "infrequent"],
+                "correct_answer": 1,
+                "explanation": "'Copious' means abundant in supply or quantity. This fits the context of rain being welcome after a drought."
+            },
+            {
+                "id": 33,
+                "question": "She had a __________ feeling that something bad was about to happen.",
+                "options": ["wonderful", "premonition", "certainty", "belated"],
+                "correct_answer": 1,
+                "explanation": "A 'premonition' is a strong feeling that something is about to happen, especially something unpleasant."
+            },
+            {
+                "id": 34,
+                "question": "His __________ nature made him a great diplomat; he could handle difficult situations with skill and care.",
+                "options": ["careless", "tactful", "rude", "abrupt"],
+                "correct_answer": 1,
+                "explanation": "'Tactful' means having or showing skill and sensitivity in dealing with others or with difficult issues."
+            },
+            {
+                "id": 35,
+                "question": "The student was __________ for cheating on the exam.",
+                "options": ["praised", "rewarded", "reprimanded", "ignored"],
+                "correct_answer": 2,
+                "explanation": "'Reprimanded' means to be rebuked or scolded, which is the appropriate consequence for cheating."
+            }
+        ]
+    },
+    {
+        "batch_id": 8,
+        "title": "Grammar: Modal Verbs",
+        "questions": [
+            {
+                "id": 36,
+                "question": "You __________ finish your work today; you can do it tomorrow.",
+                "options": ["must", "have to", "don't have to", "mustn't"],
+                "correct_answer": 2,
+                "explanation": "'Don't have to' indicates a lack of obligation or necessity."
+            },
+            {
+                "id": 37,
+                "question": "That __________ be John's car. I know he sold his last week.",
+                "options": ["must", "can't", "might", "could"],
+                "correct_answer": 1,
+                "explanation": "'Can't' is used to express certainty that something is impossible."
+            },
+            {
+                "id": 38,
+                "question": "__________ I borrow your pen for a moment, please?",
+                "options": ["Must", "Should", "May", "Ought to"],
+                "correct_answer": 2,
+                "explanation": "'May' is a polite way to ask for permission."
+            },
+            {
+                "id": 39,
+                "question": "You __________ see a doctor. That cough sounds terrible.",
+                "options": ["should", "might", "can", "may"],
+                "correct_answer": 0,
+                "explanation": "'Should' is used to give advice or make a recommendation."
+            },
+            {
+                "id": 40,
+                "question": "He __________ have forgotten about the meeting. It's not like him to be late.",
+                "options": ["must", "should", "can't", "might"],
+                "correct_answer": 3,
+                "explanation": "'Might have' + past participle is used to express a possibility in the past."
+            }
+        ]
+    },
+    {
+        "batch_id": 9,
+        "title": "Grammar: Reported Speech",
+        "questions": [
+            {
+                "id": 41,
+                "question": "Direct: 'I am going to the market.' Reported: She said that she __________ to the market.",
+                "options": ["is going", "was going", "will go", "goes"],
+                "correct_answer": 1,
+                "explanation": "In reported speech, the present continuous ('am going') changes to the past continuous ('was going')."
+            },
+            {
+                "id": 42,
+                "question": "Direct: 'We will call you tomorrow.' Reported: They said they would call us the __________.",
+                "options": ["tomorrow", "next day", "day before", "same day"],
+                "correct_answer": 1,
+                "explanation": "In reported speech, 'tomorrow' changes to 'the next day' or 'the following day'."
+            },
+            {
+                "id": 43,
+                "question": "Direct: 'Where do you live?' Reported: He asked me where __________.",
+                "options": ["do I live", "I live", "did I live", "I lived"],
+                "correct_answer": 3,
+                "explanation": "In reported questions, the word order changes to subject + verb, and the tense shifts back. Present simple ('live') becomes past simple ('lived')."
+            },
+            {
+                "id": 44,
+                "question": "Direct: 'I have finished my project.' Reported: He told me that he __________ his project.",
+                "options": ["has finished", "finished", "had finished", "is finishing"],
+                "correct_answer": 2,
+                "explanation": "In reported speech, the present perfect ('have finished') changes to the past perfect ('had finished')."
+            },
+            {
+                "id": 45,
+                "question": "Direct: 'Don't touch that!' Reported: She warned me __________ that.",
+                "options": ["to not touch", "not to touch", "don't touch", "not touching"],
+                "correct_answer": 1,
+                "explanation": "Reported commands or requests use the structure 'not to' + base verb for negative commands."
+            }
+        ]
+    },
+    {
+        "batch_id": 10,
+        "title": "Vocabulary: Phrasal Verbs",
+        "questions": [
+            {
+                "id": 46,
+                "question": "The meeting was __________ until next week due to the manager's illness.",
+                "options": ["called off", "put off", "taken off", "brought off"],
+                "correct_answer": 1,
+                "explanation": "'To put off' means to postpone."
+            },
+            {
+                "id": 47,
+                "question": "I can't __________ with his rude behavior anymore.",
+                "options": ["put up", "put down", "put in", "put on"],
+                "correct_answer": 0,
+                "explanation": "'To put up with' means to tolerate or endure."
+            },
+            {
+                "id": 48,
+                "question": "It took him a long time to __________ the death of his pet.",
+                "options": ["get by", "get over", "get on", "get away"],
+                "correct_answer": 1,
+                "explanation": "'To get over' means to recover from an illness or an unpleasant experience."
+            },
+            {
+                "id": 49,
+                "question": "Could you please __________ the music? It's too loud.",
+                "options": ["turn up", "turn on", "turn down", "turn off"],
+                "correct_answer": 2,
+                "explanation": "'To turn down' means to reduce the volume or intensity."
+            },
+            {
+                "id": 50,
+                "question": "She __________ her mother; they have the same eyes and smile.",
+                "options": ["takes after", "looks after", "runs after", "comes after"],
+                "correct_answer": 0,
+                "explanation": "'To take after' means to resemble a parent or ancestor."
+            }
+        ]
+    },
+    {
+        "batch_id": 11,
+        "title": "Grammar: Articles & Quantifiers",
+        "questions": [
+            {
+                "id": 51,
+                "question": "She is __________ honest person.",
+                "options": ["a", "an", "the", "no article"],
+                "correct_answer": 1,
+                "explanation": "We use 'an' before words that start with a vowel sound. 'Honest' starts with a vowel sound because the 'h' is silent."
+            },
+            {
+                "id": 52,
+                "question": "I saw __________ beautiful bird in the garden this morning.",
+                "options": ["a", "an", "the", "some"],
+                "correct_answer": 0,
+                "explanation": "We use 'a' for a singular, non-specific noun being mentioned for the first time."
+            },
+            {
+                "id": 53,
+                "question": "There isn't __________ sugar left. We need to buy some.",
+                "options": ["many", "much", "a few", "a lot"],
+                "correct_answer": 1,
+                "explanation": "'Much' is used with uncountable nouns (like sugar) in negative sentences and questions."
+            },
+            {
+                "id": 54,
+                "question": "__________ people came to the party, so it was quite empty.",
+                "options": ["Few", "A few", "Little", "A little"],
+                "correct_answer": 0,
+                "explanation": "'Few' (without 'a') has a negative meaning, implying 'not many'. 'A few' has a more positive meaning ('some')."
+            },
+            {
+                "id": 55,
+                "question": "__________ information he gave me was not very helpful.",
+                "options": ["A few", "The little", "The few", "Little"],
+                "correct_answer": 1,
+                "explanation": "'The little' is used to refer to the small amount of something specific. In this case, the specific information he gave."
+            }
+        ]
+    },
+    {
+        "batch_id": 12,
+        "title": "Vocabulary: Confusing Words",
+        "questions": [
+            {
+                "id": 56,
+                "question": "The new law will __________ everyone in the country.",
+                "options": ["effect", "affect"],
+                "correct_answer": 1,
+                "explanation": "'Affect' is a verb meaning 'to influence or have an impact on'. 'Effect' is usually a noun meaning 'a result'."
+            },
+            {
+                "id": 57,
+                "question": "Please give me some __________ on how to improve.",
+                "options": ["advice", "advise"],
+                "correct_answer": 0,
+                "explanation": "'Advice' is a noun (an opinion or recommendation). 'Advise' is a verb (to offer an opinion)."
+            },
+            {
+                "id": 58,
+                "question": "The team lost the game, which was a big blow to __________ morale.",
+                "options": ["its", "it's"],
+                "correct_answer": 0,
+                "explanation": "'Its' is a possessive pronoun. 'It's' is a contraction of 'it is' or 'it has'."
+            },
+            {
+                "id": 59,
+                "question": "I would rather have the latter __________ the former.",
+                "options": ["than", "then"],
+                "correct_answer": 0,
+                "explanation": "'Than' is used for comparisons. 'Then' refers to time."
+            },
+            {
+                "id": 60,
+                "question": "The __________ of the school is a very respected person.",
+                "options": ["principal", "principle"],
+                "correct_answer": 0,
+                "explanation": "'Principal' refers to the head of a school. 'Principle' refers to a fundamental rule or belief."
+            }
+        ]
+    },
+    {
+        "batch_id": 13,
+        "title": "Grammar: Gerunds & Infinitives",
+        "questions": [
+            {
+                "id": 61,
+                "question": "I enjoy __________ books in my free time.",
+                "options": ["reading", "to read", "read", "having read"],
+                "correct_answer": 0,
+                "explanation": "The verb 'enjoy' is followed by a gerund (verb + -ing). 'I enjoy reading books.'"
+            },
+            {
+                "id": 62,
+                "question": "She decided __________ a new language this year.",
+                "options": ["learning", "to learn", "learn", "learned"],
+                "correct_answer": 1,
+                "explanation": "The verb 'decide' is followed by an infinitive (to + base verb). 'She decided to learn.'"
+            },
+            {
+                "id": 63,
+                "question": "Would you mind __________ the window? It's quite hot.",
+                "options": ["to open", "opening", "open", "opened"],
+                "correct_answer": 1,
+                "explanation": "'Mind' is followed by a gerund. 'Would you mind opening...?'"
+            },
+            {
+                "id": 64,
+                "question": "He promised __________ me tomorrow.",
+                "options": ["calling", "to call", "call", "called"],
+                "correct_answer": 1,
+                "explanation": "The verb 'promise' is followed by an infinitive. 'He promised to call.'"
+            },
+            {
+                "id": 65,
+                "question": "I can't stand __________ in long queues.",
+                "options": ["to wait", "waiting", "wait", "waited"],
+                "correct_answer": 1,
+                "explanation": "'Can't stand' is followed by a gerund. 'I can't stand waiting.'"
+            }
+        ]
+    },
+    {
+        "batch_id": 14,
+        "title": "Vocabulary: Collocations",
+        "questions": [
+            {
+                "id": 66,
+                "question": "She has a __________ memory and never forgets anything.",
+                "options": ["photographic", "camera", "picture", "visual"],
+                "correct_answer": 0,
+                "explanation": "A 'photographic memory' is a collocation meaning the ability to remember things in exact detail."
+            },
+            {
+                "id": 67,
+                "question": "The weather forecast says there's a __________ chance of rain.",
+                "options": ["big", "high", "tall", "deep"],
+                "correct_answer": 1,
+                "explanation": "We say 'high chance' or 'low chance' when talking about probability, not 'big chance' or 'tall chance.'"
+            },
+            {
+                "id": 68,
+                "question": "Please __________ attention to what the teacher is saying.",
+                "options": ["give", "put", "pay", "make"],
+                "correct_answer": 2,
+                "explanation": "The correct collocation is 'pay attention,' meaning to focus or concentrate."
+            },
+            {
+                "id": 69,
+                "question": "He __________ a good point during the meeting.",
+                "options": ["did", "made", "took", "gave"],
+                "correct_answer": 1,
+                "explanation": "The correct collocation is 'make a point,' meaning to express an opinion or argument."
+            },
+            {
+                "id": 70,
+                "question": "I need to __________ a decision about my career soon.",
+                "options": ["do", "take", "make", "have"],
+                "correct_answer": 2,
+                "explanation": "The correct collocation is 'make a decision,' meaning to choose between options."
+            }
+        ]
+    },
+    {
+        "batch_id": 15,
+        "title": "Grammar: Subject-Verb Agreement",
+        "questions": [
+            {
+                "id": 71,
+                "question": "Neither the teacher nor the students __________ ready for the test.",
+                "options": ["is", "are", "was", "been"],
+                "correct_answer": 1,
+                "explanation": "With 'neither...nor,' the verb agrees with the subject closest to it. 'Students' is plural, so we use 'are.'"
+            },
+            {
+                "id": 72,
+                "question": "The team __________ practicing for the championship.",
+                "options": ["is", "are", "have", "were"],
+                "correct_answer": 0,
+                "explanation": "'Team' is a collective noun that can be singular when referring to the group as a unit. In this context, 'is' is correct."
+            },
+            {
+                "id": 73,
+                "question": "Mathematics __________ my favorite subject in school.",
+                "options": ["is", "are", "were", "have been"],
+                "correct_answer": 0,
+                "explanation": "Subject names ending in -s (like Mathematics, Physics, Economics) are singular and take singular verbs."
+            },
+            {
+                "id": 74,
+                "question": "Each of the books __________ a different story.",
+                "options": ["tell", "tells", "are telling", "have told"],
+                "correct_answer": 1,
+                "explanation": "'Each' is singular, so it takes a singular verb. 'Each tells' is correct."
+            },
+            {
+                "id": 75,
+                "question": "The scissors __________ on the table.",
+                "options": ["is", "are", "was", "has been"],
+                "correct_answer": 1,
+                "explanation": "'Scissors' is always plural and takes plural verbs, even though it refers to one object."
+            }
+        ]
+    },
+    {
+        "batch_id": 16,
+        "title": "Vocabulary: Business English",
+        "questions": [
+            {
+                "id": 76,
+                "question": "The company needs to __________ costs to increase profits.",
+                "options": ["cut down", "cut back", "cut off", "cut up"],
+                "correct_answer": 0,
+                "explanation": "'Cut down costs' means to reduce expenses. This is commonly used in business contexts."
+            },
+            {
+                "id": 77,
+                "question": "We need to __________ our target market before launching the product.",
+                "options": ["identify", "recognize", "realize", "acknowledge"],
+                "correct_answer": 0,
+                "explanation": "'Identify' means to establish who or what someone or something is. In business, we identify target markets."
+            },
+            {
+                "id": 78,
+                "question": "The meeting has been __________ until next Friday.",
+                "options": ["delayed", "postponed", "cancelled", "rescheduled"],
+                "correct_answer": 1,
+                "explanation": "'Postponed' means to delay an event to a later time or date. This is the most appropriate term for business meetings."
+            },
+            {
+                "id": 79,
+                "question": "Our sales have __________ by 20% this quarter.",
+                "options": ["raised", "risen", "arose", "rise"],
+                "correct_answer": 1,
+                "explanation": "'Risen' is the past participle of 'rise' (intransitive). Sales rise by themselves; they are not raised by someone."
+            },
+            {
+                "id": 80,
+                "question": "The project is currently __________ budget.",
+                "options": ["over", "above", "beyond", "past"],
+                "correct_answer": 0,
+                "explanation": "'Over budget' is the standard business expression meaning costs have exceeded the planned amount."
+            }
+        ]
+    },
+    {
+        "batch_id": 17,
+        "title": "Grammar: Relative Clauses",
+        "questions": [
+            {
+                "id": 81,
+                "question": "The book __________ I bought yesterday is very interesting.",
+                "options": ["which", "that", "who", "whom"],
+                "correct_answer": 1,
+                "explanation": "Both 'which' and 'that' can refer to things, but 'that' is more commonly used in defining relative clauses."
+            },
+            {
+                "id": 82,
+                "question": "The woman __________ lives next door is a doctor.",
+                "options": ["which", "that", "who", "whom"],
+                "correct_answer": 2,
+                "explanation": "'Who' is used as the subject of a relative clause when referring to people."
+            },
+            {
+                "id": 83,
+                "question": "This is the restaurant __________ we had dinner last night.",
+                "options": ["which", "where", "that", "when"],
+                "correct_answer": 1,
+                "explanation": "'Where' is used to refer to places in relative clauses. 'This is the restaurant where we had dinner.'"
+            },
+            {
+                "id": 84,
+                "question": "The person __________ you were talking to is my cousin.",
+                "options": ["who", "whom", "which", "that"],
+                "correct_answer": 1,
+                "explanation": "'Whom' is used as the object of a preposition in formal English. 'You were talking to whom.'"
+            },
+            {
+                "id": 85,
+                "question": "I remember the day __________ we first met.",
+                "options": ["which", "where", "when", "that"],
+                "correct_answer": 2,
+                "explanation": "'When' is used to refer to time in relative clauses. 'The day when we first met.'"
+            }
+        ]
+    },
+    {
+        "batch_id": 18,
+        "title": "Vocabulary: Academic English",
+        "questions": [
+            {
+                "id": 86,
+                "question": "The research __________ that climate change is accelerating.",
+                "options": ["suggests", "advises", "recommends", "proposes"],
+                "correct_answer": 0,
+                "explanation": "In academic contexts, research 'suggests' findings or conclusions based on evidence."
+            },
+            {
+                "id": 87,
+                "question": "The study aims to __________ the relationship between diet and health.",
+                "options": ["examine", "inspect", "observe", "watch"],
+                "correct_answer": 0,
+                "explanation": "'Examine' means to investigate or study something in detail, commonly used in academic research."
+            },
+            {
+                "id": 88,
+                "question": "The data __________ a clear trend in consumer behavior.",
+                "options": ["shows", "demonstrates", "reveals", "all of the above"],
+                "correct_answer": 3,
+                "explanation": "All three verbs (shows, demonstrates, reveals) can be used to describe what data does in academic writing."
+            },
+            {
+                "id": 89,
+                "question": "The author __________ that more research is needed in this area.",
+                "options": ["concludes", "ends", "finishes", "stops"],
+                "correct_answer": 0,
+                "explanation": "In academic writing, authors 'conclude' their arguments or papers with final thoughts or recommendations."
+            },
+            {
+                "id": 90,
+                "question": "The theory __________ by Einstein revolutionized physics.",
+                "options": ["proposed", "offered", "suggested", "presented"],
+                "correct_answer": 0,
+                "explanation": "In academic contexts, theories are 'proposed' by researchers or scientists."
+            }
+        ]
+    },
+    {
+        "batch_id": 19,
+        "title": "Grammar: Subjunctive Mood",
+        "questions": [
+            {
+                "id": 91,
+                "question": "I suggest that he __________ more carefully next time.",
+                "options": ["drives", "drive", "driving", "to drive"],
+                "correct_answer": 1,
+                "explanation": "After 'suggest that,' we use the subjunctive mood, which is the base form of the verb without 's' for third person."
+            },
+            {
+                "id": 92,
+                "question": "If I __________ you, I would accept the job offer.",
+                "options": ["am", "was", "were", "be"],
+                "correct_answer": 2,
+                "explanation": "In hypothetical conditions, we use 'were' for all persons in the subjunctive mood."
+            },
+            {
+                "id": 93,
+                "question": "It's important that she __________ on time for the interview.",
+                "options": ["is", "be", "being", "to be"],
+                "correct_answer": 1,
+                "explanation": "After expressions like 'it's important that,' we use the subjunctive mood (base form of the verb)."
+            },
+            {
+                "id": 94,
+                "question": "I wish I __________ more time to finish the project.",
+                "options": ["have", "had", "having", "to have"],
+                "correct_answer": 1,
+                "explanation": "After 'I wish,' we use the past tense to express a present unreal situation."
+            },
+            {
+                "id": 95,
+                "question": "The teacher demanded that the student __________ the test.",
+                "options": ["retakes", "retake", "retaking", "to retake"],
+                "correct_answer": 1,
+                "explanation": "After verbs like 'demand that,' we use the subjunctive mood (base form of the verb)."
+            }
+        ]
+    },
+    {
+        "batch_id": 20,
+        "title": "Vocabulary: Technology & Digital Life",
+        "questions": [
+            {
+                "id": 96,
+                "question": "Please make sure to __________ your work before closing the application.",
+                "options": ["save", "store", "keep", "maintain"],
+                "correct_answer": 0,
+                "explanation": "In computing, we 'save' files or documents to preserve our work."
+            },
+            {
+                "id": 97,
+                "question": "The website is currently __________ maintenance and will be back online soon.",
+                "options": ["under", "in", "on", "at"],
+                "correct_answer": 0,
+                "explanation": "'Under maintenance' is the standard expression for when a website or system is being updated or repaired."
+            },
+            {
+                "id": 98,
+                "question": "You need to __________ the software to get the latest features.",
+                "options": ["update", "upgrade", "upload", "download"],
+                "correct_answer": 0,
+                "explanation": "'Update' means to make something more current by adding new information or features."
+            },
+            {
+                "id": 99,
+                "question": "The app allows you to __________ photos directly to social media.",
+                "options": ["upload", "download", "update", "upgrade"],
+                "correct_answer": 0,
+                "explanation": "'Upload' means to transfer data from your device to another system or server."
+            },
+            {
+                "id": 100,
+                "question": "Make sure your password is __________ to protect your account.",
+                "options": ["strong", "hard", "tough", "firm"],
+                "correct_answer": 0,
+                "explanation": "In cybersecurity, we use 'strong password' to describe a secure password with various characters."
+            }
+        ]
+    },
+    {
+        "batch_id": 21,
+        "title": "Grammar: Advanced Tenses & Aspects",
+        "questions": [
+            {
+                "id": 101,
+                "question": "By next year, I __________ at this company for ten years.",
+                "options": ["will work", "will be working", "will have worked", "will have been working"],
+                "correct_answer": 3,
+                "explanation": "Future perfect continuous is used for actions that will continue until a point in the future. 'Will have been working' shows duration."
+            },
+            {
+                "id": 102,
+                "question": "She __________ when I called her yesterday evening.",
+                "options": ["cooked", "was cooking", "had cooked", "had been cooking"],
+                "correct_answer": 1,
+                "explanation": "Past continuous describes an action in progress when another action occurred. 'Was cooking' shows the ongoing action."
+            },
+            {
+                "id": 103,
+                "question": "I __________ my keys everywhere, but I can't find them.",
+                "options": ["looked", "am looking", "have looked", "have been looking"],
+                "correct_answer": 3,
+                "explanation": "Present perfect continuous emphasizes the ongoing nature of the search that continues to the present."
+            },
+            {
+                "id": 104,
+                "question": "They __________ for three hours before the rescue team arrived.",
+                "options": ["waited", "were waiting", "had waited", "had been waiting"],
+                "correct_answer": 3,
+                "explanation": "Past perfect continuous shows an action that continued for a period before another past action."
+            },
+            {
+                "id": 105,
+                "question": "This time tomorrow, we __________ over the Pacific Ocean.",
+                "options": ["fly", "will fly", "will be flying", "will have flown"],
+                "correct_answer": 2,
+                "explanation": "Future continuous describes an action that will be in progress at a specific time in the future."
+            }
+        ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "database": {
+      "type": "sqlite",
+      "path": "database/atenu_quiz.db",
+      "backup_interval_hours": 24,
+      "auto_backup": true,
+      "backup_path": "data/backup"
+    },
+    "settings": {
+      "enable_query_logging": false,
+      "connection_pool_size": 10,
+      "query_timeout_seconds": 30
+    }
+  }

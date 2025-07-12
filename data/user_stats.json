@@ -1,0 +1,136 @@
+{
+  "users": {
+    "1958568897": {
+      "user_id": 1958568897,
+      "username": "biruknegus",
+      "first_name": "Biruk",
+      "total_quizzes_taken": 0,
+      "total_questions_answered": 28,
+      "total_correct_answers": 14,
+      "overall_accuracy": 50.0,
+      "quiz_history": [],
+      "last_activity": "2025-07-12T09:30:39.714222",
+      "registration_date": "2025-07-12T06:42:08.205891",
+      "total_points": 31
+    },
+    "320967567": {
+      "user_id": 320967567,
+      "username": "phihab",
+      "first_name": "\u134a\u1200\u1265",
+      "total_quizzes_taken": 0,
+      "total_questions_answered": 13,
+      "total_correct_answers": 4,
+      "total_points": 5,
+      "overall_accuracy": 30.76923076923077,
+      "quiz_history": [],
+      "last_activity": "2025-07-12T09:39:06.263507",
+      "registration_date": "2025-07-12T08:10:08.360466"
+    }
+  },
+  "user_template": {
+    "user_id": 0,
+    "username": "",
+    "first_name": "",
+    "total_quizzes_taken": 0,
+    "total_questions_answered": 0,
+    "total_correct_answers": 0,
+    "overall_accuracy": 0.0,
+    "quiz_history": [],
+    "batch_stats": {},
+    "achievements": [],
+    "last_activity": "",
+    "registration_date": ""
+  },
+  "quiz_session_template": {
+    "session_id": "",
+    "batch_id": 0,
+    "batch_title": "",
+    "questions_answered": 0,
+    "correct_answers": 0,
+    "score_percentage": 0.0,
+    "time_taken_seconds": 0,
+    "completed": false,
+    "start_time": "",
+    "end_time": "",
+    "answers": []
+  },
+  "answer_template": {
+    "question_id": 0,
+    "user_answer": 0,
+    "correct_answer": 0,
+    "is_correct": false,
+    "time_taken_seconds": 0
+  },
+  "leaderboard": {
+    "daily": {
+      "2025-07-12": {
+        "1958568897": {
+          "name": "Biruk",
+          "points": 31,
+          "questions": 25,
+          "correct": 14
+        },
+        "320967567": {
+          "name": "\u134a\u1200\u1265",
+          "points": 5,
+          "questions": 13,
+          "correct": 4
+        }
+      }
+    },
+    "weekly": {
+      "2025-W27": {
+        "1958568897": {
+          "name": "Biruk",
+          "points": 31,
+          "questions": 25,
+          "correct": 14
+        },
+        "320967567": {
+          "name": "\u134a\u1200\u1265",
+          "points": 5,
+          "questions": 13,
+          "correct": 4
+        }
+      }
+    },
+    "monthly": {
+      "2025-07": {
+        "1958568897": {
+          "name": "Biruk",
+          "points": 31,
+          "questions": 25,
+          "correct": 14
+        },
+        "320967567": {
+          "name": "\u134a\u1200\u1265",
+          "points": 5,
+          "questions": 13,
+          "correct": 4
+        }
+      }
+    },
+    "all_time": {
+      "1958568897": {
+        "name": "",
+        "points": 25,
+        "questions": 19,
+        "correct": 11
+      },
+      "320967567": {
+        "name": "",
+        "points": 4,
+        "questions": 10,
+        "correct": 3
+      },
+      "all_time": {
+        "1958568897": {
+          "name": "Biruk",
+          "points": 0,
+          "questions": 2,
+          "correct": 0
+        }
+      }
+    }
+  }
+}
