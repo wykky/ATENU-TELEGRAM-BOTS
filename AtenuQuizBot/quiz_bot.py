@@ -60,7 +60,7 @@ def setup_logging():
 logger = setup_logging()
 
 # Configuration
-QUIZ_INTERVAL_MINUTES = 30  # Post every 30 minutes
+QUIZ_INTERVAL_MINUTES = 120  # Post every 120 minutes (2 hours)
 MESSAGE_DELETE_DELAY = 30  # seconds
 
 # Load configuration from JSON file
@@ -151,6 +151,13 @@ I automatically post quiz batches every {QUIZ_INTERVAL_MINUTES} minutes to help 
 • Batches Remaining: {len(self.available_batches)}
 • Random Order: Enabled
 • Database: SQLite ⚡
+• Anti-Abuse: Progressive Cooldown 🛡️
+
+🛡️ **Answer Limits:**
+• 1st attempt: Immediate
+• 2nd attempt: 1-hour cooldown
+• 3rd attempt: 6-hour cooldown
+• 4th+ attempts: 24-hour cooldown
 
 The next quiz will be posted automatically!
 """
@@ -198,8 +205,10 @@ The next quiz will be posted automatically!
 📊 Questions: {len(batch['questions'])}
 🎲 Batch ID: {batch['batch_id']}
 ⚡ Database: SQLite
+🛡️ Anti-Abuse: Progressive Cooldown
 
 Answer each question by clicking the buttons below!
+**Note:** Multiple attempts have progressive cooldowns (1h → 6h → 24h)
 """
             
             # Send to all target chats
@@ -273,7 +282,7 @@ D. {question['options'][3]}
             await query.answer("❌ Unknown action!", show_alert=True)
 
     async def handle_answer(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        """Handle user answer - REMOVED 24-hour check"""
+        """Handle user answer with progressive cooldown anti-abuse"""
         query = update.callback_query
         user_id = query.from_user.id
         user_name = query.from_user.first_name or query.from_user.username or f"User_{user_id}"
@@ -283,7 +292,11 @@ D. {question['options'][3]}
         question_id = int(parts[1])
         selected_option = int(parts[2])
         
-        # 24-HOUR CHECK COMPLETELY REMOVED - Users can answer any question anytime!
+        # CHECK COOLDOWN TO PREVENT ABUSE
+        can_answer, cooldown_message = await db.check_answer_cooldown(user_id, question_id)
+        if not can_answer:
+            await query.answer(cooldown_message, show_alert=True)
+            return
         
         # Find the question
         question = None
@@ -338,6 +351,9 @@ D. {question['options'][3]}
         
         result_text += f"\n\n**Your Answer:** {question['options'][selected_option]}"
         result_text += f"\n**Correct Answer:** {question['options'][question['correct_answer']]}"
+        
+        # Add cooldown info for transparency
+        result_text += f"\n\n🛡️ **Anti-Abuse:** {cooldown_message}"
         
         # Add explanation button
         keyboard = [[
@@ -433,6 +449,7 @@ D. {question['options'][3]}
 
 📅 **Last Activity:** {user_stats['last_activity'][:19].replace('T', ' ')}
 ⚡ **Database**: SQLite
+🛡️ **Anti-Abuse**: Progressive Cooldown Active
 
 Use /leaderboard to see rankings!
 """
@@ -472,6 +489,10 @@ Use /leaderboard to see rankings!
 • Correct Answer: +3 points (+2 correct + 1 participation)
 • Wrong Answer: -1 point (-2 wrong + 1 participation)
 • Minimum Points: 0 (no negative balance)
+
+🛡️ **Anti-Abuse System:**
+• Progressive cooldowns prevent spam (1h → 6h → 24h)
+• Fair competition for all participants
 
 ⚡ **Database**: SQLite
 """
@@ -538,6 +559,7 @@ Next announcement: Next Sunday
 
 Use /leaderboard to see current rankings anytime!
 ⚡ **Database**: SQLite
+🛡️ **Fair Play**: Anti-abuse system ensures fair competition
 """
             
             # Send to all target chats
@@ -594,6 +616,7 @@ Keep participating in our quizzes!
 
 Use /leaderboard to see current rankings anytime!
 ⚡ **Database**: SQLite
+🛡️ **Fair Play**: Anti-abuse system ensures fair competition
 """
             
             # Send to all target chats
@@ -666,7 +689,7 @@ Use /leaderboard to see current rankings anytime!
                 when=10  # Start first quiz after 10 seconds
             )
             
-            # Schedule subsequent quizzes every 30 minutes
+            # Schedule subsequent quizzes every 120 minutes
             job_queue.run_repeating(
                 self.scheduled_quiz_sender,
                 interval=timedelta(minutes=QUIZ_INTERVAL_MINUTES),
@@ -735,7 +758,7 @@ Use /leaderboard to see current rankings anytime!
             logger.info(f"⏰ Quiz schedule: First batch in 10 seconds, then every {QUIZ_INTERVAL_MINUTES} minutes")
             logger.info(f"🏆 Weekly leaderboard: Every Sunday at 9:00 AM")
             logger.info(f"📅 Monthly leaderboard: Last day of each month at 11:00 PM (with data clearing)")
-            logger.info(f"✅ 24-HOUR RESTRICTION: DISABLED - Users can answer questions anytime!")
+            logger.info(f"🛡️ ANTI-ABUSE SYSTEM: Progressive cooldown enabled (1h → 6h → 24h)")
             logger.info(f"🧹 Weekly cleanup: Old answers deleted every Sunday at 2:00 AM")
             logger.info(f"🎯 Target chats: {TARGET_CHATS}")
             logger.info(f"⚡ Database: SQLite at database/atenu_quiz.db")

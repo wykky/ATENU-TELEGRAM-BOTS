@@ -15,3 +15,7 @@ venv/
 .idea/
 *.backup
 *_backup_*
+configs/tokens.json
+database/atenu_quiz.db
+logs/
+.DS_Store

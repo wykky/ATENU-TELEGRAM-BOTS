@@ -231,6 +231,56 @@ class DatabaseManager:
         finally:
             session.close()
     
+    async def check_answer_cooldown(self, user_id: int, question_id: int) -> tuple:
+        """Check if user can answer based on progressive cooldown"""
+        session = self.get_session()
+        try:
+            # Count previous attempts
+            attempts = session.query(UserAnswer).filter(
+                and_(
+                    UserAnswer.user_id == user_id,
+                    UserAnswer.question_id == question_id
+                )
+            ).count()
+            
+            if attempts == 0:
+                return True, "✅ First attempt"
+            
+            # Get last attempt time
+            last_attempt = session.query(UserAnswer).filter(
+                and_(
+                    UserAnswer.user_id == user_id,
+                    UserAnswer.question_id == question_id
+                )
+            ).order_by(UserAnswer.timestamp.desc()).first()
+            
+            time_since_last = datetime.utcnow() - last_attempt.timestamp
+            
+            # Progressive cooldown: 1hr → 6hr → 24hr
+            if attempts == 1:
+                cooldown = timedelta(hours=1)
+                next_wait = "6 hours"
+            elif attempts == 2:
+                cooldown = timedelta(hours=6)
+                next_wait = "24 hours"
+            else:
+                cooldown = timedelta(hours=24)
+                next_wait = "24 hours"
+            
+            if time_since_last < cooldown:
+                remaining = cooldown - time_since_last
+                hours = int(remaining.total_seconds() // 3600)
+                minutes = int((remaining.total_seconds() % 3600) // 60)
+                return False, f"⏳ Wait {hours}h {minutes}m before retry #{attempts + 1} (next: {next_wait})"
+            
+            return True, f"✅ Retry #{attempts + 1} allowed (next wait: {next_wait})"
+            
+        except SQLAlchemyError as e:
+            logger.error(f"Error checking answer cooldown: {e}")
+            return True, "✅ Proceeding (error occurred)"
+        finally:
+            session.close()
+    
     async def clear_monthly_leaderboard(self) -> None:
         """Clear monthly leaderboard data"""
         session = self.get_session()
