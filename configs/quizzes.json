@@ -45,1641 +45,2421 @@
         "batch_id": 2,
         "title": "Vocabulary: Synonyms",
         "questions": [
-            {
-                "id": 6,
-                "question": "Which word is a synonym for 'ubiquitous'?",
-                "options": ["Rare", "Scarce", "Everywhere", "Hidden"],
-                "correct_answer": 2,
-                "explanation": "'Ubiquitous' means present, appearing, or found everywhere."
-            },
-            {
-                "id": 7,
-                "question": "Choose a synonym for 'ambiguous'.",
-                "options": ["Clear", "Unclear", "Precise", "Certain"],
-                "correct_answer": 1,
-                "explanation": "'Ambiguous' means open to more than one interpretation; not having one obvious meaning."
-            },
-            {
-                "id": 8,
-                "question": "What is another word for 'diligent'?",
-                "options": ["Lazy", "Careless", "Hardworking", "Inactive"],
-                "correct_answer": 2,
-                "explanation": "'Diligent' means having or showing care and conscientiousness in one's work or duties."
-            },
-            {
-                "id": 9,
-                "question": "Which word means the same as 'ephemeral'?",
-                "options": ["Permanent", "Eternal", "Short-lived", "Endless"],
-                "correct_answer": 2,
-                "explanation": "'Ephemeral' means lasting for a very short time."
-            },
-            {
-                "id": 10,
-                "question": "Find a synonym for 'alleviate'.",
-                "options": ["Worsen", "Increase", "Aggravate", "Relieve"],
-                "correct_answer": 3,
-                "explanation": "'Alleviate' means to make a problem, suffering, or deficiency less severe."
-            }
+          {
+            "id": 6,
+            "question": "Which word is a synonym for 'ubiquitous'?",
+            "options": ["Rare", "Scarce", "Everywhere", "Hidden"],
+            "correct_answer": 2,
+            "explanation": "'Ubiquitous' means present, appearing, or found everywhere."
+          },
+          {
+            "id": 7,
+            "question": "Choose a synonym for 'ambiguous'.",
+            "options": ["Clear", "Unclear", "Precise", "Certain"],
+            "correct_answer": 1,
+            "explanation": "'Ambiguous' means open to more than one interpretation; not having one obvious meaning."
+          },
+          {
+            "id": 8,
+            "question": "What is another word for 'diligent'?",
+            "options": ["Lazy", "Careless", "Hardworking", "Inactive"],
+            "correct_answer": 2,
+            "explanation": "'Diligent' means having or showing care and conscientiousness in one's work or duties."
+          },
+          {
+            "id": 9,
+            "question": "Which word means the same as 'ephemeral'?",
+            "options": ["Permanent", "Eternal", "Short-lived", "Endless"],
+            "correct_answer": 2,
+            "explanation": "'Ephemeral' means lasting for a very short time."
+          },
+          {
+            "id": 10,
+            "question": "Find a synonym for 'alleviate'.",
+            "options": ["Worsen", "Increase", "Aggravate", "Relieve"],
+            "correct_answer": 3,
+            "explanation": "'Alleviate' means to make a problem, suffering, or deficiency less severe."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 3,
         "title": "Grammar: Conditionals",
         "questions": [
-            {
-                "id": 11,
-                "question": "If you heat ice, it __________.",
-                "options": ["melts", "will melt", "would melt", "melted"],
-                "correct_answer": 0,
-                "explanation": "This is a Zero Conditional sentence, used for facts that are generally true. The structure is 'If + present simple, ... present simple'."
-            },
-            {
-                "id": 12,
-                "question": "If I __________ you, I would study harder for the exam.",
-                "options": ["am", "was", "were", "be"],
-                "correct_answer": 2,
-                "explanation": "This is a Second Conditional sentence, used for hypothetical advice. 'Were' is used for all subjects in the 'if' clause."
-            },
-            {
-                "id": 13,
-                "question": "We would have gone to the park if it __________.",
-                "options": ["hadn't rained", "didn't rain", "wouldn't rain", "hasn't rained"],
-                "correct_answer": 0,
-                "explanation": "This is a Third Conditional sentence, used for unreal past situations. The structure is 'would have + past participle ... if + past perfect'."
-            },
-            {
-                "id": 14,
-                "question": "If she __________ on time, she will get a good seat.",
-                "options": ["arrived", "arrives", "will arrive", "would arrive"],
-                "correct_answer": 1,
-                "explanation": "This is a First Conditional sentence, used for real future possibilities. The structure is 'If + present simple, ... will + base verb'."
-            },
-            {
-                "id": 15,
-                "question": "What will you do if you __________ the bus?",
-                "options": ["miss", "will miss", "missed", "would miss"],
-                "correct_answer": 0,
-                "explanation": "This is the 'if' clause of a First Conditional sentence, which requires the present simple tense."
-            }
+          {
+            "id": 11,
+            "question": "If you heat ice, it __________.",
+            "options": ["melts", "will melt", "would melt", "melted"],
+            "correct_answer": 0,
+            "explanation": "This is a Zero Conditional sentence, used for facts that are generally true. The structure is 'If + present simple, ... present simple'."
+          },
+          {
+            "id": 12,
+            "question": "If I __________ you, I would study harder for the exam.",
+            "options": ["am", "was", "were", "be"],
+            "correct_answer": 2,
+            "explanation": "This is a Second Conditional sentence, used for hypothetical advice. 'Were' is used for all subjects in the 'if' clause."
+          },
+          {
+            "id": 13,
+            "question": "We would have gone to the park if it __________.",
+            "options": ["hadn't rained", "didn't rain", "wouldn't rain", "hasn't rained"],
+            "correct_answer": 0,
+            "explanation": "This is a Third Conditional sentence, used for unreal past situations. The structure is 'would have + past participle ... if + past perfect'."
+          },
+          {
+            "id": 14,
+            "question": "If she __________ on time, she will get a good seat.",
+            "options": ["arrived", "arrives", "will arrive", "would arrive"],
+            "correct_answer": 1,
+            "explanation": "This is a First Conditional sentence, used for real future possibilities. The structure is 'If + present simple, ... will + base verb'."
+          },
+          {
+            "id": 15,
+            "question": "What will you do if you __________ the bus?",
+            "options": ["miss", "will miss", "missed", "would miss"],
+            "correct_answer": 0,
+            "explanation": "This is the 'if' clause of a First Conditional sentence, which requires the present simple tense."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 4,
         "title": "Vocabulary: Antonyms",
         "questions": [
-            {
-                "id": 16,
-                "question": "Which word is an antonym for 'benevolent'?",
-                "options": ["Kind", "Generous", "Malevolent", "Caring"],
-                "correct_answer": 2,
-                "explanation": "'Benevolent' means well-meaning and kindly. 'Malevolent' means having or showing a wish to do evil to others."
-            },
-            {
-                "id": 17,
-                "question": "Choose the opposite of 'garrulous'.",
-                "options": ["Talkative", "Chatty", "Loquacious", "Taciturn"],
-                "correct_answer": 3,
-                "explanation": "'Garrulous' means excessively talkative. 'Taciturn' means reserved or uncommunicative in speech."
-            },
-            {
-                "id": 18,
-                "question": "What is the opposite of 'pragmatic'?",
-                "options": ["Practical", "Realistic", "Idealistic", "Sensible"],
-                "correct_answer": 2,
-                "explanation": "'Pragmatic' means dealing with things sensibly and realistically. 'Idealistic' means pursuing ideals, often unrealistically."
-            },
-            {
-                "id": 19,
-                "question": "Which word is an antonym for 'esoteric'?",
-                "options": ["Obscure", "Commonly known", "Mysterious", "Abstruse"],
-                "correct_answer": 1,
-                "explanation": "'Esoteric' means intended for or likely to be understood by only a small number of people with a specialized knowledge. The opposite is something that is widely or commonly known."
-            },
-            {
-                "id": 20,
-                "question": "Find an antonym for 'mitigate'.",
-                "options": ["Lessen", "Reduce", "Alleviate", "Aggravate"],
-                "correct_answer": 3,
-                "explanation": "'Mitigate' means to make something less severe or painful. 'Aggravate' means to make a problem or situation worse."
-            }
+          {
+            "id": 16,
+            "question": "Which word is an antonym for 'benevolent'?",
+            "options": ["Kind", "Generous", "Malevolent", "Caring"],
+            "correct_answer": 2,
+            "explanation": "'Benevolent' means well-meaning and kindly. 'Malevolent' means having or showing a wish to do evil to others."
+          },
+          {
+            "id": 17,
+            "question": "Choose the opposite of 'garrulous'.",
+            "options": ["Talkative", "Chatty", "Loquacious", "Taciturn"],
+            "correct_answer": 3,
+            "explanation": "'Garrulous' means excessively talkative. 'Taciturn' means reserved or uncommunicative in speech."
+          },
+          {
+            "id": 18,
+            "question": "What is the opposite of 'pragmatic'?",
+            "options": ["Practical", "Realistic", "Idealistic", "Sensible"],
+            "correct_answer": 2,
+            "explanation": "'Pragmatic' means dealing with things sensibly and realistically. 'Idealistic' means pursuing ideals, often unrealistically."
+          },
+          {
+            "id": 19,
+            "question": "Which word is an antonym for 'esoteric'?",
+            "options": ["Obscure", "Commonly known", "Mysterious", "Abstruse"],
+            "correct_answer": 1,
+            "explanation": "'Esoteric' means intended for or likely to be understood by only a small number of people with a specialized knowledge. The opposite is something that is widely or commonly known."
+          },
+          {
+            "id": 20,
+            "question": "Find an antonym for 'mitigate'.",
+            "options": ["Lessen", "Reduce", "Alleviate", "Aggravate"],
+            "correct_answer": 3,
+            "explanation": "'Mitigate' means to make something less severe or painful. 'Aggravate' means to make a problem or situation worse."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 5,
         "title": "Grammar: Prepositions",
         "questions": [
-            {
-                "id": 21,
-                "question": "The meeting is scheduled __________ Friday at 10 AM.",
-                "options": ["in", "at", "on", "by"],
-                "correct_answer": 2,
-                "explanation": "We use 'on' for specific days of the week."
-            },
-            {
-                "id": 22,
-                "question": "I have been waiting for you __________ two hours!",
-                "options": ["since", "for", "at", "from"],
-                "correct_answer": 1,
-                "explanation": "We use 'for' with a period of time (e.g., two hours, three days)."
-            },
-            {
-                "id": 23,
-                "question": "She lives __________ Addis Ababa.",
-                "options": ["at", "on", "in", "to"],
-                "correct_answer": 2,
-                "explanation": "We use 'in' for cities, countries, and large areas."
-            },
-            {
-                "id": 24,
-                "question": "He is very good __________ playing the guitar.",
-                "options": ["in", "on", "with", "at"],
-                "correct_answer": 3,
-                "explanation": "The correct collocation is 'good at' something."
-            },
-            {
-                "id": 25,
-                "question": "This book is different __________ the one I read last week.",
-                "options": ["than", "to", "from", "with"],
-                "correct_answer": 2,
-                "explanation": "The standard expression in both British and American English is 'different from'."
-            }
+          {
+            "id": 21,
+            "question": "The meeting is scheduled __________ Friday at 10 AM.",
+            "options": ["in", "at", "on", "by"],
+            "correct_answer": 2,
+            "explanation": "We use 'on' for specific days of the week."
+          },
+          {
+            "id": 22,
+            "question": "I have been waiting for you __________ two hours!",
+            "options": ["since", "for", "at", "from"],
+            "correct_answer": 1,
+            "explanation": "We use 'for' with a period of time (e.g., two hours, three days)."
+          },
+          {
+            "id": 23,
+            "question": "She lives __________ Addis Ababa.",
+            "options": ["at", "on", "in", "to"],
+            "correct_answer": 2,
+            "explanation": "We use 'in' for cities, countries, and large areas."
+          },
+          {
+            "id": 24,
+            "question": "He is very good __________ playing the guitar.",
+            "options": ["in", "on", "with", "at"],
+            "correct_answer": 3,
+            "explanation": "The correct collocation is 'good at' something."
+          },
+          {
+            "id": 25,
+            "question": "This book is different __________ the one I read last week.",
+            "options": ["than", "to", "from", "with"],
+            "correct_answer": 2,
+            "explanation": "The standard expression in both British and American English is 'different from'."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 6,
         "title": "Grammar: Active & Passive Voice",
         "questions": [
-            {
-                "id": 26,
-                "question": "Change to passive: 'The cat chased the mouse.'",
-                "options": ["The mouse was chased by the cat.", "The mouse chased the cat.", "The cat was chased by the mouse.", "The mouse is chased by the cat."],
-                "correct_answer": 0,
-                "explanation": "The object 'the mouse' becomes the subject. The verb becomes 'was' (past tense) + 'chased' (past participle)."
-            },
-            {
-                "id": 27,
-                "question": "Change to active: 'The report was written by Ali.'",
-                "options": ["Ali is writing the report.", "Ali has written the report.", "Ali wrote the report.", "Ali writes the report."],
-                "correct_answer": 2,
-                "explanation": "The agent 'Ali' becomes the subject. The verb 'was written' (passive) becomes 'wrote' (active past simple)."
-            },
-            {
-                "id": 28,
-                "question": "Which sentence is in the passive voice?",
-                "options": ["They are building a new bridge.", "A new bridge will be built.", "Someone has built a new bridge.", "The new bridge looks great."],
-                "correct_answer": 1,
-                "explanation": "This sentence is passive because the subject 'A new bridge' receives the action. It uses the structure 'will be' + past participle ('built')."
-            },
-            {
-                "id": 29,
-                "question": "Change to passive: 'Someone is cleaning the windows.'",
-                "options": ["The windows are cleaned.", "The windows were cleaned.", "The windows are being cleaned.", "The windows have been cleaned."],
-                "correct_answer": 2,
-                "explanation": "The active is present continuous ('is cleaning'), so the passive form is 'are being' + past participle ('cleaned')."
-            },
-            {
-                "id": 30,
-                "question": "Change to active: 'Mistakes were made.'",
-                "options": ["Someone made mistakes.", "Mistakes have been made.", "They are making mistakes.", "Mistakes happened."],
-                "correct_answer": 0,
-                "explanation": "Since the agent is not mentioned in the passive sentence, we use a general subject like 'someone' or 'they' in the active form."
-            }
+          {
+            "id": 26,
+            "question": "Change to passive: 'The cat chased the mouse.'",
+            "options": ["The mouse was chased by the cat.", "The mouse chased the cat.", "The cat was chased by the mouse.", "The mouse is chased by the cat."],
+            "correct_answer": 0,
+            "explanation": "The object 'the mouse' becomes the subject. The verb becomes 'was' (past tense) + 'chased' (past participle)."
+          },
+          {
+            "id": 27,
+            "question": "Change to active: 'The report was written by Ali.'",
+            "options": ["Ali is writing the report.", "Ali has written the report.", "Ali wrote the report.", "Ali writes the report."],
+            "correct_answer": 2,
+            "explanation": "The agent 'Ali' becomes the subject. The verb 'was written' (passive) becomes 'wrote' (active past simple)."
+          },
+          {
+            "id": 28,
+            "question": "Which sentence is in the passive voice?",
+            "options": ["They are building a new bridge.", "A new bridge will be built.", "Someone has built a new bridge.", "The new bridge looks great."],
+            "correct_answer": 1,
+            "explanation": "This sentence is passive because the subject 'A new bridge' receives the action. It uses the structure 'will be' + past participle ('built')."
+          },
+          {
+            "id": 29,
+            "question": "Change to passive: 'Someone is cleaning the windows.'",
+            "options": ["The windows are cleaned.", "The windows were cleaned.", "The windows are being cleaned.", "The windows have been cleaned."],
+            "correct_answer": 2,
+            "explanation": "The active is present continuous ('is cleaning'), so the passive form is 'are being' + past participle ('cleaned')."
+          },
+          {
+            "id": 30,
+            "question": "Change to active: 'Mistakes were made.'",
+            "options": ["Someone made mistakes.", "Mistakes have been made.", "They are making mistakes.", "Mistakes happened."],
+            "correct_answer": 0,
+            "explanation": "Since the agent is not mentioned in the passive sentence, we use a general subject like 'someone' or 'they' in the active form."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 7,
         "title": "Vocabulary: Contextual Meaning",
         "questions": [
-            {
-                "id": 31,
-                "question": "The politician's speech was full of empty __________; it sounded good but had no real substance.",
-                "options": ["rhetoric", "facts", "data", "evidence"],
-                "correct_answer": 0,
-                "explanation": "'Rhetoric' refers to language designed to have a persuasive or impressive effect, which is often regarded as lacking in sincerity or meaningful content."
-            },
-            {
-                "id": 32,
-                "question": "After the long drought, the __________ rains were a welcome sight for the farmers.",
-                "options": ["sporadic", "copious", "meager", "infrequent"],
-                "correct_answer": 1,
-                "explanation": "'Copious' means abundant in supply or quantity. This fits the context of rain being welcome after a drought."
-            },
-            {
-                "id": 33,
-                "question": "She had a __________ feeling that something bad was about to happen.",
-                "options": ["wonderful", "premonition", "certainty", "belated"],
-                "correct_answer": 1,
-                "explanation": "A 'premonition' is a strong feeling that something is about to happen, especially something unpleasant."
-            },
-            {
-                "id": 34,
-                "question": "His __________ nature made him a great diplomat; he could handle difficult situations with skill and care.",
-                "options": ["careless", "tactful", "rude", "abrupt"],
-                "correct_answer": 1,
-                "explanation": "'Tactful' means having or showing skill and sensitivity in dealing with others or with difficult issues."
-            },
-            {
-                "id": 35,
-                "question": "The student was __________ for cheating on the exam.",
-                "options": ["praised", "rewarded", "reprimanded", "ignored"],
-                "correct_answer": 2,
-                "explanation": "'Reprimanded' means to be rebuked or scolded, which is the appropriate consequence for cheating."
-            }
+          {
+            "id": 31,
+            "question": "The politician's speech was full of empty __________; it sounded good but had no real substance.",
+            "options": ["rhetoric", "facts", "data", "evidence"],
+            "correct_answer": 0,
+            "explanation": "'Rhetoric' refers to language designed to have a persuasive or impressive effect, which is often regarded as lacking in sincerity or meaningful content."
+          },
+          {
+            "id": 32,
+            "question": "After the long drought, the __________ rains were a welcome sight for the farmers.",
+            "options": ["sporadic", "copious", "meager", "infrequent"],
+            "correct_answer": 1,
+            "explanation": "'Copious' means abundant in supply or quantity. This fits the context of rain being welcome after a drought."
+          },
+          {
+            "id": 33,
+            "question": "She had a __________ feeling that something bad was about to happen.",
+            "options": ["wonderful", "premonition", "certainty", "belated"],
+            "correct_answer": 1,
+            "explanation": "A 'premonition' is a strong feeling that something is about to happen, especially something unpleasant."
+          },
+          {
+            "id": 34,
+            "question": "His __________ nature made him a great diplomat; he could handle difficult situations with skill and care.",
+            "options": ["careless", "tactful", "rude", "abrupt"],
+            "correct_answer": 1,
+            "explanation": "'Tactful' means having or showing skill and sensitivity in dealing with others or with difficult issues."
+          },
+          {
+            "id": 35,
+            "question": "The student was __________ for cheating on the exam.",
+            "options": ["praised", "rewarded", "reprimanded", "ignored"],
+            "correct_answer": 2,
+            "explanation": "'Reprimanded' means to be rebuked or scolded, which is the appropriate consequence for cheating."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 8,
         "title": "Grammar: Modal Verbs",
         "questions": [
-            {
-                "id": 36,
-                "question": "You __________ finish your work today; you can do it tomorrow.",
-                "options": ["must", "have to", "don't have to", "mustn't"],
-                "correct_answer": 2,
-                "explanation": "'Don't have to' indicates a lack of obligation or necessity."
-            },
-            {
-                "id": 37,
-                "question": "That __________ be John's car. I know he sold his last week.",
-                "options": ["must", "can't", "might", "could"],
-                "correct_answer": 1,
-                "explanation": "'Can't' is used to express certainty that something is impossible."
-            },
-            {
-                "id": 38,
-                "question": "__________ I borrow your pen for a moment, please?",
-                "options": ["Must", "Should", "May", "Ought to"],
-                "correct_answer": 2,
-                "explanation": "'May' is a polite way to ask for permission."
-            },
-            {
-                "id": 39,
-                "question": "You __________ see a doctor. That cough sounds terrible.",
-                "options": ["should", "might", "can", "may"],
-                "correct_answer": 0,
-                "explanation": "'Should' is used to give advice or make a recommendation."
-            },
-            {
-                "id": 40,
-                "question": "He __________ have forgotten about the meeting. It's not like him to be late.",
-                "options": ["must", "should", "can't", "might"],
-                "correct_answer": 3,
-                "explanation": "'Might have' + past participle is used to express a possibility in the past."
-            }
+          {
+            "id": 36,
+            "question": "You __________ finish your work today; you can do it tomorrow.",
+            "options": ["must", "have to", "don't have to", "mustn't"],
+            "correct_answer": 2,
+            "explanation": "'Don't have to' indicates a lack of obligation or necessity."
+          },
+          {
+            "id": 37,
+            "question": "That __________ be John's car. I know he sold his last week.",
+            "options": ["must", "can't", "might", "could"],
+            "correct_answer": 1,
+            "explanation": "'Can't' is used to express certainty that something is impossible."
+          },
+          {
+            "id": 38,
+            "question": "__________ I borrow your pen for a moment, please?",
+            "options": ["Must", "Should", "May", "Ought to"],
+            "correct_answer": 2,
+            "explanation": "'May' is a polite way to ask for permission."
+          },
+          {
+            "id": 39,
+            "question": "You __________ see a doctor. That cough sounds terrible.",
+            "options": ["should", "might", "can", "may"],
+            "correct_answer": 0,
+            "explanation": "'Should' is used to give advice or make a recommendation."
+          },
+          {
+            "id": 40,
+            "question": "He __________ have forgotten about the meeting. It's not like him to be late.",
+            "options": ["must", "should", "can't", "might"],
+            "correct_answer": 3,
+            "explanation": "'Might have' + past participle is used to express a possibility in the past."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 9,
         "title": "Grammar: Reported Speech",
         "questions": [
-            {
-                "id": 41,
-                "question": "Direct: 'I am going to the market.' Reported: She said that she __________ to the market.",
-                "options": ["is going", "was going", "will go", "goes"],
-                "correct_answer": 1,
-                "explanation": "In reported speech, the present continuous ('am going') changes to the past continuous ('was going')."
-            },
-            {
-                "id": 42,
-                "question": "Direct: 'We will call you tomorrow.' Reported: They said they would call us the __________.",
-                "options": ["tomorrow", "next day", "day before", "same day"],
-                "correct_answer": 1,
-                "explanation": "In reported speech, 'tomorrow' changes to 'the next day' or 'the following day'."
-            },
-            {
-                "id": 43,
-                "question": "Direct: 'Where do you live?' Reported: He asked me where __________.",
-                "options": ["do I live", "I live", "did I live", "I lived"],
-                "correct_answer": 3,
-                "explanation": "In reported questions, the word order changes to subject + verb, and the tense shifts back. Present simple ('live') becomes past simple ('lived')."
-            },
-            {
-                "id": 44,
-                "question": "Direct: 'I have finished my project.' Reported: He told me that he __________ his project.",
-                "options": ["has finished", "finished", "had finished", "is finishing"],
-                "correct_answer": 2,
-                "explanation": "In reported speech, the present perfect ('have finished') changes to the past perfect ('had finished')."
-            },
-            {
-                "id": 45,
-                "question": "Direct: 'Don't touch that!' Reported: She warned me __________ that.",
-                "options": ["to not touch", "not to touch", "don't touch", "not touching"],
-                "correct_answer": 1,
-                "explanation": "Reported commands or requests use the structure 'not to' + base verb for negative commands."
-            }
+          {
+            "id": 41,
+            "question": "Direct: 'I am going to the market.' Reported: She said that she __________ to the market.",
+            "options": ["is going", "was going", "will go", "goes"],
+            "correct_answer": 1,
+            "explanation": "In reported speech, the present continuous ('am going') changes to the past continuous ('was going')."
+          },
+          {
+            "id": 42,
+            "question": "Direct: 'We will call you tomorrow.' Reported: They said they would call us the __________.",
+            "options": ["tomorrow", "next day", "day before", "same day"],
+            "correct_answer": 1,
+            "explanation": "In reported speech, 'tomorrow' changes to 'the next day' or 'the following day'."
+          },
+          {
+            "id": 43,
+            "question": "Direct: 'Where do you live?' Reported: He asked me where __________.",
+            "options": ["do I live", "I live", "did I live", "I lived"],
+            "correct_answer": 3,
+            "explanation": "In reported questions, the word order changes to subject + verb, and the tense shifts back. Present simple ('live') becomes past simple ('lived')."
+          },
+          {
+            "id": 44,
+            "question": "Direct: 'I have finished my project.' Reported: He told me that he __________ his project.",
+            "options": ["has finished", "finished", "had finished", "is finishing"],
+            "correct_answer": 2,
+            "explanation": "In reported speech, the present perfect ('have finished') changes to the past perfect ('had finished')."
+          },
+          {
+            "id": 45,
+            "question": "Direct: 'Don't touch that!' Reported: She warned me __________ that.",
+            "options": ["to not touch", "not to touch", "don't touch", "not touching"],
+            "correct_answer": 1,
+            "explanation": "Reported commands or requests use the structure 'not to' + base verb for negative commands."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 10,
         "title": "Vocabulary: Phrasal Verbs",
         "questions": [
-            {
-                "id": 46,
-                "question": "The meeting was __________ until next week due to the manager's illness.",
-                "options": ["called off", "put off", "taken off", "brought off"],
-                "correct_answer": 1,
-                "explanation": "'To put off' means to postpone."
-            },
-            {
-                "id": 47,
-                "question": "I can't __________ with his rude behavior anymore.",
-                "options": ["put up", "put down", "put in", "put on"],
-                "correct_answer": 0,
-                "explanation": "'To put up with' means to tolerate or endure."
-            },
-            {
-                "id": 48,
-                "question": "It took him a long time to __________ the death of his pet.",
-                "options": ["get by", "get over", "get on", "get away"],
-                "correct_answer": 1,
-                "explanation": "'To get over' means to recover from an illness or an unpleasant experience."
-            },
-            {
-                "id": 49,
-                "question": "Could you please __________ the music? It's too loud.",
-                "options": ["turn up", "turn on", "turn down", "turn off"],
-                "correct_answer": 2,
-                "explanation": "'To turn down' means to reduce the volume or intensity."
-            },
-            {
-                "id": 50,
-                "question": "She __________ her mother; they have the same eyes and smile.",
-                "options": ["takes after", "looks after", "runs after", "comes after"],
-                "correct_answer": 0,
-                "explanation": "'To take after' means to resemble a parent or ancestor."
-            }
+          {
+            "id": 46,
+            "question": "The meeting was __________ until next week due to the manager's illness.",
+            "options": ["called off", "put off", "taken off", "brought off"],
+            "correct_answer": 1,
+            "explanation": "'To put off' means to postpone."
+          },
+          {
+            "id": 47,
+            "question": "I can't __________ with his rude behavior anymore.",
+            "options": ["put up", "put down", "put in", "put on"],
+            "correct_answer": 0,
+            "explanation": "'To put up with' means to tolerate or endure."
+          },
+          {
+            "id": 48,
+            "question": "It took him a long time to __________ the death of his pet.",
+            "options": ["get by", "get over", "get on", "get away"],
+            "correct_answer": 1,
+            "explanation": "'To get over' means to recover from an illness or an unpleasant experience."
+          },
+          {
+            "id": 49,
+            "question": "Could you please __________ the music? It's too loud.",
+            "options": ["turn up", "turn on", "turn down", "turn off"],
+            "correct_answer": 2,
+            "explanation": "'To turn down' means to reduce the volume or intensity."
+          },
+          {
+            "id": 50,
+            "question": "She __________ her mother; they have the same eyes and smile.",
+            "options": ["takes after", "looks after", "runs after", "comes after"],
+            "correct_answer": 0,
+            "explanation": "'To take after' means to resemble a parent or ancestor."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 11,
         "title": "Grammar: Articles & Quantifiers",
         "questions": [
-            {
-                "id": 51,
-                "question": "She is __________ honest person.",
-                "options": ["a", "an", "the", "no article"],
-                "correct_answer": 1,
-                "explanation": "We use 'an' before words that start with a vowel sound. 'Honest' starts with a vowel sound because the 'h' is silent."
-            },
-            {
-                "id": 52,
-                "question": "I saw __________ beautiful bird in the garden this morning.",
-                "options": ["a", "an", "the", "some"],
-                "correct_answer": 0,
-                "explanation": "We use 'a' for a singular, non-specific noun being mentioned for the first time."
-            },
-            {
-                "id": 53,
-                "question": "There isn't __________ sugar left. We need to buy some.",
-                "options": ["many", "much", "a few", "a lot"],
-                "correct_answer": 1,
-                "explanation": "'Much' is used with uncountable nouns (like sugar) in negative sentences and questions."
-            },
-            {
-                "id": 54,
-                "question": "__________ people came to the party, so it was quite empty.",
-                "options": ["Few", "A few", "Little", "A little"],
-                "correct_answer": 0,
-                "explanation": "'Few' (without 'a') has a negative meaning, implying 'not many'. 'A few' has a more positive meaning ('some')."
-            },
-            {
-                "id": 55,
-                "question": "__________ information he gave me was not very helpful.",
-                "options": ["A few", "The little", "The few", "Little"],
-                "correct_answer": 1,
-                "explanation": "'The little' is used to refer to the small amount of something specific. In this case, the specific information he gave."
-            }
+          {
+            "id": 51,
+            "question": "She is __________ honest person.",
+            "options": ["a", "an", "the", "no article"],
+            "correct_answer": 1,
+            "explanation": "We use 'an' before words that start with a vowel sound. 'Honest' starts with a vowel sound because the 'h' is silent."
+          },
+          {
+            "id": 52,
+            "question": "I saw __________ beautiful bird in the garden this morning.",
+            "options": ["a", "an", "the", "some"],
+            "correct_answer": 0,
+            "explanation": "We use 'a' for a singular, non-specific noun being mentioned for the first time."
+          },
+          {
+            "id": 53,
+            "question": "There isn't __________ sugar left. We need to buy some.",
+            "options": ["many", "much", "a few", "a lot"],
+            "correct_answer": 1,
+            "explanation": "'Much' is used with uncountable nouns (like sugar) in negative sentences and questions."
+          },
+          {
+            "id": 54,
+            "question": "__________ people came to the party, so it was quite empty.",
+            "options": ["Few", "A few", "Little", "A little"],
+            "correct_answer": 0,
+            "explanation": "'Few' (without 'a') has a negative meaning, implying 'not many'. 'A few' has a more positive meaning ('some')."
+          },
+          {
+            "id": 55,
+            "question": "__________ information he gave me was not very helpful.",
+            "options": ["A few", "The little", "The few", "Little"],
+            "correct_answer": 1,
+            "explanation": "'The little' is used to refer to the small amount of something specific. In this case, the specific information he gave."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 12,
         "title": "Vocabulary: Confusing Words",
         "questions": [
-            {
-                "id": 56,
-                "question": "The new law will __________ everyone in the country.",
-                "options": ["effect", "affect"],
-                "correct_answer": 1,
-                "explanation": "'Affect' is a verb meaning 'to influence or have an impact on'. 'Effect' is usually a noun meaning 'a result'."
-            },
-            {
-                "id": 57,
-                "question": "Please give me some __________ on how to improve.",
-                "options": ["advice", "advise"],
-                "correct_answer": 0,
-                "explanation": "'Advice' is a noun (an opinion or recommendation). 'Advise' is a verb (to offer an opinion)."
-            },
-            {
-                "id": 58,
-                "question": "The team lost the game, which was a big blow to __________ morale.",
-                "options": ["its", "it's"],
-                "correct_answer": 0,
-                "explanation": "'Its' is a possessive pronoun. 'It's' is a contraction of 'it is' or 'it has'."
-            },
-            {
-                "id": 59,
-                "question": "I would rather have the latter __________ the former.",
-                "options": ["than", "then"],
-                "correct_answer": 0,
-                "explanation": "'Than' is used for comparisons. 'Then' refers to time."
-            },
-            {
-                "id": 60,
-                "question": "The __________ of the school is a very respected person.",
-                "options": ["principal", "principle"],
-                "correct_answer": 0,
-                "explanation": "'Principal' refers to the head of a school. 'Principle' refers to a fundamental rule or belief."
-            }
+          {
+            "id": 56,
+            "question": "The new law will __________ everyone in the country.",
+            "options": ["effect", "affect"],
+            "correct_answer": 1,
+            "explanation": "'Affect' is a verb meaning 'to influence or have an impact on'. 'Effect' is usually a noun meaning 'a result'."
+          },
+          {
+            "id": 57,
+            "question": "Please give me some __________ on how to improve.",
+            "options": ["advice", "advise"],
+            "correct_answer": 0,
+            "explanation": "'Advice' is a noun (an opinion or recommendation). 'Advise' is a verb (to offer an opinion)."
+          },
+          {
+            "id": 58,
+            "question": "The team lost the game, which was a big blow to __________ morale.",
+            "options": ["its", "it's"],
+            "correct_answer": 0,
+            "explanation": "'Its' is a possessive pronoun. 'It's' is a contraction of 'it is' or 'it has'."
+          },
+          {
+            "id": 59,
+            "question": "I would rather have the latter __________ the former.",
+            "options": ["than", "then"],
+            "correct_answer": 0,
+            "explanation": "'Than' is used for comparisons. 'Then' refers to time."
+          },
+          {
+            "id": 60,
+            "question": "The __________ of the school is a very respected person.",
+            "options": ["principal", "principle"],
+            "correct_answer": 0,
+            "explanation": "'Principal' refers to the head of a school. 'Principle' refers to a fundamental rule or belief."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 13,
         "title": "Grammar: Gerunds & Infinitives",
         "questions": [
-            {
-                "id": 61,
-                "question": "I enjoy __________ books in my free time.",
-                "options": ["reading", "to read", "read", "having read"],
-                "correct_answer": 0,
-                "explanation": "The verb 'enjoy' is followed by a gerund (verb + -ing). 'I enjoy reading books.'"
-            },
-            {
-                "id": 62,
-                "question": "She decided __________ a new language this year.",
-                "options": ["learning", "to learn", "learn", "learned"],
-                "correct_answer": 1,
-                "explanation": "The verb 'decide' is followed by an infinitive (to + base verb). 'She decided to learn.'"
-            },
-            {
-                "id": 63,
-                "question": "Would you mind __________ the window? It's quite hot.",
-                "options": ["to open", "opening", "open", "opened"],
-                "correct_answer": 1,
-                "explanation": "'Mind' is followed by a gerund. 'Would you mind opening...?'"
-            },
-            {
-                "id": 64,
-                "question": "He promised __________ me tomorrow.",
-                "options": ["calling", "to call", "call", "called"],
-                "correct_answer": 1,
-                "explanation": "The verb 'promise' is followed by an infinitive. 'He promised to call.'"
-            },
-            {
-                "id": 65,
-                "question": "I can't stand __________ in long queues.",
-                "options": ["to wait", "waiting", "wait", "waited"],
-                "correct_answer": 1,
-                "explanation": "'Can't stand' is followed by a gerund. 'I can't stand waiting.'"
-            }
+          {
+            "id": 61,
+            "question": "I enjoy __________ books in my free time.",
+            "options": ["reading", "to read", "read", "having read"],
+            "correct_answer": 0,
+            "explanation": "The verb 'enjoy' is followed by a gerund (verb + -ing). 'I enjoy reading books.'"
+          },
+          {
+            "id": 62,
+            "question": "She decided __________ a new language this year.",
+            "options": ["learning", "to learn", "learn", "learned"],
+            "correct_answer": 1,
+            "explanation": "The verb 'decide' is followed by an infinitive (to + base verb). 'She decided to learn.'"
+          },
+          {
+            "id": 63,
+            "question": "Would you mind __________ the window? It's quite hot.",
+            "options": ["to open", "opening", "open", "opened"],
+            "correct_answer": 1,
+            "explanation": "'Mind' is followed by a gerund. 'Would you mind opening...?'"
+          },
+          {
+            "id": 64,
+            "question": "He promised __________ me tomorrow.",
+            "options": ["calling", "to call", "call", "called"],
+            "correct_answer": 1,
+            "explanation": "The verb 'promise' is followed by an infinitive. 'He promised to call.'"
+          },
+          {
+            "id": 65,
+            "question": "I can't stand __________ in long queues.",
+            "options": ["to wait", "waiting", "wait", "waited"],
+            "correct_answer": 1,
+            "explanation": "'Can't stand' is followed by a gerund. 'I can't stand waiting.'"
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 14,
         "title": "Vocabulary: Collocations",
         "questions": [
-            {
-                "id": 66,
-                "question": "She has a __________ memory and never forgets anything.",
-                "options": ["photographic", "camera", "picture", "visual"],
-                "correct_answer": 0,
-                "explanation": "A 'photographic memory' is a collocation meaning the ability to remember things in exact detail."
-            },
-            {
-                "id": 67,
-                "question": "The weather forecast says there's a __________ chance of rain.",
-                "options": ["big", "high", "tall", "deep"],
-                "correct_answer": 1,
-                "explanation": "We say 'high chance' or 'low chance' when talking about probability, not 'big chance' or 'tall chance.'"
-            },
-            {
-                "id": 68,
-                "question": "Please __________ attention to what the teacher is saying.",
-                "options": ["give", "put", "pay", "make"],
-                "correct_answer": 2,
-                "explanation": "The correct collocation is 'pay attention,' meaning to focus or concentrate."
-            },
-            {
-                "id": 69,
-                "question": "He __________ a good point during the meeting.",
-                "options": ["did", "made", "took", "gave"],
-                "correct_answer": 1,
-                "explanation": "The correct collocation is 'make a point,' meaning to express an opinion or argument."
-            },
-            {
-                "id": 70,
-                "question": "I need to __________ a decision about my career soon.",
-                "options": ["do", "take", "make", "have"],
-                "correct_answer": 2,
-                "explanation": "The correct collocation is 'make a decision,' meaning to choose between options."
-            }
+          {
+            "id": 66,
+            "question": "She has a __________ memory and never forgets anything.",
+            "options": ["photographic", "camera", "picture", "visual"],
+            "correct_answer": 0,
+            "explanation": "A 'photographic memory' is a collocation meaning the ability to remember things in exact detail."
+          },
+          {
+            "id": 67,
+            "question": "The weather forecast says there's a __________ chance of rain.",
+            "options": ["big", "high", "tall", "deep"],
+            "correct_answer": 1,
+            "explanation": "We say 'high chance' or 'low chance' when talking about probability, not 'big chance' or 'tall chance.'"
+          },
+          {
+            "id": 68,
+            "question": "Please __________ attention to what the teacher is saying.",
+            "options": ["give", "put", "pay", "make"],
+            "correct_answer": 2,
+            "explanation": "The correct collocation is 'pay attention,' meaning to focus or concentrate."
+          },
+          {
+            "id": 69,
+            "question": "He __________ a good point during the meeting.",
+            "options": ["did", "made", "took", "gave"],
+            "correct_answer": 1,
+            "explanation": "The correct collocation is 'make a point,' meaning to express an opinion or argument."
+          },
+          {
+            "id": 70,
+            "question": "I need to __________ a decision about my career soon.",
+            "options": ["do", "take", "make", "have"],
+            "correct_answer": 2,
+            "explanation": "The correct collocation is 'make a decision,' meaning to choose between options."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 15,
         "title": "Grammar: Subject-Verb Agreement",
         "questions": [
-            {
-                "id": 71,
-                "question": "Neither the teacher nor the students __________ ready for the test.",
-                "options": ["is", "are", "was", "been"],
-                "correct_answer": 1,
-                "explanation": "With 'neither...nor,' the verb agrees with the subject closest to it. 'Students' is plural, so we use 'are.'"
-            },
-            {
-                "id": 72,
-                "question": "The team __________ practicing for the championship.",
-                "options": ["is", "are", "have", "were"],
-                "correct_answer": 0,
-                "explanation": "'Team' is a collective noun that can be singular when referring to the group as a unit. In this context, 'is' is correct."
-            },
-            {
-                "id": 73,
-                "question": "Mathematics __________ my favorite subject in school.",
-                "options": ["is", "are", "were", "have been"],
-                "correct_answer": 0,
-                "explanation": "Subject names ending in -s (like Mathematics, Physics, Economics) are singular and take singular verbs."
-            },
-            {
-                "id": 74,
-                "question": "Each of the books __________ a different story.",
-                "options": ["tell", "tells", "are telling", "have told"],
-                "correct_answer": 1,
-                "explanation": "'Each' is singular, so it takes a singular verb. 'Each tells' is correct."
-            },
-            {
-                "id": 75,
-                "question": "The scissors __________ on the table.",
-                "options": ["is", "are", "was", "has been"],
-                "correct_answer": 1,
-                "explanation": "'Scissors' is always plural and takes plural verbs, even though it refers to one object."
-            }
+          {
+            "id": 71,
+            "question": "Neither the teacher nor the students __________ ready for the test.",
+            "options": ["is", "are", "was", "been"],
+            "correct_answer": 1,
+            "explanation": "With 'neither...nor,' the verb agrees with the subject closest to it. 'Students' is plural, so we use 'are.'"
+          },
+          {
+            "id": 72,
+            "question": "The team __________ practicing for the championship.",
+            "options": ["is", "are", "have", "were"],
+            "correct_answer": 0,
+            "explanation": "'Team' is a collective noun that can be singular when referring to the group as a unit. In this context, 'is' is correct."
+          },
+          {
+            "id": 73,
+            "question": "Mathematics __________ my favorite subject in school.",
+            "options": ["is", "are", "were", "have been"],
+            "correct_answer": 0,
+            "explanation": "Subject names ending in -s (like Mathematics, Physics, Economics) are singular and take singular verbs."
+          },
+          {
+            "id": 74,
+            "question": "Each of the books __________ a different story.",
+            "options": ["tell", "tells", "are telling", "have told"],
+            "correct_answer": 1,
+            "explanation": "'Each' is singular, so it takes a singular verb. 'Each tells' is correct."
+          },
+          {
+            "id": 75,
+            "question": "The scissors __________ on the table.",
+            "options": ["is", "are", "was", "has been"],
+            "correct_answer": 1,
+            "explanation": "'Scissors' is always plural and takes plural verbs, even though it refers to one object."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 16,
         "title": "Vocabulary: Business English",
         "questions": [
-            {
-                "id": 76,
-                "question": "The company needs to __________ costs to increase profits.",
-                "options": ["cut down", "cut back", "cut off", "cut up"],
-                "correct_answer": 0,
-                "explanation": "'Cut down costs' means to reduce expenses. This is commonly used in business contexts."
-            },
-            {
-                "id": 77,
-                "question": "We need to __________ our target market before launching the product.",
-                "options": ["identify", "recognize", "realize", "acknowledge"],
-                "correct_answer": 0,
-                "explanation": "'Identify' means to establish who or what someone or something is. In business, we identify target markets."
-            },
-            {
-                "id": 78,
-                "question": "The meeting has been __________ until next Friday.",
-                "options": ["delayed", "postponed", "cancelled", "rescheduled"],
-                "correct_answer": 1,
-                "explanation": "'Postponed' means to delay an event to a later time or date. This is the most appropriate term for business meetings."
-            },
-            {
-                "id": 79,
-                "question": "Our sales have __________ by 20% this quarter.",
-                "options": ["raised", "risen", "arose", "rise"],
-                "correct_answer": 1,
-                "explanation": "'Risen' is the past participle of 'rise' (intransitive). Sales rise by themselves; they are not raised by someone."
-            },
-            {
-                "id": 80,
-                "question": "The project is currently __________ budget.",
-                "options": ["over", "above", "beyond", "past"],
-                "correct_answer": 0,
-                "explanation": "'Over budget' is the standard business expression meaning costs have exceeded the planned amount."
-            }
+          {
+            "id": 76,
+            "question": "The company needs to __________ costs to increase profits.",
+            "options": ["cut down", "cut back", "cut off", "cut up"],
+            "correct_answer": 0,
+            "explanation": "'Cut down costs' means to reduce expenses. This is commonly used in business contexts."
+          },
+          {
+            "id": 77,
+            "question": "We need to __________ our target market before launching the product.",
+            "options": ["identify", "recognize", "realize", "acknowledge"],
+            "correct_answer": 0,
+            "explanation": "'Identify' means to establish who or what someone or something is. In business, we identify target markets."
+          },
+          {
+            "id": 78,
+            "question": "The meeting has been __________ until next Friday.",
+            "options": ["delayed", "postponed", "cancelled", "rescheduled"],
+            "correct_answer": 1,
+            "explanation": "'Postponed' means to delay an event to a later time or date. This is the most appropriate term for business meetings."
+          },
+          {
+            "id": 79,
+            "question": "Our sales have __________ by 20% this quarter.",
+            "options": ["raised", "risen", "arose", "rise"],
+            "correct_answer": 1,
+            "explanation": "'Risen' is the past participle of 'rise' (intransitive). Sales rise by themselves; they are not raised by someone."
+          },
+          {
+            "id": 80,
+            "question": "The project is currently __________ budget.",
+            "options": ["over", "above", "beyond", "past"],
+            "correct_answer": 0,
+            "explanation": "'Over budget' is the standard business expression meaning costs have exceeded the planned amount."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 17,
         "title": "Grammar: Relative Clauses",
         "questions": [
-            {
-                "id": 81,
-                "question": "The book __________ I bought yesterday is very interesting.",
-                "options": ["which", "that", "who", "whom"],
-                "correct_answer": 1,
-                "explanation": "Both 'which' and 'that' can refer to things, but 'that' is more commonly used in defining relative clauses."
-            },
-            {
-                "id": 82,
-                "question": "The woman __________ lives next door is a doctor.",
-                "options": ["which", "that", "who", "whom"],
-                "correct_answer": 2,
-                "explanation": "'Who' is used as the subject of a relative clause when referring to people."
-            },
-            {
-                "id": 83,
-                "question": "This is the restaurant __________ we had dinner last night.",
-                "options": ["which", "where", "that", "when"],
-                "correct_answer": 1,
-                "explanation": "'Where' is used to refer to places in relative clauses. 'This is the restaurant where we had dinner.'"
-            },
-            {
-                "id": 84,
-                "question": "The person __________ you were talking to is my cousin.",
-                "options": ["who", "whom", "which", "that"],
-                "correct_answer": 1,
-                "explanation": "'Whom' is used as the object of a preposition in formal English. 'You were talking to whom.'"
-            },
-            {
-                "id": 85,
-                "question": "I remember the day __________ we first met.",
-                "options": ["which", "where", "when", "that"],
-                "correct_answer": 2,
-                "explanation": "'When' is used to refer to time in relative clauses. 'The day when we first met.'"
-            }
+          {
+            "id": 81,
+            "question": "The book __________ I bought yesterday is very interesting.",
+            "options": ["which", "that", "who", "whom"],
+            "correct_answer": 1,
+            "explanation": "Both 'which' and 'that' can refer to things, but 'that' is more commonly used in defining relative clauses."
+          },
+          {
+            "id": 82,
+            "question": "The woman __________ lives next door is a doctor.",
+            "options": ["which", "that", "who", "whom"],
+            "correct_answer": 2,
+            "explanation": "'Who' is used as the subject of a relative clause when referring to people."
+          },
+          {
+            "id": 83,
+            "question": "This is the restaurant __________ we had dinner last night.",
+            "options": ["which", "where", "that", "when"],
+            "correct_answer": 1,
+            "explanation": "'Where' is used to refer to places in relative clauses. 'This is the restaurant where we had dinner.'"
+          },
+          {
+            "id": 84,
+            "question": "The person __________ you were talking to is my cousin.",
+            "options": ["who", "whom", "which", "that"],
+            "correct_answer": 1,
+            "explanation": "'Whom' is used as the object of a preposition in formal English. 'You were talking to whom.'"
+          },
+          {
+            "id": 85,
+            "question": "I remember the day __________ we first met.",
+            "options": ["which", "where", "when", "that"],
+            "correct_answer": 2,
+            "explanation": "'When' is used to refer to time in relative clauses. 'The day when we first met.'"
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 18,
         "title": "Vocabulary: Academic English",
         "questions": [
-            {
-                "id": 86,
-                "question": "The research __________ that climate change is accelerating.",
-                "options": ["suggests", "advises", "recommends", "proposes"],
-                "correct_answer": 0,
-                "explanation": "In academic contexts, research 'suggests' findings or conclusions based on evidence."
-            },
-            {
-                "id": 87,
-                "question": "The study aims to __________ the relationship between diet and health.",
-                "options": ["examine", "inspect", "observe", "watch"],
-                "correct_answer": 0,
-                "explanation": "'Examine' means to investigate or study something in detail, commonly used in academic research."
-            },
-            {
-                "id": 88,
-                "question": "The data __________ a clear trend in consumer behavior.",
-                "options": ["shows", "demonstrates", "reveals", "all of the above"],
-                "correct_answer": 3,
-                "explanation": "All three verbs (shows, demonstrates, reveals) can be used to describe what data does in academic writing."
-            },
-            {
-                "id": 89,
-                "question": "The author __________ that more research is needed in this area.",
-                "options": ["concludes", "ends", "finishes", "stops"],
-                "correct_answer": 0,
-                "explanation": "In academic writing, authors 'conclude' their arguments or papers with final thoughts or recommendations."
-            },
-            {
-                "id": 90,
-                "question": "The theory __________ by Einstein revolutionized physics.",
-                "options": ["proposed", "offered", "suggested", "presented"],
-                "correct_answer": 0,
-                "explanation": "In academic contexts, theories are 'proposed' by researchers or scientists."
-            }
+          {
+            "id": 86,
+            "question": "The research __________ that climate change is accelerating.",
+            "options": ["suggests", "advises", "recommends", "proposes"],
+            "correct_answer": 0,
+            "explanation": "In academic contexts, research 'suggests' findings or conclusions based on evidence."
+          },
+          {
+            "id": 87,
+            "question": "The study aims to __________ the relationship between diet and health.",
+            "options": ["examine", "inspect", "observe", "watch"],
+            "correct_answer": 0,
+            "explanation": "'Examine' means to investigate or study something in detail, commonly used in academic research."
+          },
+          {
+            "id": 88,
+            "question": "The data __________ a clear trend in consumer behavior.",
+            "options": ["shows", "demonstrates", "reveals", "all of the above"],
+            "correct_answer": 3,
+            "explanation": "All three verbs (shows, demonstrates, reveals) can be used to describe what data does in academic writing."
+          },
+          {
+            "id": 89,
+            "question": "The author __________ that more research is needed in this area.",
+            "options": ["concludes", "ends", "finishes", "stops"],
+            "correct_answer": 0,
+            "explanation": "In academic writing, authors 'conclude' their arguments or papers with final thoughts or recommendations."
+          },
+          {
+            "id": 90,
+            "question": "The theory __________ by Einstein revolutionized physics.",
+            "options": ["proposed", "offered", "suggested", "presented"],
+            "correct_answer": 0,
+            "explanation": "In academic contexts, theories are 'proposed' by researchers or scientists."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 19,
         "title": "Grammar: Subjunctive Mood",
         "questions": [
-            {
-                "id": 91,
-                "question": "I suggest that he __________ more carefully next time.",
-                "options": ["drives", "drive", "driving", "to drive"],
-                "correct_answer": 1,
-                "explanation": "After 'suggest that,' we use the subjunctive mood, which is the base form of the verb without 's' for third person."
-            },
-            {
-                "id": 92,
-                "question": "If I __________ you, I would accept the job offer.",
-                "options": ["am", "was", "were", "be"],
-                "correct_answer": 2,
-                "explanation": "In hypothetical conditions, we use 'were' for all persons in the subjunctive mood."
-            },
-            {
-                "id": 93,
-                "question": "It's important that she __________ on time for the interview.",
-                "options": ["is", "be", "being", "to be"],
-                "correct_answer": 1,
-                "explanation": "After expressions like 'it's important that,' we use the subjunctive mood (base form of the verb)."
-            },
-            {
-                "id": 94,
-                "question": "I wish I __________ more time to finish the project.",
-                "options": ["have", "had", "having", "to have"],
-                "correct_answer": 1,
-                "explanation": "After 'I wish,' we use the past tense to express a present unreal situation."
-            },
-            {
-                "id": 95,
-                "question": "The teacher demanded that the student __________ the test.",
-                "options": ["retakes", "retake", "retaking", "to retake"],
-                "correct_answer": 1,
-                "explanation": "After verbs like 'demand that,' we use the subjunctive mood (base form of the verb)."
-            }
+          {
+            "id": 91,
+            "question": "I suggest that he __________ more carefully next time.",
+            "options": ["drives", "drive", "driving", "to drive"],
+            "correct_answer": 1,
+            "explanation": "After 'suggest that,' we use the subjunctive mood, which is the base form of the verb without 's' for third person."
+          },
+          {
+            "id": 92,
+            "question": "If I __________ you, I would accept the job offer.",
+            "options": ["am", "was", "were", "be"],
+            "correct_answer": 2,
+            "explanation": "In hypothetical conditions, we use 'were' for all persons in the subjunctive mood."
+          },
+          {
+            "id": 93,
+            "question": "It's important that she __________ on time for the interview.",
+            "options": ["is", "be", "being", "to be"],
+            "correct_answer": 1,
+            "explanation": "After expressions like 'it's important that,' we use the subjunctive mood (base form of the verb)."
+          },
+          {
+            "id": 94,
+            "question": "I wish I __________ more time to finish the project.",
+            "options": ["have", "had", "having", "to have"],
+            "correct_answer": 1,
+            "explanation": "After 'I wish,' we use the past tense to express a present unreal situation."
+          },
+          {
+            "id": 95,
+            "question": "The teacher demanded that the student __________ the test.",
+            "options": ["retakes", "retake", "retaking", "to retake"],
+            "correct_answer": 1,
+            "explanation": "After verbs like 'demand that,' we use the subjunctive mood (base form of the verb)."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 20,
         "title": "Vocabulary: Technology & Digital Life",
         "questions": [
-            {
-                "id": 96,
-                "question": "Please make sure to __________ your work before closing the application.",
-                "options": ["save", "store", "keep", "maintain"],
-                "correct_answer": 0,
-                "explanation": "In computing, we 'save' files or documents to preserve our work."
-            },
-            {
-                "id": 97,
-                "question": "The website is currently __________ maintenance and will be back online soon.",
-                "options": ["under", "in", "on", "at"],
-                "correct_answer": 0,
-                "explanation": "'Under maintenance' is the standard expression for when a website or system is being updated or repaired."
-            },
-            {
-                "id": 98,
-                "question": "You need to __________ the software to get the latest features.",
-                "options": ["update", "upgrade", "upload", "download"],
-                "correct_answer": 0,
-                "explanation": "'Update' means to make something more current by adding new information or features."
-            },
-            {
-                "id": 99,
-                "question": "The app allows you to __________ photos directly to social media.",
-                "options": ["upload", "download", "update", "upgrade"],
-                "correct_answer": 0,
-                "explanation": "'Upload' means to transfer data from your device to another system or server."
-            },
-            {
-                "id": 100,
-                "question": "Make sure your password is __________ to protect your account.",
-                "options": ["strong", "hard", "tough", "firm"],
-                "correct_answer": 0,
-                "explanation": "In cybersecurity, we use 'strong password' to describe a secure password with various characters."
-            }
+          {
+            "id": 96,
+            "question": "Please make sure to __________ your work before closing the application.",
+            "options": ["save", "store", "keep", "maintain"],
+            "correct_answer": 0,
+            "explanation": "In computing, we 'save' files or documents to preserve our work."
+          },
+          {
+            "id": 97,
+            "question": "The website is currently __________ maintenance and will be back online soon.",
+            "options": ["under", "in", "on", "at"],
+            "correct_answer": 0,
+            "explanation": "'Under maintenance' is the standard expression for when a website or system is being updated or repaired."
+          },
+          {
+            "id": 98,
+            "question": "You need to __________ the software to get the latest features.",
+            "options": ["update", "upgrade", "upload", "download"],
+            "correct_answer": 0,
+            "explanation": "'Update' means to make something more current by adding new information or features."
+          },
+          {
+            "id": 99,
+            "question": "The app allows you to __________ photos directly to social media.",
+            "options": ["upload", "download", "update", "upgrade"],
+            "correct_answer": 0,
+            "explanation": "'Upload' means to transfer data from your device to another system or server."
+          },
+          {
+            "id": 100,
+            "question": "Make sure your password is __________ to protect your account.",
+            "options": ["strong", "hard", "tough", "firm"],
+            "correct_answer": 0,
+            "explanation": "In cybersecurity, we use 'strong password' to describe a secure password with various characters."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 21,
         "title": "Grammar: Advanced Tenses & Aspects",
         "questions": [
-            {
-                "id": 101,
-                "question": "By next year, I __________ at this company for ten years.",
-                "options": ["will work", "will be working", "will have worked", "will have been working"],
-                "correct_answer": 3,
-                "explanation": "Future perfect continuous is used for actions that will continue until a point in the future. 'Will have been working' shows duration."
-            },
-            {
-                "id": 102,
-                "question": "She __________ when I called her yesterday evening.",
-                "options": ["cooked", "was cooking", "had cooked", "had been cooking"],
-                "correct_answer": 1,
-                "explanation": "Past continuous describes an action in progress when another action occurred. 'Was cooking' shows the ongoing action."
-            },
-            {
-                "id": 103,
-                "question": "I __________ my keys everywhere, but I can't find them.",
-                "options": ["looked", "am looking", "have looked", "have been looking"],
-                "correct_answer": 3,
-                "explanation": "Present perfect continuous emphasizes the ongoing nature of the search that continues to the present."
-            },
-            {
-                "id": 104,
-                "question": "They __________ for three hours before the rescue team arrived.",
-                "options": ["waited", "were waiting", "had waited", "had been waiting"],
-                "correct_answer": 3,
-                "explanation": "Past perfect continuous shows an action that continued for a period before another past action."
-            },
-            {
-                "id": 105,
-                "question": "This time tomorrow, we __________ over the Pacific Ocean.",
-                "options": ["fly", "will fly", "will be flying", "will have flown"],
-                "correct_answer": 2,
-                "explanation": "Future continuous describes an action that will be in progress at a specific time in the future."
-            }
+          {
+            "id": 101,
+            "question": "By next year, I __________ at this company for ten years.",
+            "options": ["will work", "will be working", "will have worked", "will have been working"],
+            "correct_answer": 3,
+            "explanation": "Future perfect continuous is used for actions that will continue until a point in the future. 'Will have been working' shows duration."
+          },
+          {
+            "id": 102,
+            "question": "She __________ when I called her yesterday evening.",
+            "options": ["cooked", "was cooking", "had cooked", "had been cooking"],
+            "correct_answer": 1,
+            "explanation": "Past continuous describes an action in progress when another action occurred. 'Was cooking' shows the ongoing action."
+          },
+          {
+            "id": 103,
+            "question": "I __________ my keys everywhere, but I can't find them.",
+            "options": ["looked", "am looking", "have looked", "have been looking"],
+            "correct_answer": 3,
+            "explanation": "Present perfect continuous emphasizes the ongoing nature of the search that continues to the present."
+          },
+          {
+            "id": 104,
+            "question": "They __________ for three hours before the rescue team arrived.",
+            "options": ["waited", "were waiting", "had waited", "had been waiting"],
+            "correct_answer": 3,
+            "explanation": "Past perfect continuous shows an action that continued for a period before another past action."
+          },
+          {
+            "id": 105,
+            "question": "This time tomorrow, we __________ over the Pacific Ocean.",
+            "options": ["fly", "will fly", "will be flying", "will have flown"],
+            "correct_answer": 2,
+            "explanation": "Future continuous describes an action that will be in progress at a specific time in the future."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 22,
         "title": "Vocabulary: Idiomatic Expressions",
         "questions": [
-            {
-                "id": 106,
-                "question": "When he told me he won the lottery, I thought he was __________.",
-                "options": ["pulling my leg", "breaking a leg", "all ears", "biting the bullet"],
-                "correct_answer": 0,
-                "explanation": "'Pulling my leg' is an idiom that means to joke or trick someone."
-            },
-            {
-                "id": 107,
-                "question": "I'm feeling a bit under the __________ today, so I'm staying home.",
-                "options": ["weather", "cloud", "rain", "sun"],
-                "correct_answer": 0,
-                "explanation": "'Under the weather' means to feel unwell or sick."
-            },
-            {
-                "id": 108,
-                "question": "The new project was a blessing in __________; it brought unexpected opportunities.",
-                "options": ["the sky", "a dream", "disguise", "secret"],
-                "correct_answer": 2,
-                "explanation": "A 'blessing in disguise' is something that seems bad at first but results in something good."
-            },
-            {
-                "id": 109,
-                "question": "Don't __________; tell me exactly what happened.",
-                "options": ["cut to the chase", "beat around the bush", "spill the beans", "hit the road"],
-                "correct_answer": 1,
-                "explanation": "'Beat around the bush' means to avoid talking about the main topic."
-            },
-            {
-                "id": 110,
-                "question": "Learning a new language is difficult, but __________! You'll get there.",
-                "options": ["hang in there", "let the cat out of the bag", "call it a day", "get cold feet"],
-                "correct_answer": 0,
-                "explanation": "'Hang in there' is an expression of encouragement to persist despite difficulties."
-            }
+          {
+            "id": 106,
+            "question": "When he told me he won the lottery, I thought he was __________.",
+            "options": ["pulling my leg", "breaking a leg", "all ears", "biting the bullet"],
+            "correct_answer": 0,
+            "explanation": "'Pulling my leg' is an idiom that means to joke or trick someone."
+          },
+          {
+            "id": 107,
+            "question": "I'm feeling a bit under the __________ today, so I'm staying home.",
+            "options": ["weather", "cloud", "rain", "sun"],
+            "correct_answer": 0,
+            "explanation": "'Under the weather' means to feel unwell or sick."
+          },
+          {
+            "id": 108,
+            "question": "The new project was a blessing in __________; it brought unexpected opportunities.",
+            "options": ["the sky", "a dream", "disguise", "secret"],
+            "correct_answer": 2,
+            "explanation": "A 'blessing in disguise' is something that seems bad at first but results in something good."
+          },
+          {
+            "id": 109,
+            "question": "Don't __________; tell me exactly what happened.",
+            "options": ["cut to the chase", "beat around the bush", "spill the beans", "hit the road"],
+            "correct_answer": 1,
+            "explanation": "'Beat around the bush' means to avoid talking about the main topic."
+          },
+          {
+            "id": 110,
+            "question": "Learning a new language is difficult, but __________! You'll get there.",
+            "options": ["hang in there", "let the cat out of the bag", "call it a day", "get cold feet"],
+            "correct_answer": 0,
+            "explanation": "'Hang in there' is an expression of encouragement to persist despite difficulties."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 23,
         "title": "Grammar: Punctuation",
         "questions": [
-            {
-                "id": 111,
-                "question": "Which sentence is punctuated correctly?",
-                "options": ["Let's eat Grandma.", "Lets eat Grandma.", "Let's eat, Grandma.", "Lets eat, Grandma."],
-                "correct_answer": 2,
-                "explanation": "The comma is crucial here to separate the direct address ('Grandma') from the suggestion. Without it, the sentence suggests eating Grandma."
-            },
-            {
-                "id": 112,
-                "question": "I need to buy three things___ milk, bread, and eggs.",
-                "options": [";", ",", ":", "."],
-                "correct_answer": 2,
-                "explanation": "A colon is used to introduce a list of items after an independent clause."
-            },
-            {
-                "id": 113,
-                "question": "The company___s profits have increased this year.",
-                "options": ["'", "'s", "s'", "s"],
-                "correct_answer": 0,
-                "explanation": "To show possession for a singular noun ('company'), we use an apostrophe followed by 's'."
-            },
-            {
-                "id": 114,
-                "question": "She is a well___respected author.",
-                "options": ["-", " ", "—", ""],
-                "correct_answer": 0,
-                "explanation": "A hyphen is used to join two or more words serving as a single adjective before a noun ('well-respected')."
-            },
-            {
-                "id": 115,
-                "question": "He asked___ 'Where are you going___'",
-                "options": [", ?", " ; ?", ", .", " . ?"],
-                "correct_answer": 0,
-                "explanation": "A comma is used to introduce direct speech, and the question mark goes inside the quotation marks because the quote itself is a question."
-            }
+          {
+            "id": 111,
+            "question": "Which sentence is punctuated correctly?",
+            "options": ["Let's eat Grandma.", "Lets eat Grandma.", "Let's eat, Grandma.", "Lets eat, Grandma."],
+            "correct_answer": 2,
+            "explanation": "The comma is crucial here to separate the direct address ('Grandma') from the suggestion. Without it, the sentence suggests eating Grandma."
+          },
+          {
+            "id": 112,
+            "question": "I need to buy three things___ milk, bread, and eggs.",
+            "options": [";", ",", ":", "."],
+            "correct_answer": 2,
+            "explanation": "A colon is used to introduce a list of items after an independent clause."
+          },
+          {
+            "id": 113,
+            "question": "The company___s profits have increased this year.",
+            "options": ["'", "'s", "s'", "s"],
+            "correct_answer": 0,
+            "explanation": "To show possession for a singular noun ('company'), we use an apostrophe followed by 's'."
+          },
+          {
+            "id": 114,
+            "question": "She is a well___respected author.",
+            "options": ["-", " ", "—", ""],
+            "correct_answer": 0,
+            "explanation": "A hyphen is used to join two or more words serving as a single adjective before a noun ('well-respected')."
+          },
+          {
+            "id": 115,
+            "question": "He asked___ 'Where are you going___'",
+            "options": [", ?", " ; ?", ", .", " . ?"],
+            "correct_answer": 0,
+            "explanation": "A comma is used to introduce direct speech, and the question mark goes inside the quotation marks because the quote itself is a question."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 24,
         "title": "Vocabulary: Word Forms",
         "questions": [
-            {
-                "id": 116,
-                "question": "The __________ of the new product was a huge success.",
-                "options": ["create", "creation", "creative", "creator"],
-                "correct_answer": 1,
-                "explanation": "The noun 'creation' is needed here as the subject of the sentence."
-            },
-            {
-                "id": 117,
-                "question": "You need to be more __________ when solving these problems.",
-                "options": ["system", "systematic", "systematize", "systemically"],
-                "correct_answer": 1,
-                "explanation": "The adjective 'systematic' is needed to describe the noun 'you' (implied in how you should be)."
-            },
-            {
-                "id": 118,
-                "question": "His speech __________ the audience to take action.",
-                "options": ["motivation", "motivate", "motivated", "motivating"],
-                "correct_answer": 2,
-                "explanation": "The past tense verb 'motivated' is needed to describe the action of the speech."
-            },
-            {
-                "id": 119,
-                "question": "The __________ of the experiment was carefully planned.",
-                "options": ["procedural", "proceed", "procedure", "proceeding"],
-                "correct_answer": 2,
-                "explanation": "The noun 'procedure' is the correct word form to refer to the process or plan."
-            },
-            {
-                "id": 120,
-                "question": "It is __________ that you attend the meeting.",
-                "options": ["advise", "advisable", "advice", "advising"],
-                "correct_answer": 1,
-                "explanation": "The adjective 'advisable' is needed to describe the situation ('It is advisable...')."
-            }
+          {
+            "id": 116,
+            "question": "The __________ of the new product was a huge success.",
+            "options": ["create", "creation", "creative", "creator"],
+            "correct_answer": 1,
+            "explanation": "The noun 'creation' is needed here as the subject of the sentence."
+          },
+          {
+            "id": 117,
+            "question": "You need to be more __________ when solving these problems.",
+            "options": ["system", "systematic", "systematize", "systemically"],
+            "correct_answer": 1,
+            "explanation": "The adjective 'systematic' is needed to describe the noun 'you' (implied in how you should be)."
+          },
+          {
+            "id": 118,
+            "question": "His speech __________ the audience to take action.",
+            "options": ["motivation", "motivate", "motivated", "motivating"],
+            "correct_answer": 2,
+            "explanation": "The past tense verb 'motivated' is needed to describe the action of the speech."
+          },
+          {
+            "id": 119,
+            "question": "The __________ of the experiment was carefully planned.",
+            "options": ["procedural", "proceed", "procedure", "proceeding"],
+            "correct_answer": 2,
+            "explanation": "The noun 'procedure' is the correct word form to refer to the process or plan."
+          },
+          {
+            "id": 120,
+            "question": "It is __________ that you attend the meeting.",
+            "options": ["advise", "advisable", "advice", "advising"],
+            "correct_answer": 1,
+            "explanation": "The adjective 'advisable' is needed to describe the situation ('It is advisable...')."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 25,
         "title": "Grammar: Conjunctions & Connectors",
         "questions": [
-            {
-                "id": 121,
-                "question": "He is very tired; __________, he will continue working.",
-                "options": ["however", "therefore", "because", "so"],
-                "correct_answer": 0,
-                "explanation": "'However' is a connector used to show contrast between two ideas."
-            },
-            {
-                "id": 122,
-                "question": "She studied hard, __________ she passed the exam easily.",
-                "options": ["but", "or", "so", "for"],
-                "correct_answer": 2,
-                "explanation": "'So' is a coordinating conjunction used to show a result or consequence."
-            },
-            {
-                "id": 123,
-                "question": "__________ it was raining, they cancelled the picnic.",
-                "options": ["Although", "Because", "Despite", "Unless"],
-                "correct_answer": 1,
-                "explanation": "'Because' is a subordinating conjunction used to give a reason."
-            },
-            {
-                "id": 124,
-                "question": "You can have tea __________ coffee, but not both.",
-                "options": ["and", "but", "so", "or"],
-                "correct_answer": 3,
-                "explanation": "'Or' is a coordinating conjunction used to present alternatives."
-            },
-            {
-                "id": 125,
-                "question": "__________ the bad weather, the flight was on time.",
-                "options": ["In spite", "Although", "Despite", "Because of"],
-                "correct_answer": 2,
-                "explanation": "'Despite' is a preposition used to show contrast and is followed by a noun or noun phrase ('the bad weather')."
-            }
+          {
+            "id": 121,
+            "question": "He is very tired; __________, he will continue working.",
+            "options": ["however", "therefore", "because", "so"],
+            "correct_answer": 0,
+            "explanation": "'However' is a connector used to show contrast between two ideas."
+          },
+          {
+            "id": 122,
+            "question": "She studied hard, __________ she passed the exam easily.",
+            "options": ["but", "or", "so", "for"],
+            "correct_answer": 2,
+            "explanation": "'So' is a coordinating conjunction used to show a result or consequence."
+          },
+          {
+            "id": 123,
+            "question": "__________ it was raining, they cancelled the picnic.",
+            "options": ["Although", "Because", "Despite", "Unless"],
+            "correct_answer": 1,
+            "explanation": "'Because' is a subordinating conjunction used to give a reason."
+          },
+          {
+            "id": 124,
+            "question": "You can have tea __________ coffee, but not both.",
+            "options": ["and", "but", "so", "or"],
+            "correct_answer": 3,
+            "explanation": "'Or' is a coordinating conjunction used to present alternatives."
+          },
+          {
+            "id": 125,
+            "question": "__________ the bad weather, the flight was on time.",
+            "options": ["In spite", "Although", "Despite", "Because of"],
+            "correct_answer": 2,
+            "explanation": "'Despite' is a preposition used to show contrast and is followed by a noun or noun phrase ('the bad weather')."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 26,
         "title": "Vocabulary: Figurative Language",
         "questions": [
-            {
-                "id": 126,
-                "question": "Which of these is a simile?",
-                "options": ["He is a lion in battle.", "Her voice is music to his ears.", "He runs as fast as the wind.", "The world is a stage."],
-                "correct_answer": 2,
-                "explanation": "A simile is a figure of speech that directly compares two things using 'like' or 'as'. 'As fast as the wind' is a simile."
-            },
-            {
-                "id": 127,
-                "question": "'The city was a concrete jungle.' This is an example of a __________.",
-                "options": ["simile", "metaphor", "personification", "hyperbole"],
-                "correct_answer": 1,
-                "explanation": "A metaphor is a figure of speech that directly compares two unlike things without using 'like' or 'as'."
-            },
-            {
-                "id": 128,
-                "question": "'The wind whispered through the trees.' This sentence uses __________.",
-                "options": ["onomatopoeia", "personification", "alliteration", "assonance"],
-                "correct_answer": 1,
-                "explanation": "Personification gives human qualities or abilities to inanimate objects or ideas. Wind cannot literally whisper."
-            },
-            {
-                "id": 129,
-                "question": "'I've told you a million times!' is an example of __________.",
-                "options": ["understatement", "irony", "hyperbole", "paradox"],
-                "correct_answer": 2,
-                "explanation": "Hyperbole is an exaggerated statement or claim not meant to be taken literally, used for emphasis."
-            },
-            {
-                "id": 130,
-                "question": "'The buzzing bee flew by.' The word 'buzzing' is an example of __________.",
-                "options": ["personification", "simile", "metaphor", "onomatopoeia"],
-                "correct_answer": 3,
-                "explanation": "Onomatopoeia is the formation of a word from a sound associated with what is named."
-            }
+          {
+            "id": 126,
+            "question": "Which of these is a simile?",
+            "options": ["He is a lion in battle.", "Her voice is music to his ears.", "He runs as fast as the wind.", "The world is a stage."],
+            "correct_answer": 2,
+            "explanation": "A simile is a figure of speech that directly compares two things using 'like' or 'as'. 'As fast as the wind' is a simile."
+          },
+          {
+            "id": 127,
+            "question": "'The city was a concrete jungle.' This is an example of a __________.",
+            "options": ["simile", "metaphor", "personification", "hyperbole"],
+            "correct_answer": 1,
+            "explanation": "A metaphor is a figure of speech that directly compares two unlike things without using 'like' or 'as'."
+          },
+          {
+            "id": 128,
+            "question": "'The wind whispered through the trees.' This sentence uses __________.",
+            "options": ["onomatopoeia", "personification", "alliteration", "assonance"],
+            "correct_answer": 1,
+            "explanation": "Personification gives human qualities or abilities to inanimate objects or ideas. Wind cannot literally whisper."
+          },
+          {
+            "id": 129,
+            "question": "'I've told you a million times!' is an example of __________.",
+            "options": ["understatement", "irony", "hyperbole", "paradox"],
+            "correct_answer": 2,
+            "explanation": "Hyperbole is an exaggerated statement or claim not meant to be taken literally, used for emphasis."
+          },
+          {
+            "id": 130,
+            "question": "'The buzzing bee flew by.' The word 'buzzing' is an example of __________.",
+            "options": ["personification", "simile", "metaphor", "onomatopoeia"],
+            "correct_answer": 3,
+            "explanation": "Onomatopoeia is the formation of a word from a sound associated with what is named."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 27,
         "title": "Grammar: Sentence Correction",
         "questions": [
-            {
-                "id": 131,
-                "question": "Identify the error: 'The man, who lives next door, are a famous actor.'",
-                "options": ["The man", "who lives", "are a famous", "no error"],
-                "correct_answer": 2,
-                "explanation": "The subject is 'The man' (singular), so the verb should be 'is', not 'are'. This is a subject-verb agreement error."
-            },
-            {
-                "id": 132,
-                "question": "Find the error: 'I am very interesting in learning new languages.'",
-                "options": ["I am", "very interesting", "in learning", "no error"],
-                "correct_answer": 1,
-                "explanation": "The adjective should be 'interested' to describe a feeling. 'Interesting' describes something that causes interest."
-            },
-            {
-                "id": 133,
-                "question": "Which part is incorrect? 'She did her homework very quick.'",
-                "options": ["She did", "her homework", "very quick", "no error"],
-                "correct_answer": 2,
-                "explanation": "An adverb is needed to modify the verb 'did'. The correct adverb is 'quickly', not the adjective 'quick'."
-            },
-            {
-                "id": 134,
-                "question": "Locate the error: 'Despite of the rain, we went for a walk.'",
-                "options": ["Despite of", "the rain", "we went", "no error"],
-                "correct_answer": 0,
-                "explanation": "The correct expression is 'despite' or 'in spite of'. 'Despite of' is grammatically incorrect."
-            },
-            {
-                "id": 135,
-                "question": "Find the mistake: 'There is many reasons why we should recycle.'",
-                "options": ["There is", "many reasons", "why we should", "no error"],
-                "correct_answer": 0,
-                "explanation": "The subject is 'many reasons' (plural), so the verb should be 'There are', not 'There is'."
-            }
+          {
+            "id": 131,
+            "question": "Identify the error: 'The man, who lives next door, are a famous actor.'",
+            "options": ["The man", "who lives", "are a famous", "no error"],
+            "correct_answer": 2,
+            "explanation": "The subject is 'The man' (singular), so the verb should be 'is', not 'are'. This is a subject-verb agreement error."
+          },
+          {
+            "id": 132,
+            "question": "Find the error: 'I am very interesting in learning new languages.'",
+            "options": ["I am", "very interesting", "in learning", "no error"],
+            "correct_answer": 1,
+            "explanation": "The adjective should be 'interested' to describe a feeling. 'Interesting' describes something that causes interest."
+          },
+          {
+            "id": 133,
+            "question": "Which part is incorrect? 'She did her homework very quick.'",
+            "options": ["She did", "her homework", "very quick", "no error"],
+            "correct_answer": 2,
+            "explanation": "An adverb is needed to modify the verb 'did'. The correct adverb is 'quickly', not the adjective 'quick'."
+          },
+          {
+            "id": 134,
+            "question": "Locate the error: 'Despite of the rain, we went for a walk.'",
+            "options": ["Despite of", "the rain", "we went", "no error"],
+            "correct_answer": 0,
+            "explanation": "The correct expression is 'despite' or 'in spite of'. 'Despite of' is grammatically incorrect."
+          },
+          {
+            "id": 135,
+            "question": "Find the mistake: 'There is many reasons why we should recycle.'",
+            "options": ["There is", "many reasons", "why we should", "no error"],
+            "correct_answer": 0,
+            "explanation": "The subject is 'many reasons' (plural), so the verb should be 'There are', not 'There is'."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 28,
         "title": "Vocabulary: Travel & Tourism",
         "questions": [
-            {
-                "id": 136,
-                "question": "We had to book our __________ to Paris three months in advance.",
-                "options": ["accommodations", "locations", "settings", "places"],
-                "correct_answer": 0,
-                "explanation": "'Accommodations' refers to a place to stay, such as a hotel or apartment, when traveling."
-            },
-            {
-                "id": 137,
-                "question": "The all-inclusive __________ included flights, hotel, and meals.",
-                "options": ["journey", "package", "voyage", "trip"],
-                "correct_answer": 1,
-                "explanation": "A 'package' or 'package deal' in tourism refers to a bundle of services sold together for one price."
-            },
-            {
-                "id": 138,
-                "question": "Before you travel abroad, make sure your passport is __________.",
-                "options": ["valid", "true", "correct", "authentic"],
-                "correct_answer": 0,
-                "explanation": "A 'valid' passport is one that is legally acceptable and has not expired."
-            },
-            {
-                "id": 139,
-                "question": "The local guide gave us a fantastic __________ of the old city.",
-                "options": ["tour", "walk", "excursion", "view"],
-                "correct_answer": 0,
-                "explanation": "A 'tour' is a journey for pleasure in which several different places are visited."
-            },
-            {
-                "id": 140,
-                "question": "I always buy a small __________ to remember the places I visit.",
-                "options": ["souvenir", "memory", "relic", "gift"],
-                "correct_answer": 0,
-                "explanation": "A 'souvenir' is a thing that is kept as a reminder of a person, place, or event."
-            }
+          {
+            "id": 136,
+            "question": "We had to book our __________ to Paris three months in advance.",
+            "options": ["accommodations", "locations", "settings", "places"],
+            "correct_answer": 0,
+            "explanation": "'Accommodations' refers to a place to stay, such as a hotel or apartment, when traveling."
+          },
+          {
+            "id": 137,
+            "question": "The all-inclusive __________ included flights, hotel, and meals.",
+            "options": ["journey", "package", "voyage", "trip"],
+            "correct_answer": 1,
+            "explanation": "A 'package' or 'package deal' in tourism refers to a bundle of services sold together for one price."
+          },
+          {
+            "id": 138,
+            "question": "Before you travel abroad, make sure your passport is __________.",
+            "options": ["valid", "true", "correct", "authentic"],
+            "correct_answer": 0,
+            "explanation": "A 'valid' passport is one that is legally acceptable and has not expired."
+          },
+          {
+            "id": 139,
+            "question": "The local guide gave us a fantastic __________ of the old city.",
+            "options": ["tour", "walk", "excursion", "view"],
+            "correct_answer": 0,
+            "explanation": "A 'tour' is a journey for pleasure in which several different places are visited."
+          },
+          {
+            "id": 140,
+            "question": "I always buy a small __________ to remember the places I visit.",
+            "options": ["souvenir", "memory", "relic", "gift"],
+            "correct_answer": 0,
+            "explanation": "A 'souvenir' is a thing that is kept as a reminder of a person, place, or event."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 29,
         "title": "Grammar: Determiners",
         "questions": [
-            {
-                "id": 141,
-                "question": "I don't have __________ money with me right now.",
-                "options": ["some", "any", "no", "a lot"],
-                "correct_answer": 1,
-                "explanation": "'Any' is typically used in negative sentences and questions with uncountable nouns like 'money'."
-            },
-            {
-                "id": 142,
-                "question": "__________ of the two options is good; you can't go wrong.",
-                "options": ["Each", "Every", "Either", "Both"],
-                "correct_answer": 2,
-                "explanation": "'Either' is used to refer to one of two people or things. The singular verb 'is' also points to 'Either'."
-            },
-            {
-                "id": 143,
-                "question": "There are __________ cookies left in the jar, maybe two or three.",
-                "options": ["a little", "little", "a few", "few"],
-                "correct_answer": 2,
-                "explanation": "'A few' is used with countable nouns to mean a small, positive number."
-            },
-            {
-                "id": 144,
-                "question": "I have __________ interest in politics; it really bores me.",
-                "options": ["a little", "little", "a few", "few"],
-                "correct_answer": 1,
-                "explanation": "'Little' (without 'a') is used with uncountable nouns to mean almost none, indicating a negative amount."
-            },
-            {
-                "id": 145,
-                "question": "Could you pass me __________ book on the top shelf?",
-                "options": ["a", "an", "the", "that"],
-                "correct_answer": 3,
-                "explanation": "'That' is a demonstrative determiner used to point out something specific that is at a distance."
-            }
+          {
+            "id": 141,
+            "question": "I don't have __________ money with me right now.",
+            "options": ["some", "any", "no", "a lot"],
+            "correct_answer": 1,
+            "explanation": "'Any' is typically used in negative sentences and questions with uncountable nouns like 'money'."
+          },
+          {
+            "id": 142,
+            "question": "__________ of the two options is good; you can't go wrong.",
+            "options": ["Each", "Every", "Either", "Both"],
+            "correct_answer": 2,
+            "explanation": "'Either' is used to refer to one of two people or things. The singular verb 'is' also points to 'Either'."
+          },
+          {
+            "id": 143,
+            "question": "There are __________ cookies left in the jar, maybe two or three.",
+            "options": ["a little", "little", "a few", "few"],
+            "correct_answer": 2,
+            "explanation": "'A few' is used with countable nouns to mean a small, positive number."
+          },
+          {
+            "id": 144,
+            "question": "I have __________ interest in politics; it really bores me.",
+            "options": ["a little", "little", "a few", "few"],
+            "correct_answer": 1,
+            "explanation": "'Little' (without 'a') is used with uncountable nouns to mean almost none, indicating a negative amount."
+          },
+          {
+            "id": 145,
+            "question": "Could you pass me __________ book on the top shelf?",
+            "options": ["a", "an", "the", "that"],
+            "correct_answer": 3,
+            "explanation": "'That' is a demonstrative determiner used to point out something specific that is at a distance."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 30,
         "title": "Vocabulary: Words for Emotions",
         "questions": [
-            {
-                "id": 146,
-                "question": "She was __________ when she heard she had won the award.",
-                "options": ["melancholy", "ecstatic", "apprehensive", "somber"],
-                "correct_answer": 1,
-                "explanation": "'Ecstatic' means feeling overwhelming happiness or joyful excitement."
-            },
-            {
-                "id": 147,
-                "question": "He felt __________ about his upcoming job interview.",
-                "options": ["jubilant", "elated", "apprehensive", "content"],
-                "correct_answer": 2,
-                "explanation": "'Apprehensive' means anxious or fearful that something bad or unpleasant will happen."
-            },
-            {
-                "id": 148,
-                "question": "After a long day, she felt __________ and just wanted to rest.",
-                "options": ["weary", "energetic", "vivacious", "exuberant"],
-                "correct_answer": 0,
-                "explanation": "'Weary' means feeling or showing extreme tiredness, especially as a result of excessive exertion."
-            },
-            {
-                "id": 149,
-                "question": "The news of the tragedy left everyone in a __________ mood.",
-                "options": ["gleeful", "jovial", "somber", "upbeat"],
-                "correct_answer": 2,
-                "explanation": "'Somber' means dark or dull in color or tone; gloomy."
-            },
-            {
-                "id": 150,
-                "question": "Despite the challenges, he remained __________ about the future.",
-                "options": ["pessimistic", "optimistic", "cynical", "doubtful"],
-                "correct_answer": 1,
-                "explanation": "'Optimistic' means hopeful and confident about the future."
-            }
+          {
+            "id": 146,
+            "question": "She was __________ when she heard she had won the award.",
+            "options": ["melancholy", "ecstatic", "apprehensive", "somber"],
+            "correct_answer": 1,
+            "explanation": "'Ecstatic' means feeling overwhelming happiness or joyful excitement."
+          },
+          {
+            "id": 147,
+            "question": "He felt __________ about his upcoming job interview.",
+            "options": ["jubilant", "elated", "apprehensive", "content"],
+            "correct_answer": 2,
+            "explanation": "'Apprehensive' means anxious or fearful that something bad or unpleasant will happen."
+          },
+          {
+            "id": 148,
+            "question": "After a long day, she felt __________ and just wanted to rest.",
+            "options": ["weary", "energetic", "vivacious", "exuberant"],
+            "correct_answer": 0,
+            "explanation": "'Weary' means feeling or showing extreme tiredness, especially as a result of excessive exertion."
+          },
+          {
+            "id": 149,
+            "question": "The news of the tragedy left everyone in a __________ mood.",
+            "options": ["gleeful", "jovial", "somber", "upbeat"],
+            "correct_answer": 2,
+            "explanation": "'Somber' means dark or dull in color or tone; gloomy."
+          },
+          {
+            "id": 150,
+            "question": "Despite the challenges, he remained __________ about the future.",
+            "options": ["pessimistic", "optimistic", "cynical", "doubtful"],
+            "correct_answer": 1,
+            "explanation": "'Optimistic' means hopeful and confident about the future."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 31,
         "title": "Grammar: Question Tags",
         "questions": [
-            {
-                "id": 151,
-                "question": "You're coming to the party, __________?",
-                "options": ["are you", "aren't you", "do you", "don't you"],
-                "correct_answer": 1,
-                "explanation": "A positive statement ('You are...') is followed by a negative tag ('...aren't you?')."
-            },
-            {
-                "id": 152,
-                "question": "He didn't finish his homework, __________?",
-                "options": ["did he", "didn't he", "does he", "doesn't he"],
-                "correct_answer": 0,
-                "explanation": "A negative statement ('He didn't...') is followed by a positive tag ('...did he?')."
-            },
-            {
-                "id": 153,
-                "question": "Let's go for a walk, __________?",
-                "options": ["shall we", "should we", "will we", "do we"],
-                "correct_answer": 0,
-                "explanation": "For suggestions starting with 'Let's', the question tag is 'shall we?'."
-            },
-            {
-                "id": 154,
-                "question": "I am right, __________?",
-                "options": ["am I not", "amn't I", "aren't I", "are I"],
-                "correct_answer": 2,
-                "explanation": "The question tag for 'I am' is 'aren't I?'. 'Am I not?' is very formal and 'amn't I' is non-standard."
-            },
-            {
-                "id": 155,
-                "question": "You have never been to Japan, __________?",
-                "options": ["have you", "haven't you", "do you", "did you"],
-                "correct_answer": 0,
-                "explanation": "The statement contains a negative word ('never'), making it negative. Therefore, it requires a positive tag ('have you?')."
-            }
+          {
+            "id": 151,
+            "question": "You're coming to the party, __________?",
+            "options": ["are you", "aren't you", "do you", "don't you"],
+            "correct_answer": 1,
+            "explanation": "A positive statement ('You are...') is followed by a negative tag ('...aren't you?')."
+          },
+          {
+            "id": 152,
+            "question": "He didn't finish his homework, __________?",
+            "options": ["did he", "didn't he", "does he", "doesn't he"],
+            "correct_answer": 0,
+            "explanation": "A negative statement ('He didn't...') is followed by a positive tag ('...did he?')."
+          },
+          {
+            "id": 153,
+            "question": "Let's go for a walk, __________?",
+            "options": ["shall we", "should we", "will we", "do we"],
+            "correct_answer": 0,
+            "explanation": "For suggestions starting with 'Let's', the question tag is 'shall we?'."
+          },
+          {
+            "id": 154,
+            "question": "I am right, __________?",
+            "options": ["am I not", "amn't I", "aren't I", "are I"],
+            "correct_answer": 2,
+            "explanation": "The question tag for 'I am' is 'aren't I?'. 'Am I not?' is very formal and 'amn't I' is non-standard."
+          },
+          {
+            "id": 155,
+            "question": "You have never been to Japan, __________?",
+            "options": ["have you", "haven't you", "do you", "did you"],
+            "correct_answer": 0,
+            "explanation": "The statement contains a negative word ('never'), making it negative. Therefore, it requires a positive tag ('have you?')."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 32,
         "title": "Vocabulary: Formal vs. Informal",
         "questions": [
-            {
-                "id": 156,
-                "question": "Which is the more formal way to say 'start'?",
-                "options": ["kick off", "get going", "commence", "fire up"],
-                "correct_answer": 2,
-                "explanation": "'Commence' is a formal verb for 'begin' or 'start'."
-            },
-            {
-                "id": 157,
-                "question": "The informal 'kids' corresponds to the formal __________.",
-                "options": ["offspring", "children", "youngsters", "infants"],
-                "correct_answer": 1,
-                "explanation": "'Children' is the standard, neutral-to-formal term. 'Offspring' is very formal or scientific."
-            },
-            {
-                "id": 158,
-                "question": "In a formal email, instead of 'I'm sorry to tell you', you might write 'I __________ to inform you'.",
-                "options": ["hate", "regret", "feel bad", "am sad"],
-                "correct_answer": 1,
-                "explanation": "'I regret to inform you' is a standard and formal phrase for delivering bad news."
-            },
-            {
-                "id": 159,
-                "question": "Which phrasal verb is more informal: 'find out' or 'discover'?",
-                "options": ["find out", "discover", "both are formal", "both are informal"],
-                "correct_answer": 0,
-                "explanation": "'Find out' is generally considered more informal than its one-word equivalent, 'discover'."
-            },
-            {
-                "id": 160,
-                "question": "In formal writing, it is better to __________ contractions like 'don't' and 'can't'.",
-                "options": ["use", "avoid", "emphasize", "shorten"],
-                "correct_answer": 1,
-                "explanation": "Formal academic and business writing typically avoids contractions, using the full forms 'do not' and 'cannot' instead."
-            }
+          {
+            "id": 156,
+            "question": "Which is the more formal way to say 'start'?",
+            "options": ["kick off", "get going", "commence", "fire up"],
+            "correct_answer": 2,
+            "explanation": "'Commence' is a formal verb for 'begin' or 'start'."
+          },
+          {
+            "id": 157,
+            "question": "The informal 'kids' corresponds to the formal __________.",
+            "options": ["offspring", "children", "youngsters", "infants"],
+            "correct_answer": 1,
+            "explanation": "'Children' is the standard, neutral-to-formal term. 'Offspring' is very formal or scientific."
+          },
+          {
+            "id": 158,
+            "question": "In a formal email, instead of 'I'm sorry to tell you', you might write 'I __________ to inform you'.",
+            "options": ["hate", "regret", "feel bad", "am sad"],
+            "correct_answer": 1,
+            "explanation": "'I regret to inform you' is a standard and formal phrase for delivering bad news."
+          },
+          {
+            "id": 159,
+            "question": "Which phrasal verb is more informal: 'find out' or 'discover'?",
+            "options": ["find out", "discover", "both are formal", "both are informal"],
+            "correct_answer": 0,
+            "explanation": "'Find out' is generally considered more informal than its one-word equivalent, 'discover'."
+          },
+          {
+            "id": 160,
+            "question": "In formal writing, it is better to __________ contractions like 'don't' and 'can't'.",
+            "options": ["use", "avoid", "emphasize", "shorten"],
+            "correct_answer": 1,
+            "explanation": "Formal academic and business writing typically avoids contractions, using the full forms 'do not' and 'cannot' instead."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 33,
         "title": "Grammar: Parallel Structure",
         "questions": [
-            {
-                "id": 161,
-                "question": "Which sentence has correct parallel structure?",
-                "options": ["She likes to swim, hiking, and to ride her bike.", "She likes swimming, hiking, and to ride her bike.", "She likes swimming, hiking, and riding her bike.", "She likes to swim, hiking, and riding her bike."],
-                "correct_answer": 2,
-                "explanation": "Parallel structure requires that items in a list have the same grammatical form. Here, all three items are gerunds ('-ing' words)."
-            },
-            {
-                "id": 162,
-                "question": "The manager wanted a report that was clear, concise, and __________.",
-                "options": ["it should be accurate", "accurate", "was accurate", "being accurate"],
-                "correct_answer": 1,
-                "explanation": "The list consists of adjectives. 'Clear' and 'concise' are adjectives, so the third item should also be an adjective ('accurate')."
-            },
-            {
-                "id": 163,
-                "question": "My goals are to graduate from college, __________ a good job, and travel the world.",
-                "options": ["finding", "find", "to find", "found"],
-                "correct_answer": 1,
-                "explanation": "The parallel structure is established by the base form of the verbs following 'to'. The implied structure is 'to graduate..., (to) find..., and (to) travel...'. We use the base form 'find'."
-            },
-            {
-                "id": 164,
-                "question": "He is not only a great musician but also __________.",
-                "options": ["a talented writer", "writes with talent", "is a talented writer", "he writes with talent"],
-                "correct_answer": 0,
-                "explanation": "The structure 'not only [noun phrase] but also [noun phrase]' requires parallel elements. 'A great musician' is a noun phrase, so 'a talented writer' fits perfectly."
-            },
-            {
-                "id": 165,
-                "question": "The candidate was praised for her honesty, her integrity, and __________.",
-                "options": ["that she was dedicated", "her dedication", "being dedicated", "how she was dedicated"],
-                "correct_answer": 1,
-                "explanation": "The list contains possessive pronoun + noun ('her honesty', 'her integrity'). To maintain parallelism, 'her dedication' is the correct choice."
-            }
+          {
+            "id": 161,
+            "question": "Which sentence has correct parallel structure?",
+            "options": ["She likes to swim, hiking, and to ride her bike.", "She likes swimming, hiking, and to ride her bike.", "She likes swimming, hiking, and riding her bike.", "She likes to swim, hiking, and riding her bike."],
+            "correct_answer": 2,
+            "explanation": "Parallel structure requires that items in a list have the same grammatical form. Here, all three items are gerunds ('-ing' words)."
+          },
+          {
+            "id": 162,
+            "question": "The manager wanted a report that was clear, concise, and __________.",
+            "options": ["it should be accurate", "accurate", "was accurate", "being accurate"],
+            "correct_answer": 1,
+            "explanation": "The list consists of adjectives. 'Clear' and 'concise' are adjectives, so the third item should also be an adjective ('accurate')."
+          },
+          {
+            "id": 163,
+            "question": "My goals are to graduate from college, __________ a good job, and travel the world.",
+            "options": ["finding", "find", "to find", "found"],
+            "correct_answer": 1,
+            "explanation": "The parallel structure is established by the base form of the verbs following 'to'. The implied structure is 'to graduate..., (to) find..., and (to) travel...'. We use the base form 'find'."
+          },
+          {
+            "id": 164,
+            "question": "He is not only a great musician but also __________.",
+            "options": ["a talented writer", "writes with talent", "is a talented writer", "he writes with talent"],
+            "correct_answer": 0,
+            "explanation": "The structure 'not only [noun phrase] but also [noun phrase]' requires parallel elements. 'A great musician' is a noun phrase, so 'a talented writer' fits perfectly."
+          },
+          {
+            "id": 165,
+            "question": "The candidate was praised for her honesty, her integrity, and __________.",
+            "options": ["that she was dedicated", "her dedication", "being dedicated", "how she was dedicated"],
+            "correct_answer": 1,
+            "explanation": "The list contains possessive pronoun + noun ('her honesty', 'her integrity'). To maintain parallelism, 'her dedication' is the correct choice."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 34,
         "title": "Vocabulary: Environmental Issues",
         "questions": [
-            {
-                "id": 166,
-                "question": "The burning of fossil fuels is a major contributor to __________.",
-                "options": ["deforestation", "the greenhouse effect", "soil erosion", "water pollution"],
-                "correct_answer": 1,
-                "explanation": "The greenhouse effect, which causes global warming, is primarily caused by gases released from burning fossil fuels."
-            },
-            {
-                "id": 167,
-                "question": "Using solar and wind power are examples of __________ energy sources.",
-                "options": ["renewable", "non-renewable", "finite", "traditional"],
-                "correct_answer": 0,
-                "explanation": "'Renewable' energy sources are those that are naturally replenished, like sun and wind, unlike fossil fuels."
-            },
-            {
-                "id": 168,
-                "question": "__________ is the cutting down of trees on a massive scale.",
-                "options": ["Afforestation", "Reforestation", "Deforestation", "Desertification"],
-                "correct_answer": 2,
-                "explanation": "'Deforestation' is the term for clearing Earth's forests on a large scale."
-            },
-            {
-                "id": 169,
-                "question": "We should all try to reduce our carbon __________ to help the planet.",
-                "options": ["footprint", "handprint", "shadow", "mark"],
-                "correct_answer": 0,
-                "explanation": "A 'carbon footprint' is the total amount of greenhouse gases generated by our actions."
-            },
-            {
-                "id": 170,
-                "question": "Many species are at risk of __________ due to habitat loss.",
-                "options": ["evolution", "extinction", "migration", "adaptation"],
-                "correct_answer": 1,
-                "explanation": "'Extinction' is the term for the dying out of a species."
-            }
+          {
+            "id": 166,
+            "question": "The burning of fossil fuels is a major contributor to __________.",
+            "options": ["deforestation", "the greenhouse effect", "soil erosion", "water pollution"],
+            "correct_answer": 1,
+            "explanation": "The greenhouse effect, which causes global warming, is primarily caused by gases released from burning fossil fuels."
+          },
+          {
+            "id": 167,
+            "question": "Using solar and wind power are examples of __________ energy sources.",
+            "options": ["renewable", "non-renewable", "finite", "traditional"],
+            "correct_answer": 0,
+            "explanation": "'Renewable' energy sources are those that are naturally replenished, like sun and wind, unlike fossil fuels."
+          },
+          {
+            "id": 168,
+            "question": "__________ is the cutting down of trees on a massive scale.",
+            "options": ["Afforestation", "Reforestation", "Deforestation", "Desertification"],
+            "correct_answer": 2,
+            "explanation": "'Deforestation' is the term for clearing Earth's forests on a large scale."
+          },
+          {
+            "id": 169,
+            "question": "We should all try to reduce our carbon __________ to help the planet.",
+            "options": ["footprint", "handprint", "shadow", "mark"],
+            "correct_answer": 0,
+            "explanation": "A 'carbon footprint' is the total amount of greenhouse gases generated by our actions."
+          },
+          {
+            "id": 170,
+            "question": "Many species are at risk of __________ due to habitat loss.",
+            "options": ["evolution", "extinction", "migration", "adaptation"],
+            "correct_answer": 1,
+            "explanation": "'Extinction' is the term for the dying out of a species."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 35,
         "title": "Grammar: Inversion",
         "questions": [
-            {
-                "id": 171,
-                "question": "Never before __________ such a beautiful sunset.",
-                "options": ["I have seen", "have I seen", "I saw", "did I see"],
-                "correct_answer": 1,
-                "explanation": "When a sentence begins with a negative adverbial like 'Never before', we use inversion: auxiliary verb + subject + main verb."
-            },
-            {
-                "id": 172,
-                "question": "Not only __________ the book, but he also remembered every detail.",
-                "options": ["he read", "he has read", "did he read", "read he"],
-                "correct_answer": 2,
-                "explanation": "After 'Not only' at the beginning of a sentence, the first clause is inverted: auxiliary verb ('did') + subject ('he') + main verb ('read')."
-            },
-            {
-                "id": 173,
-                "question": "Hardly __________ home when the phone started ringing.",
-                "options": ["I had gotten", "had I gotten", "I got", "did I get"],
-                "correct_answer": 1,
-                "explanation": "After 'Hardly', we invert the subject and the auxiliary verb ('had I gotten')."
-            },
-            {
-                "id": 174,
-                "question": "Under no circumstances __________ leave this room.",
-                "options": ["you should", "should you", "you can", "can you should"],
-                "correct_answer": 1,
-                "explanation": "Negative expressions like 'Under no circumstances' at the start of a sentence require inversion of the subject ('you') and the modal verb ('should')."
-            },
-            {
-                "id": 175,
-                "question": "So beautiful __________ that I couldn't take my eyes off her.",
-                "options": ["she was", "was she", "she is", "is she"],
-                "correct_answer": 1,
-                "explanation": "When 'So + adjective' begins a sentence for emphasis, we use inversion: 'So beautiful was she...'"
-            }
+          {
+            "id": 171,
+            "question": "Never before __________ such a beautiful sunset.",
+            "options": ["I have seen", "have I seen", "I saw", "did I see"],
+            "correct_answer": 1,
+            "explanation": "When a sentence begins with a negative adverbial like 'Never before', we use inversion: auxiliary verb + subject + main verb."
+          },
+          {
+            "id": 172,
+            "question": "Not only __________ the book, but he also remembered every detail.",
+            "options": ["he read", "he has read", "did he read", "read he"],
+            "correct_answer": 2,
+            "explanation": "After 'Not only' at the beginning of a sentence, the first clause is inverted: auxiliary verb ('did') + subject ('he') + main verb ('read')."
+          },
+          {
+            "id": 173,
+            "question": "Hardly __________ home when the phone started ringing.",
+            "options": ["I had gotten", "had I gotten", "I got", "did I get"],
+            "correct_answer": 1,
+            "explanation": "After 'Hardly', we invert the subject and the auxiliary verb ('had I gotten')."
+          },
+          {
+            "id": 174,
+            "question": "Under no circumstances __________ leave this room.",
+            "options": ["you should", "should you", "you can", "can you should"],
+            "correct_answer": 1,
+            "explanation": "Negative expressions like 'Under no circumstances' at the start of a sentence require inversion of the subject ('you') and the modal verb ('should')."
+          },
+          {
+            "id": 175,
+            "question": "So beautiful __________ that I couldn't take my eyes off her.",
+            "options": ["she was", "was she", "she is", "is she"],
+            "correct_answer": 1,
+            "explanation": "When 'So + adjective' begins a sentence for emphasis, we use inversion: 'So beautiful was she...'"
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 36,
         "title": "Vocabulary: Medical Terms",
         "questions": [
-            {
-                "id": 176,
-                "question": "The doctor gave me a __________ for antibiotics.",
-                "options": ["receipt", "recipe", "prescription", "note"],
-                "correct_answer": 2,
-                "explanation": "A 'prescription' is an instruction written by a medical practitioner that authorizes a patient to be provided a medicine or treatment."
-            },
-            {
-                "id": 177,
-                "question": "A person who is allergic to pollen often suffers from __________ in the spring.",
-                "options": ["symptoms", "diagnosis", "prognosis", "treatment"],
-                "correct_answer": 0,
-                "explanation": "'Symptoms' are the physical or mental features that indicate a condition of disease."
-            },
-            {
-                "id": 178,
-                "question": "The illness was not serious, and the doctor gave a good __________.",
-                "options": ["diagnosis", "prognosis", "analysis", "symptom"],
-                "correct_answer": 1,
-                "explanation": "A 'prognosis' is the likely course of a medical condition."
-            },
-            {
-                "id": 179,
-                "question": "Many diseases can be prevented through __________.",
-                "options": ["injection", "operation", "vaccination", "medication"],
-                "correct_answer": 2,
-                "explanation": "'Vaccination' is the administration of a vaccine to help the immune system develop protection from a disease."
-            },
-            {
-                "id": 180,
-                "question": "If you feel unwell, you should make an __________ with your doctor.",
-                "options": ["appointment", "arrangement", "interview", "engagement"],
-                "correct_answer": 0,
-                "explanation": "An 'appointment' is an arrangement to meet someone at a particular time and place."
-            }
+          {
+            "id": 176,
+            "question": "The doctor gave me a __________ for antibiotics.",
+            "options": ["receipt", "recipe", "prescription", "note"],
+            "correct_answer": 2,
+            "explanation": "A 'prescription' is an instruction written by a medical practitioner that authorizes a patient to be provided a medicine or treatment."
+          },
+          {
+            "id": 177,
+            "question": "A person who is allergic to pollen often suffers from __________ in the spring.",
+            "options": ["symptoms", "diagnosis", "prognosis", "treatment"],
+            "correct_answer": 0,
+            "explanation": "'Symptoms' are the physical or mental features that indicate a condition of disease."
+          },
+          {
+            "id": 178,
+            "question": "The illness was not serious, and the doctor gave a good __________.",
+            "options": ["diagnosis", "prognosis", "analysis", "symptom"],
+            "correct_answer": 1,
+            "explanation": "A 'prognosis' is the likely course of a medical condition."
+          },
+          {
+            "id": 179,
+            "question": "Many diseases can be prevented through __________.",
+            "options": ["injection", "operation", "vaccination", "medication"],
+            "correct_answer": 2,
+            "explanation": "'Vaccination' is the administration of a vaccine to help the immune system develop protection from a disease."
+          },
+          {
+            "id": 180,
+            "question": "If you feel unwell, you should make an __________ with your doctor.",
+            "options": ["appointment", "arrangement", "interview", "engagement"],
+            "correct_answer": 0,
+            "explanation": "An 'appointment' is an arrangement to meet someone at a particular time and place."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 37,
         "title": "Grammar: Cleft Sentences",
         "questions": [
-            {
-                "id": 181,
-                "question": "Rewrite 'John broke the window' to emphasize 'John'.",
-                "options": ["The window was what John broke.", "What John broke was the window.", "It was John who broke the window.", "Breaking the window was what John did."],
-                "correct_answer": 2,
-                "explanation": "An 'it-cleft' sentence ('It was... who/that...') is used to emphasize the subject of the original sentence."
-            },
-            {
-                "id": 182,
-                "question": "__________ I need is a long holiday.",
-                "options": ["That", "What", "The thing", "It is"],
-                "correct_answer": 1,
-                "explanation": "A 'what-cleft' or 'wh-cleft' sentence begins with a 'wh-' word to emphasize a part of the sentence. 'What I need...' emphasizes 'a long holiday'."
-            },
-            {
-                "id": 183,
-                "question": "It was __________ that she bought the expensive car.",
-                "options": ["yesterday", "in the shop", "because she won the lottery", "the red one"],
-                "correct_answer": 0,
-                "explanation": "An 'it-cleft' can emphasize an adverbial of time. 'It was yesterday that...' focuses on when the action happened."
-            },
-            {
-                "id": 184,
-                "question": "The reason __________ he was late was that his car broke down.",
-                "options": ["why", "that", "because", "what"],
-                "correct_answer": 0,
-                "explanation": "This is a type of cleft sentence starting with 'The reason why...' to emphasize the cause."
-            },
-            {
-                "id": 185,
-                "question": "All I want for Christmas __________ you.",
-                "options": ["are", "is", "be", "being"],
-                "correct_answer": 1,
-                "explanation": "In a cleft sentence like 'All I want...', the subject is 'All', which is treated as a singular concept here, so the verb is 'is'."
-            }
+          {
+            "id": 181,
+            "question": "Rewrite 'John broke the window' to emphasize 'John'.",
+            "options": ["The window was what John broke.", "What John broke was the window.", "It was John who broke the window.", "Breaking the window was what John did."],
+            "correct_answer": 2,
+            "explanation": "An 'it-cleft' sentence ('It was... who/that...') is used to emphasize the subject of the original sentence."
+          },
+          {
+            "id": 182,
+            "question": "__________ I need is a long holiday.",
+            "options": ["That", "What", "The thing", "It is"],
+            "correct_answer": 1,
+            "explanation": "A 'what-cleft' or 'wh-cleft' sentence begins with a 'wh-' word to emphasize a part of the sentence. 'What I need...' emphasizes 'a long holiday'."
+          },
+          {
+            "id": 183,
+            "question": "It was __________ that she bought the expensive car.",
+            "options": ["yesterday", "in the shop", "because she won the lottery", "the red one"],
+            "correct_answer": 0,
+            "explanation": "An 'it-cleft' can emphasize an adverbial of time. 'It was yesterday that...' focuses on when the action happened."
+          },
+          {
+            "id": 184,
+            "question": "The reason __________ he was late was that his car broke down.",
+            "options": ["why", "that", "because", "what"],
+            "correct_answer": 0,
+            "explanation": "This is a type of cleft sentence starting with 'The reason why...' to emphasize the cause."
+          },
+          {
+            "id": 185,
+            "question": "All I want for Christmas __________ you.",
+            "options": ["are", "is", "be", "being"],
+            "correct_answer": 1,
+            "explanation": "In a cleft sentence like 'All I want...', the subject is 'All', which is treated as a singular concept here, so the verb is 'is'."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 38,
         "title": "Vocabulary: The Arts",
         "questions": [
-            {
-                "id": 186,
-                "question": "The painter's use of light and shadow was masterful, creating a sense of deep __________.",
-                "options": ["palette", "perspective", "canvas", "easel"],
-                "correct_answer": 1,
-                "explanation": "'Perspective' in art is the technique used to represent three-dimensional objects on a two-dimensional surface."
-            },
-            {
-                "id": 187,
-                "question": "The orchestra received a standing __________ for their breathtaking performance.",
-                "options": ["ovation", "applause", "encore", "review"],
-                "correct_answer": 0,
-                "explanation": "A 'standing ovation' is a period of prolonged applause during which the audience stands up."
-            },
-            {
-                "id": 188,
-                "question": "The museum will feature a new __________ of contemporary sculptures.",
-                "options": ["gallery", "exhibition", "collection", "studio"],
-                "correct_answer": 1,
-                "explanation": "An 'exhibition' is a public display of works of art or other items of interest."
-            },
-            {
-                "id": 189,
-                "question": "The movie's __________ was praised for its beautiful and evocative music.",
-                "options": ["script", "screenplay", "soundtrack", "plot"],
-                "correct_answer": 2,
-                "explanation": "A 'soundtrack' is the recorded music accompanying and synchronized with the images of a film or play."
-            },
-            {
-                "id": 190,
-                "question": "She is a __________ writer, having published ten novels in the last five years.",
-                "options": ["prolific", "profound", "prominent", "pragmatic"],
-                "correct_answer": 0,
-                "explanation": "'Prolific' means producing a great number or amount of something, especially works of art or literature."
-            }
+          {
+            "id": 186,
+            "question": "The painter's use of light and shadow was masterful, creating a sense of deep __________.",
+            "options": ["palette", "perspective", "canvas", "easel"],
+            "correct_answer": 1,
+            "explanation": "'Perspective' in art is the technique used to represent three-dimensional objects on a two-dimensional surface."
+          },
+          {
+            "id": 187,
+            "question": "The orchestra received a standing __________ for their breathtaking performance.",
+            "options": ["ovation", "applause", "encore", "review"],
+            "correct_answer": 0,
+            "explanation": "A 'standing ovation' is a period of prolonged applause during which the audience stands up."
+          },
+          {
+            "id": 188,
+            "question": "The museum will feature a new __________ of contemporary sculptures.",
+            "options": ["gallery", "exhibition", "collection", "studio"],
+            "correct_answer": 1,
+            "explanation": "An 'exhibition' is a public display of works of art or other items of interest."
+          },
+          {
+            "id": 189,
+            "question": "The movie's __________ was praised for its beautiful and evocative music.",
+            "options": ["script", "screenplay", "soundtrack", "plot"],
+            "correct_answer": 2,
+            "explanation": "A 'soundtrack' is the recorded music accompanying and synchronized with the images of a film or play."
+          },
+          {
+            "id": 190,
+            "question": "She is a __________ writer, having published ten novels in the last five years.",
+            "options": ["prolific", "profound", "prominent", "pragmatic"],
+            "correct_answer": 0,
+            "explanation": "'Prolific' means producing a great number or amount of something, especially works of art or literature."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 39,
         "title": "Grammar: Mixed Conditionals",
         "questions": [
-            {
-                "id": 191,
-                "question": "If I __________ harder at school, I would have a better job now.",
-                "options": ["had studied", "studied", "would have studied", "would study"],
-                "correct_answer": 0,
-                "explanation": "This is a mixed conditional. The 'if' clause refers to the past (unreal past - past perfect 'had studied') and the main clause refers to the present (unreal present - 'would have')."
-            },
-            {
-                "id": 192,
-                "question": "If he weren't so lazy, he __________ the project yesterday.",
-                "options": ["would finish", "finished", "would have finished", "had finished"],
-                "correct_answer": 2,
-                "explanation": "This is a mixed conditional. The 'if' clause refers to the present/general time (unreal present - 'weren't') and the main clause refers to the past (unreal past - 'would have finished')."
-            },
-            {
-                "id": 193,
-                "question": "If you had taken the map, we __________ lost now.",
-                "options": ["wouldn't be", "wouldn't have been", "weren't", "aren't"],
-                "correct_answer": 0,
-                "explanation": "This mixed conditional connects a past condition ('if you had taken') with a present result ('we wouldn't be lost')."
-            },
-            {
-                "id": 194,
-                "question": "I would be flying to New York tomorrow if I __________ my ticket last week.",
-                "options": ["booked", "had booked", "would book", "would have booked"],
-                "correct_answer": 1,
-                "explanation": "This mixed conditional connects a past condition ('if I had booked') with a future result ('I would be flying')."
-            },
-            {
-                "id": 195,
-                "question": "If she could speak French, she __________ for the job in Paris last year.",
-                "options": ["could apply", "applied", "could have applied", "had applied"],
-                "correct_answer": 2,
-                "explanation": "This mixed conditional connects a general/present ability ('if she could speak') with a past possibility ('could have applied')."
-            }
+          {
+            "id": 191,
+            "question": "If I __________ harder at school, I would have a better job now.",
+            "options": ["had studied", "studied", "would have studied", "would study"],
+            "correct_answer": 0,
+            "explanation": "This is a mixed conditional. The 'if' clause refers to the past (unreal past - past perfect 'had studied') and the main clause refers to the present (unreal present - 'would have')."
+          },
+          {
+            "id": 192,
+            "question": "If he weren't so lazy, he __________ the project yesterday.",
+            "options": ["would finish", "finished", "would have finished", "had finished"],
+            "correct_answer": 2,
+            "explanation": "This is a mixed conditional. The 'if' clause refers to the present/general time (unreal present - 'weren't') and the main clause refers to the past (unreal past - 'would have finished')."
+          },
+          {
+            "id": 193,
+            "question": "If you had taken the map, we __________ lost now.",
+            "options": ["wouldn't be", "wouldn't have been", "weren't", "aren't"],
+            "correct_answer": 0,
+            "explanation": "This mixed conditional connects a past condition ('if you had taken') with a present result ('we wouldn't be lost')."
+          },
+          {
+            "id": 194,
+            "question": "I would be flying to New York tomorrow if I __________ my ticket last week.",
+            "options": ["booked", "had booked", "would book", "would have booked"],
+            "correct_answer": 1,
+            "explanation": "This mixed conditional connects a past condition ('if I had booked') with a future result ('I would be flying')."
+          },
+          {
+            "id": 195,
+            "question": "If she could speak French, she __________ for the job in Paris last year.",
+            "options": ["could apply", "applied", "could have applied", "had applied"],
+            "correct_answer": 2,
+            "explanation": "This mixed conditional connects a general/present ability ('if she could speak') with a past possibility ('could have applied')."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 40,
         "title": "Vocabulary: Legal Terms",
         "questions": [
-            {
-                "id": 196,
-                "question": "The jury found the __________ not guilty on all charges.",
-                "options": ["plaintiff", "defendant", "witness", "prosecutor"],
-                "correct_answer": 1,
-                "explanation": "The 'defendant' is the individual, company, or institution sued or accused in a court of law."
-            },
-            {
-                "id": 197,
-                "question": "The lawyer presented strong __________ to support her case.",
-                "options": ["evidence", "opinions", "feelings", "allegations"],
-                "correct_answer": 0,
-                "explanation": "'Evidence' is the available body of facts or information indicating whether a belief or proposition is true or valid."
-            },
-            {
-                "id": 198,
-                "question": "Both parties decided to __________ out of court to avoid a lengthy trial.",
-                "options": ["argue", "settle", "testify", "appeal"],
-                "correct_answer": 1,
-                "explanation": "To 'settle' a case means to resolve a legal dispute by mutual agreement before a final judgment is made by a court."
-            },
-            {
-                "id": 199,
-                "question": "The witness was asked to __________ under oath.",
-                "options": ["perjure", "litigate", "testify", "prosecute"],
-                "correct_answer": 2,
-                "explanation": "To 'testify' is to give evidence as a witness in a law court."
-            },
-            {
-                "id": 200,
-                "question": "After the guilty __________, the judge announced the sentence.",
-                "options": ["appeal", "verdict", "testimony", "lawsuit"],
-                "correct_answer": 1,
-                "explanation": "A 'verdict' is the decision on an issue of fact in a civil or criminal case."
-            }
+          {
+            "id": 196,
+            "question": "The jury found the __________ not guilty on all charges.",
+            "options": ["plaintiff", "defendant", "witness", "prosecutor"],
+            "correct_answer": 1,
+            "explanation": "The 'defendant' is the individual, company, or institution sued or accused in a court of law."
+          },
+          {
+            "id": 197,
+            "question": "The lawyer presented strong __________ to support her case.",
+            "options": ["evidence", "opinions", "feelings", "allegations"],
+            "correct_answer": 0,
+            "explanation": "'Evidence' is the available body of facts or information indicating whether a belief or proposition is true or valid."
+          },
+          {
+            "id": 198,
+            "question": "Both parties decided to __________ out of court to avoid a lengthy trial.",
+            "options": ["argue", "settle", "testify", "appeal"],
+            "correct_answer": 1,
+            "explanation": "To 'settle' a case means to resolve a legal dispute by mutual agreement before a final judgment is made by a court."
+          },
+          {
+            "id": 199,
+            "question": "The witness was asked to __________ under oath.",
+            "options": ["perjure", "litigate", "testify", "prosecute"],
+            "correct_answer": 2,
+            "explanation": "To 'testify' is to give evidence as a witness in a law court."
+          },
+          {
+            "id": 200,
+            "question": "After the guilty __________, the judge announced the sentence.",
+            "options": ["appeal", "verdict", "testimony", "lawsuit"],
+            "correct_answer": 1,
+            "explanation": "A 'verdict' is the decision on an issue of fact in a civil or criminal case."
+          }
         ]
-    },
-    {
+      },
+      {
         "batch_id": 41,
         "title": "Grammar: Dangling Modifiers",
         "questions": [
-            {
-                "id": 201,
-                "question": "Which sentence is correct?",
-                "options": ["Walking down the street, the trees were beautiful.", "Walking down the street, I admired the beautiful trees.", "The trees were beautiful, walking down the street.", "Beautiful trees were seen walking down the street."],
-                "correct_answer": 1,
-                "explanation": "The introductory phrase 'Walking down the street' must modify the subject of the main clause. 'I' was walking, not the trees. Option 1 has a dangling modifier."
-            },
-            {
-                "id": 202,
-                "question": "Identify the sentence with a dangling modifier.",
-                "options": ["After finishing my homework, I went to bed.", "To improve his grade, the essay was rewritten.", "While driving to work, I saw a deer.", "Having read the book, she knew the movie's ending."],
-                "correct_answer": 1,
-                "explanation": "The phrase 'To improve his grade' should modify the person who is improving the grade, but the subject of the main clause is 'the essay'. The student, not the essay, is trying to improve the grade."
-            },
-            {
-                "id": 203,
-                "question": "Correct the dangling modifier: 'Having been thrown in the air, the dog caught the ball.'",
-                "options": ["The dog, having been thrown in the air, caught the ball.", "Having thrown it in the air, the dog caught the ball.", "The dog caught the ball that had been thrown in the air.", "The sentence is correct as is."],
-                "correct_answer": 2,
-                "explanation": "The original sentence implies the dog was thrown in the air. The ball was thrown. Option 2 corrects this, but a better revision is Option 3, which is clearer and avoids the modifier issue entirely."
-            },
-            {
-                "id": 204,
-                "question": "Which sentence avoids a dangling modifier?",
-                "options": ["Covered in mud, the car was taken to the car wash.", "Covered in mud, my dad took the car to the car wash.", "The car wash was where the car was taken, covered in mud.", "My dad took the car, which was covered in mud, to the car wash."],
-                "correct_answer": 3,
-                "explanation": "Option 1 implies the car wash was covered in mud. Option 2 implies 'my dad' was covered in mud. Option 3 is better, but Option 4 is the clearest and most correctly structured sentence, placing the modifier 'which was covered in mud' right after the noun it describes ('the car')."
-            },
-            {
-                "id": 205,
-                "question": "A dangling modifier is a word or phrase that modifies a word __________ in the sentence.",
-                "options": ["in the wrong place", "not clearly stated", "that is a verb", "that is a noun"],
-                "correct_answer": 1,
-                "explanation": "A dangling modifier occurs when the intended subject of a modifying phrase is missing from the sentence, and so the phrase seems to modify the wrong thing."
-            }
+          {
+            "id": 201,
+            "question": "Which sentence is correct?",
+            "options": ["Walking down the street, the trees were beautiful.", "Walking down the street, I admired the beautiful trees.", "The trees were beautiful, walking down the street.", "Beautiful trees were seen walking down the street."],
+            "correct_answer": 1,
+            "explanation": "The introductory phrase 'Walking down the street' must modify the subject of the main clause. 'I' was walking, not the trees. Option 1 has a dangling modifier."
+          },
+          {
+            "id": 202,
+            "question": "Identify the sentence with a dangling modifier.",
+            "options": ["After finishing my homework, I went to bed.", "To improve his grade, the essay was rewritten.", "While driving to work, I saw a deer.", "Having read the book, she knew the movie's ending."],
+            "correct_answer": 1,
+            "explanation": "The phrase 'To improve his grade' should modify the person who is improving the grade, but the subject of the main clause is 'the essay'. The student, not the essay, is trying to improve the grade."
+          },
+          {
+            "id": 203,
+            "question": "Correct the dangling modifier: 'Having been thrown in the air, the dog caught the ball.'",
+            "options": ["The dog, having been thrown in the air, caught the ball.", "Having thrown it in the air, the dog caught the ball.", "The dog caught the ball that had been thrown in the air.", "The sentence is correct as is."],
+            "correct_answer": 2,
+            "explanation": "The original sentence implies the dog was thrown in the air. The ball was thrown. Option 2 corrects this, but a better revision is Option 3, which is clearer and avoids the modifier issue entirely."
+          },
+          {
+            "id": 204,
+            "question": "Which sentence avoids a dangling modifier?",
+            "options": ["Covered in mud, the car was taken to the car wash.", "Covered in mud, my dad took the car to the car wash.", "The car wash was where the car was taken, covered in mud.", "My dad took the car, which was covered in mud, to the car wash."],
+            "correct_answer": 3,
+            "explanation": "Option 1 implies the car wash was covered in mud. Option 2 implies 'my dad' was covered in mud. Option 3 is better, but Option 4 is the clearest and most correctly structured sentence, placing the modifier 'which was covered in mud' right after the noun it describes ('the car')."
+          },
+          {
+            "id": 205,
+            "question": "A dangling modifier is a word or phrase that modifies a word __________ in the sentence.",
+            "options": ["in the wrong place", "not clearly stated", "that is a verb", "that is a noun"],
+            "correct_answer": 1,
+            "explanation": "A dangling modifier occurs when the intended subject of a modifying phrase is missing from the sentence, and so the phrase seems to modify the wrong thing."
+          }
         ]
-    }
-  ]
-}
+      },
+      {
+        "batch_id": 42,
+        "title": "Vocabulary: Analogies (Part to Whole)",
+        "questions": [
+          {
+            "id": 206,
+            "question": "Finger is to Hand as __________ is to Foot.",
+            "options": ["Arm", "Toe", "Leg", "Ankle"],
+            "correct_answer": 1,
+            "explanation": "A finger is a part of a hand, just as a toe is a part of a foot."
+          },
+          {
+            "id": 207,
+            "question": "Page is to Book as __________ is to Chapter.",
+            "options": ["Word", "Sentence", "Paragraph", "Index"],
+            "correct_answer": 2,
+            "explanation": "A page is a component of a book; a paragraph is a component of a chapter."
+          },
+          {
+            "id": 208,
+            "question": "Blade is to Fan as __________ is to Wheel.",
+            "options": ["Tire", "Car", "Spoke", "Engine"],
+            "correct_answer": 2,
+            "explanation": "A blade is one of several parts that make up a fan; a spoke is one of several parts that make up a wheel."
+          },
+          {
+            "id": 209,
+            "question": "Keyboard is to Computer as __________ is to Piano.",
+            "options": ["Key", "Music", "Pedal", "Sound"],
+            "correct_answer": 0,
+            "explanation": "A keyboard is an essential part of a computer for input; a key is an essential part of a piano for playing."
+          },
+          {
+            "id": 210,
+            "question": "Star is to Galaxy as __________ is to Sand.",
+            "options": ["Beach", "Ocean", "Grain", "Desert"],
+            "correct_answer": 2,
+            "explanation": "A star is a single element within a galaxy; a grain is a single element of sand."
+          }
+        ]
+      },
+      {
+        "batch_id": 43,
+        "title": "Vocabulary: Analogies (Cause & Effect)",
+        "questions": [
+          {
+            "id": 211,
+            "question": "Virus is to Illness as __________ is to Accident.",
+            "options": ["Carelessness", "Hospital", "Injury", "Doctor"],
+            "correct_answer": 0,
+            "explanation": "A virus is a cause of an illness; carelessness can be a cause of an accident."
+          },
+          {
+            "id": 212,
+            "question": "Thirst is to Drink as __________ is to Eat.",
+            "options": ["Food", "Water", "Hunger", "Stomach"],
+            "correct_answer": 2,
+            "explanation": "Thirst causes one to drink; hunger causes one to eat."
+          },
+          {
+            "id": 213,
+            "question": "Fire is to Heat as __________ is to Laughter.",
+            "options": ["Joke", "Sadness", "Emotion", "Tears"],
+            "correct_answer": 0,
+            "explanation": "A fire is a cause of heat; a joke can be a cause of laughter."
+          },
+          {
+            "id": 214,
+            "question": "Study is to Knowledge as __________ is to Victory.",
+            "options": ["Game", "Effort", "Team", "Opponent"],
+            "correct_answer": 1,
+            "explanation": "Studying is a cause that leads to the effect of gaining knowledge; effort is a cause that leads to the effect of victory."
+          },
+          {
+            "id": 215,
+            "question": "Seed is to Plant as __________ is to Explosion.",
+            "options": ["Bomb", "Spark", "Noise", "Fire"],
+            "correct_answer": 1,
+            "explanation": "A seed is the cause of a plant's growth; a spark can be the cause of an explosion."
+          }
+        ]
+      },
+      {
+        "batch_id": 44,
+        "title": "Vocabulary: Analogies (Object to Function)",
+        "questions": [
+          {
+            "id": 216,
+            "question": "Pen is to Write as __________ is to Cut.",
+            "options": ["Knife", "Paper", "Food", "Sharp"],
+            "correct_answer": 0,
+            "explanation": "The function of a pen is to write; the function of a knife is to cut."
+          },
+          {
+            "id": 217,
+            "question": "Shovel is to Dig as __________ is to Measure.",
+            "options": ["Weight", "Scale", "Length", "Ruler"],
+            "correct_answer": 3,
+            "explanation": "The function of a shovel is to dig; the function of a ruler is to measure."
+          },
+          {
+            "id": 218,
+            "question": "Camera is to Photograph as __________ is to Listen.",
+            "options": ["Ear", "Music", "Sound", "Song"],
+            "correct_answer": 0,
+            "explanation": "The function of a camera is to photograph; the function of an ear is to listen."
+          },
+          {
+            "id": 219,
+            "question": "Airplane is to Fly as __________ is to Float.",
+            "options": ["Boat", "Water", "Ocean", "Swim"],
+            "correct_answer": 0,
+            "explanation": "The function of an airplane is to fly; the function of a boat is to float."
+          },
+          {
+            "id": 220,
+            "question": "Key is to Unlock as __________ is to Clean.",
+            "options": ["Soap", "Dirt", "Water", "Towel"],
+            "correct_answer": 0,
+            "explanation": "The function of a key is to unlock; the function of soap is to clean."
+          }
+        ]
+      },
+      {
+        "batch_id": 45,
+        "title": "Vocabulary: Analogies (Antonyms)",
+        "questions": [
+          {
+            "id": 221,
+            "question": "Hot is to Cold as __________ is to Dark.",
+            "options": ["Night", "Shadow", "Light", "Sun"],
+            "correct_answer": 2,
+            "explanation": "Hot is the antonym of cold; light is the antonym of dark."
+          },
+          {
+            "id": 222,
+            "question": "Happy is to Sad as __________ is to Short.",
+            "options": ["Small", "Tall", "Little", "Wide"],
+            "correct_answer": 1,
+            "explanation": "Happy is the antonym of sad; tall is the antonym of short."
+          },
+          {
+            "id": 223,
+            "question": "Empty is to Full as __________ is to Rough.",
+            "options": ["Smooth", "Hard", "Bumpy", "Uneven"],
+            "correct_answer": 0,
+            "explanation": "Empty is the antonym of full; smooth is the antonym of rough."
+          },
+          {
+            "id": 224,
+            "question": "Weak is to Strong as __________ is to Brave.",
+            "options": ["Cowardly", "Heroic", "Bold", "Fear"],
+            "correct_answer": 0,
+            "explanation": "Weak is the antonym of strong; cowardly is the antonym of brave."
+          },
+          {
+            "id": 225,
+            "question": "Arrival is to Departure as __________ is to Failure.",
+            "options": ["Success", "Try", "Win", "Loss"],
+            "correct_answer": 0,
+            "explanation": "Arrival is the antonym of departure; success is the antonym of failure."
+          }
+        ]
+      },
+      {
+        "batch_id": 46,
+        "title": "Spelling: Commonly Misspelled Words",
+        "questions": [
+          {
+            "id": 226,
+            "question": "Which of the following is spelled correctly?",
+            "options": ["Accomodate", "Acommodate", "Accommodate", "Acomodate"],
+            "correct_answer": 2,
+            "explanation": "The correct spelling is 'accommodate', with two 'c's and two 'm's."
+          },
+          {
+            "id": 227,
+            "question": "Choose the correctly spelled word.",
+            "options": ["Definitely", "Definately", "Definitly", "Definitley"],
+            "correct_answer": 0,
+            "explanation": "The correct spelling is 'definitely'. A common mistake is to use 'a' instead of the second 'i'."
+          },
+          {
+            "id": 228,
+            "question": "Which word is spelled correctly?",
+            "options": ["Seperate", "Separate", "Seperete", "Saperate"],
+            "correct_answer": 1,
+            "explanation": "The correct spelling is 'separate'. Remember it has 'a rat' in the middle."
+          },
+          {
+            "id": 229,
+            "question": "Select the correct spelling.",
+            "options": ["Embarass", "Embarrass", "Embaras", "Embarras"],
+            "correct_answer": 1,
+            "explanation": "The correct spelling is 'embarrass', with two 'r's and two 's's."
+          },
+          {
+            "id": 230,
+            "question": "Which of these words is spelled correctly?",
+            "options": ["Occurence", "Ocurrence", "Occurrance", "Occurrence"],
+            "correct_answer": 3,
+            "explanation": "The correct spelling is 'occurrence', with two 'c's and two 'r's."
+          }
+        ]
+      },
+      {
+        "batch_id": 47,
+        "title": "Spelling: Words with 'ie' and 'ei'",
+        "questions": [
+          {
+            "id": 231,
+            "question": "Which word is spelled correctly?",
+            "options": ["Belive", "Beleive", "Believe", "Belaive"],
+            "correct_answer": 2,
+            "explanation": "The rule 'i before e, except after c' applies here. The correct spelling is 'believe'."
+          },
+          {
+            "id": 232,
+            "question": "Choose the correctly spelled word.",
+            "options": ["Recieve", "Receive", "Reciev", "Receeve"],
+            "correct_answer": 1,
+            "explanation": "This is an exception to the 'i before e' rule because the letters follow 'c'. The correct spelling is 'receive'."
+          },
+          {
+            "id": 233,
+            "question": "Which of the following is spelled correctly?",
+            "options": ["Freind", "Friend", "Freend", "Fraind"],
+            "correct_answer": 1,
+            "explanation": "The rule 'i before e' applies here. The correct spelling is 'friend'."
+          },
+          {
+            "id": 234,
+            "question": "Select the correct spelling.",
+            "options": ["Niece", "Neice", "Neece", "Nies"],
+            "correct_answer": 0,
+            "explanation": "The rule 'i before e' applies here. The correct spelling is 'niece'."
+          },
+          {
+            "id": 235,
+            "question": "Which word is spelled correctly?",
+            "options": ["Wierd", "Weird", "Wiered", "Weired"],
+            "correct_answer": 1,
+            "explanation": "'Weird' is a common exception to the 'i before e, except after c' rule."
+          }
+        ]
+      },
+      {
+        "batch_id": 48,
+        "title": "Spelling: Words with Silent Letters",
+        "questions": [
+          {
+            "id": 236,
+            "question": "Which of the following has a silent 'b'?",
+            "options": ["Doubt", "Bubble", "Number", "Remember"],
+            "correct_answer": 0,
+            "explanation": "In the word 'doubt', the 'b' is silent. It is not pronounced."
+          },
+          {
+            "id": 237,
+            "question": "Choose the word with a silent 'k'.",
+            "options": ["Kitten", "Book", "Knife", "Make"],
+            "correct_answer": 2,
+            "explanation": "In the word 'knife', the 'k' is silent when it comes before an 'n' at the beginning of a word."
+          },
+          {
+            "id": 238,
+            "question": "Which word has a silent 'h'?",
+            "options": ["House", "Happy", "Honest", "Behind"],
+            "correct_answer": 2,
+            "explanation": "In the word 'honest', the 'h' at the beginning is silent."
+          },
+          {
+            "id": 239,
+            "question": "Select the word with a silent 't'.",
+            "options": ["Listen", "Stop", "Water", "Letter"],
+            "correct_answer": 0,
+            "explanation": "In the word 'listen', the 't' is silent. It is not pronounced."
+          },
+          {
+            "id": 240,
+            "question": "Which word contains a silent 'w'?",
+            "options": ["Cow", "Now", "Answer", "Power"],
+            "correct_answer": 2,
+            "explanation": "In the word 'answer', the 'w' is silent and not pronounced."
+          }
+        ]
+      },
+      {
+        "batch_id": 49,
+        "title": "Spelling: Homophones",
+        "questions": [
+          {
+            "id": 241,
+            "question": "The dog wagged __________ tail.",
+            "options": ["it's", "its"],
+            "correct_answer": 1,
+            "explanation": "'Its' is a possessive pronoun, while 'it's' is a contraction of 'it is'."
+          },
+          {
+            "id": 242,
+            "question": "Are you going __________ the party?",
+            "options": ["to", "too", "two"],
+            "correct_answer": 0,
+            "explanation": "'To' is a preposition indicating direction. 'Too' means also or excessively. 'Two' is the number 2."
+          },
+          {
+            "id": 243,
+            "question": "I saw __________ car parked over there.",
+            "options": ["there", "their", "they're"],
+            "correct_answer": 1,
+            "explanation": "'Their' is a possessive pronoun. 'There' refers to a place. 'They're' is a contraction of 'they are'."
+          },
+          {
+            "id": 244,
+            "question": "The __________ in Ethiopia is sunny today.",
+            "options": ["whether", "weather"],
+            "correct_answer": 1,
+            "explanation": "'Weather' refers to atmospheric conditions. 'Whether' introduces a choice or possibility."
+          },
+          {
+            "id": 245,
+            "question": "Please __________ this gift.",
+            "options": ["accept", "except"],
+            "correct_answer": 0,
+            "explanation": "'Accept' means to receive. 'Except' means to exclude."
+          }
+        ]
+      },
+      {
+        "batch_id": 50,
+        "title": "Vocabulary: Advanced Synonyms (Part 1)",
+        "questions": [
+          {
+            "id": 246,
+            "question": "Which word is the best synonym for 'lucid'?",
+            "options": ["Confusing", "Clear", "Cloudy", "Difficult"],
+            "correct_answer": 1,
+            "explanation": "'Lucid' means expressed clearly or easy to understand."
+          },
+          {
+            "id": 247,
+            "question": "Choose a synonym for 'ostentatious'.",
+            "options": ["Modest", "Plain", "Showy", "Quiet"],
+            "correct_answer": 2,
+            "explanation": "'Ostentatious' means characterized by pretentious or conspicuous display; designed to impress."
+          },
+          {
+            "id": 248,
+            "question": "What is another word for 'precarious'?",
+            "options": ["Stable", "Secure", "Uncertain", "Safe"],
+            "correct_answer": 2,
+            "explanation": "'Precarious' means not securely held or in position; dangerously likely to fall or collapse."
+          },
+          {
+            "id": 249,
+            "question": "Which word means the same as 'gregarious'?",
+            "options": ["Shy", "Introverted", "Sociable", "Reserved"],
+            "correct_answer": 2,
+            "explanation": "'Gregarious' means fond of company; sociable."
+          },
+          {
+            "id": 250,
+            "question": "Find a synonym for 'assuage'.",
+            "options": ["Intensify", "Worsen", "Soothe", "Increase"],
+            "correct_answer": 2,
+            "explanation": "'Assuage' means to make an unpleasant feeling less intense."
+          }
+        ]
+      },
+      {
+        "batch_id": 51,
+        "title": "Vocabulary: Advanced Synonyms (Part 2)",
+        "questions": [
+          {
+            "id": 251,
+            "question": "Which word is a synonym for 'enigma'?",
+            "options": ["Clarity", "Explanation", "Puzzle", "Answer"],
+            "correct_answer": 2,
+            "explanation": "An 'enigma' is a person or thing that is mysterious, puzzling, or difficult to understand."
+          },
+          {
+            "id": 252,
+            "question": "Choose the best synonym for 'epiphany'.",
+            "options": ["Confusion", "Revelation", "Problem", "Routine"],
+            "correct_answer": 1,
+            "explanation": "An 'epiphany' is a moment of sudden and great revelation or realization."
+          },
+          {
+            "id": 253,
+            "question": "What is another word for 'querulous'?",
+            "options": ["Content", "Happy", "Complaining", "Cheerful"],
+            "correct_answer": 2,
+            "explanation": "'Querulous' means complaining in a petulant or whining manner."
+          },
+          {
+            "id": 254,
+            "question": "Which word means the same as 'cacophony'?",
+            "options": ["Harmony", "Silence", "Discord", "Melody"],
+            "correct_answer": 2,
+            "explanation": "'Cacophony' refers to a harsh, discordant mixture of sounds."
+          },
+          {
+            "id": 255,
+            "question": "Find a synonym for 'kudos'.",
+            "options": ["Criticism", "Blame", "Shame", "Praise"],
+            "correct_answer": 3,
+            "explanation": "'Kudos' means praise and honor received for an achievement."
+          }
+        ]
+      },
+      {
+        "batch_id": 52,
+        "title": "Grammar: Mixed Verb Tenses Review (Part 1)",
+        "questions": [
+          {
+            "id": 256,
+            "question": "Yesterday at this time, I __________ for my exam.",
+            "options": ["study", "was studying", "have studied", "will study"],
+            "correct_answer": 1,
+            "explanation": "The past continuous tense is used to describe an action in progress at a specific time in the past."
+          },
+          {
+            "id": 257,
+            "question": "She __________ in Addis Ababa since she was a child.",
+            "options": ["lives", "is living", "has lived", "lived"],
+            "correct_answer": 2,
+            "explanation": "The present perfect tense is used for an action that started in the past and continues to the present."
+          },
+          {
+            "id": 258,
+            "question": "Before he moved to Hawassa, he __________ in Dire Dawa for five years.",
+            "options": ["worked", "has worked", "had worked", "was working"],
+            "correct_answer": 2,
+            "explanation": "The past perfect tense is used to describe a past action that occurred before another past action."
+          },
+          {
+            "id": 259,
+            "question": "Don't call me at 8 PM tonight. I __________ dinner with my family.",
+            "options": ["will have", "will be having", "am having", "have"],
+            "correct_answer": 1,
+            "explanation": "The future continuous tense is used to describe an action that will be in progress at a specific time in the future."
+          },
+          {
+            "id": 260,
+            "question": "The train __________ at 9 AM every morning.",
+            "options": ["is leaving", "has left", "leaves", "left"],
+            "correct_answer": 2,
+            "explanation": "The present simple tense is used for schedules and repeated actions."
+          }
+        ]
+      },
+      {
+        "batch_id": 53,
+        "title": "Grammar: Mixed Verb Tenses Review (Part 2)",
+        "questions": [
+          {
+            "id": 261,
+            "question": "By the time you receive this letter, I __________ the country.",
+            "options": ["will leave", "am leaving", "will have left", "have left"],
+            "correct_answer": 2,
+            "explanation": "The future perfect tense is used for an action that will be completed before a specific time in the future."
+          },
+          {
+            "id": 262,
+            "question": "He looked tired because he __________ all night.",
+            "options": ["was studying", "has been studying", "had been studying", "studies"],
+            "correct_answer": 2,
+            "explanation": "The past perfect continuous tense is used for a past action of some duration that was in progress before another past action."
+          },
+          {
+            "id": 263,
+            "question": "I __________ this movie before. I don't want to watch it again.",
+            "options": ["saw", "have seen", "had seen", "see"],
+            "correct_answer": 1,
+            "explanation": "The present perfect tense is used for a past experience at an unspecified time that has relevance to the present."
+          },
+          {
+            "id": 264,
+            "question": "While my mother __________, my father was reading the newspaper.",
+            "options": ["was cooking", "cooked", "had cooked", "has cooked"],
+            "correct_answer": 0,
+            "explanation": "The past continuous tense is used to describe two actions happening at the same time in the past."
+          },
+          {
+            "id": 265,
+            "question": "If you don't hurry, you __________ the bus.",
+            "options": ["miss", "are missing", "will miss", "have missed"],
+            "correct_answer": 2,
+            "explanation": "This is a first conditional sentence, which uses 'will' + base verb in the main clause to talk about a likely future result."
+          }
+        ]
+      },
+      {
+        "batch_id": 54,
+        "title": "Vocabulary: Analogies (Performer to Action)",
+        "questions": [
+          {
+            "id": 266,
+            "question": "Author is to Write as __________ is to Paint.",
+            "options": ["Canvas", "Brush", "Color", "Artist"],
+            "correct_answer": 3,
+            "explanation": "An author is a person who performs the action of writing; an artist is a person who performs the action of painting."
+          },
+          {
+            "id": 267,
+            "question": "Chef is to Cook as __________ is to Teach.",
+            "options": ["Student", "School", "Teacher", "Book"],
+            "correct_answer": 2,
+            "explanation": "A chef performs the action of cooking; a teacher performs the action of teaching."
+          },
+          {
+            "id": 268,
+            "question": "Dancer is to Dance as __________ is to Sing.",
+            "options": ["Song", "Singer", "Music", "Voice"],
+            "correct_answer": 1,
+            "explanation": "A dancer performs the action of dancing; a singer performs the action of singing."
+          },
+          {
+            "id": 269,
+            "question": "Pilot is to Fly as __________ is to Drive.",
+            "options": ["Car", "Road", "Engine", "Driver"],
+            "correct_answer": 3,
+            "explanation": "A pilot performs the action of flying; a driver performs the action of driving."
+          },
+          {
+            "id": 270,
+            "question": "Scientist is to Research as __________ is to Build.",
+            "options": ["Builder", "House", "Bricks", "Plan"],
+            "correct_answer": 0,
+            "explanation": "A scientist performs the action of researching; a builder performs the action of building."
+          }
+        ]
+      },
+      {
+        "batch_id": 55,
+        "title": "Spelling: Words ending in -able / -ible",
+        "questions": [
+          {
+            "id": 271,
+            "question": "Which of the following is spelled correctly?",
+            "options": ["Dependible", "Dependable", "Dependabel", "Dependabil"],
+            "correct_answer": 1,
+            "explanation": "The correct ending for this word is '-able'. The spelling is 'dependable'."
+          },
+          {
+            "id": 272,
+            "question": "Choose the correctly spelled word.",
+            "options": ["Incredable", "Incredibil", "Incredible", "Incredeble"],
+            "correct_answer": 2,
+            "explanation": "The correct ending for this word is '-ible'. The spelling is 'incredible'."
+          },
+          {
+            "id": 273,
+            "question": "Which word is spelled correctly?",
+            "options": ["Responsable", "Responsible", "Responseble", "Responsibil"],
+            "correct_answer": 1,
+            "explanation": "The correct ending for this word is '-ible'. The spelling is 'responsible'."
+          },
+          {
+            "id": 274,
+            "question": "Select the correct spelling.",
+            "options": ["Acceptable", "Acceptible", "Aceptable", "Acceptabel"],
+            "correct_answer": 0,
+            "explanation": "The correct ending for this word is '-able'. The spelling is 'acceptable'."
+          },
+          {
+            "id": 275,
+            "question": "Which of these words is spelled correctly?",
+            "options": ["Horrable", "Horrible", "Horribel", "Horrabil"],
+            "correct_answer": 1,
+            "explanation": "The correct ending for this word is '-ible'. The spelling is 'horrible'."
+          }
+        ]
+      },
+      {
+        "batch_id": 56,
+        "title": "Vocabulary: Synonyms in Context",
+        "questions": [
+          {
+            "id": 276,
+            "question": "The evidence against him was so __________ that he was sure to be convicted. Which word best fits the blank?",
+            "options": ["weak", "overwhelming", "scarce", "ambiguous"],
+            "correct_answer": 1,
+            "explanation": "'Overwhelming' means very great in amount, which fits the context of strong evidence leading to a conviction."
+          },
+          {
+            "id": 277,
+            "question": "She has a very __________ sense of style, always wearing the latest trends. Choose the best synonym for the context.",
+            "options": ["outdated", "sophisticated", "simple", "careless"],
+            "correct_answer": 1,
+            "explanation": "'Sophisticated' means having a great deal of worldly experience and knowledge of fashion and culture, which fits the context of following trends."
+          },
+          {
+            "id": 278,
+            "question": "The __________ landscape of the Danakil Depression is both beautiful and harsh. Which word is most appropriate?",
+            "options": ["lush", "verdant", "barren", "fertile"],
+            "correct_answer": 2,
+            "explanation": "'Barren' means too poor to produce much or any vegetation, which accurately describes the landscape of the Danakil Depression."
+          },
+          {
+            "id": 279,
+            "question": "His __________ speech inspired everyone in the audience. Select the best word.",
+            "options": ["monotonous", "eloquent", "confusing", "dull"],
+            "correct_answer": 1,
+            "explanation": "'Eloquent' means fluent or persuasive in speaking or writing, which fits the context of an inspiring speech."
+          },
+          {
+            "id": 280,
+            "question": "It is __________ that you complete this assignment by Friday. Which word carries the most urgency?",
+            "options": ["optional", "suggested", "imperative", "advisable"],
+            "correct_answer": 2,
+            "explanation": "'Imperative' means of vital importance; crucial. It conveys the strongest sense of urgency."
+          }
+        ]
+      },
+      {
+        "batch_id": 57,
+        "title": "Grammar: Perfect Tenses",
+        "questions": [
+          {
+            "id": 281,
+            "question": "I __________ my keys, so I can't get into the house.",
+            "options": ["lost", "have lost", "had lost", "was losing"],
+            "correct_answer": 1,
+            "explanation": "The present perfect ('have lost') is used for a past action with a result in the present."
+          },
+          {
+            "id": 282,
+            "question": "By the time the police arrived, the thieves __________.",
+            "options": ["escaped", "have escaped", "had escaped", "were escaping"],
+            "correct_answer": 2,
+            "explanation": "The past perfect ('had escaped') is used for an action that happened before another past action."
+          },
+          {
+            "id": 283,
+            "question": "By 2030, scientists __________ a cure for the disease.",
+            "options": ["will find", "are finding", "will have found", "have found"],
+            "correct_answer": 2,
+            "explanation": "The future perfect ('will have found') is used for an action that will be completed before a certain time in the future."
+          },
+          {
+            "id": 284,
+            "question": "She __________ never __________ to Lalibela before her trip last year.",
+            "options": ["has / been", "had / been", "was / being", "has / went"],
+            "correct_answer": 1,
+            "explanation": "The past perfect ('had been') is used to describe an experience (or lack thereof) before a specific point in the past."
+          },
+          {
+            "id": 285,
+            "question": "He's not here. He __________ just __________ out.",
+            "options": ["has / gone", "had / gone", "is / going", "was / going"],
+            "correct_answer": 0,
+            "explanation": "The present perfect ('has gone') is often used with 'just' to talk about a very recent past action with a present result."
+          }
+        ]
+      },
+      {
+        "batch_id": 58,
+        "title": "Vocabulary: Analogies (Category/Type)",
+        "questions": [
+          {
+            "id": 286,
+            "question": "Dog is to Mammal as __________ is to Reptile.",
+            "options": ["Frog", "Fish", "Snake", "Bird"],
+            "correct_answer": 2,
+            "explanation": "A dog is a type of mammal; a snake is a type of reptile."
+          },
+          {
+            "id": 287,
+            "question": "Carrot is to Vegetable as __________ is to Fruit.",
+            "options": ["Potato", "Lettuce", "Celery", "Apple"],
+            "correct_answer": 3,
+            "explanation": "A carrot is a type of vegetable; an apple is a type of fruit."
+          },
+          {
+            "id": 288,
+            "question": "Novel is to Literature as __________ is to Music.",
+            "options": ["Painting", "Symphony", "Sculpture", "Movie"],
+            "correct_answer": 1,
+            "explanation": "A novel is a category of literature; a symphony is a category of music."
+          },
+          {
+            "id": 289,
+            "question": "Triangle is to Shape as __________ is to Color.",
+            "options": ["Blue", "Circle", "Bright", "Paint"],
+            "correct_answer": 0,
+            "explanation": "A triangle is a type of shape; blue is a type of color."
+          },
+          {
+            "id": 290,
+            "question": "Tigrigna is to Language as __________ is to Country.",
+            "options": ["Africa", "Addis Ababa", "Ethiopia", "Continent"],
+            "correct_answer": 2,
+            "explanation": "Tigrigna is a type of language; Ethiopia is a type of country."
+          }
+        ]
+      },
+      {
+        "batch_id": 59,
+        "title": "Spelling: Plurals of Nouns",
+        "questions": [
+          {
+            "id": 291,
+            "question": "What is the plural of 'child'?",
+            "options": ["Childs", "Childrens", "Childes", "Children"],
+            "correct_answer": 3,
+            "explanation": "'Child' has an irregular plural form, which is 'children'."
+          },
+          {
+            "id": 292,
+            "question": "Choose the correct plural form of 'crisis'.",
+            "options": ["Crisises", "Crisi", "Crises", "Crisis's"],
+            "correct_answer": 2,
+            "explanation": "Nouns ending in '-is' often form their plural by changing '-is' to '-es'. The plural is 'crises'."
+          },
+          {
+            "id": 293,
+            "question": "Which is the correct plural of 'wolf'?",
+            "options": ["Wolfs", "Wolfes", "Wolves", "Woolves"],
+            "correct_answer": 2,
+            "explanation": "For many nouns ending in '-f' or '-fe', the plural is formed by changing the ending to '-ves'. The plural is 'wolves'."
+          },
+          {
+            "id": 294,
+            "question": "Select the correct plural form for 'goose'.",
+            "options": ["Gooses", "Geese", "Geese's", "Goose's"],
+            "correct_answer": 1,
+            "explanation": "'Goose' has an irregular plural form where the 'oo' changes to 'ee'. The plural is 'geese'."
+          },
+          {
+            "id": 295,
+            "question": "What is the plural of 'phenomenon'?",
+            "options": ["Phenomenons", "Phenomenae", "Phenomenon's", "Phenomena"],
+            "correct_answer": 3,
+            "explanation": "Nouns of Greek origin ending in '-on' often form their plural by changing the ending to '-a'. The plural is 'phenomena'."
+          }
+        ]
+      },
+      {
+        "batch_id": 60,
+        "title": "Grammar: Continuous Tenses",
+        "questions": [
+          {
+            "id": 296,
+            "question": "Please be quiet. The baby __________.",
+            "options": ["sleeps", "is sleeping", "slept", "has slept"],
+            "correct_answer": 1,
+            "explanation": "The present continuous ('is sleeping') is used for an action happening right now."
+          },
+          {
+            "id": 297,
+            "question": "They __________ tennis when it started to rain.",
+            "options": ["played", "were playing", "have played", "had played"],
+            "correct_answer": 1,
+            "explanation": "The past continuous ('were playing') is used for a past action that was interrupted by another action."
+          },
+          {
+            "id": 298,
+            "question": "This time next month, we __________ in the new house.",
+            "options": ["will live", "live", "are living", "will be living"],
+            "correct_answer": 3,
+            "explanation": "The future continuous ('will be living') is used to talk about an action in progress at a specific time in the future."
+          },
+          {
+            "id": 299,
+            "question": "What __________ at 10 PM last night?",
+            "options": ["did you do", "were you doing", "have you done", "had you done"],
+            "correct_answer": 1,
+            "explanation": "The past continuous ('were you doing') is used to ask about an activity in progress at a specific time in the past."
+          },
+          {
+            "id": 300,
+            "question": "He can't come to the phone because he __________ a shower.",
+            "options": ["has", "has had", "is having", "was having"],
+            "correct_answer": 2,
+            "explanation": "The present continuous ('is having') is used for a temporary action happening at the moment of speaking."
+          }
+        ]
+      }
+    ]
+  }
+  
